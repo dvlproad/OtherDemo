@@ -1,0 +1,499 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		80710B511B7E533700F343F3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 80710B501B7E533700F343F3 /* main.m */; };
+		80710B541B7E533700F343F3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 80710B531B7E533700F343F3 /* AppDelegate.m */; };
+		80710B571B7E533700F343F3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 80710B561B7E533700F343F3 /* ViewController.m */; };
+		80710B5A1B7E533700F343F3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 80710B581B7E533700F343F3 /* Main.storyboard */; };
+		80710B5C1B7E533700F343F3 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 80710B5B1B7E533700F343F3 /* Images.xcassets */; };
+		80710B5F1B7E533700F343F3 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 80710B5D1B7E533700F343F3 /* LaunchScreen.xib */; };
+		80710B6B1B7E533700F343F3 /* ShakeOneShakeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 80710B6A1B7E533700F343F3 /* ShakeOneShakeTests.m */; };
+		80710B7E1B7E543D00F343F3 /* Shake_01.png in Resources */ = {isa = PBXBuildFile; fileRef = 80710B761B7E543D00F343F3 /* Shake_01.png */; };
+		80710B7F1B7E543D00F343F3 /* Shake_01@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 80710B771B7E543D00F343F3 /* Shake_01@2x.png */; };
+		80710B801B7E543D00F343F3 /* Shake_02.png in Resources */ = {isa = PBXBuildFile; fileRef = 80710B781B7E543D00F343F3 /* Shake_02.png */; };
+		80710B811B7E543D00F343F3 /* Shake_02@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 80710B791B7E543D00F343F3 /* Shake_02@2x.png */; };
+		80710B821B7E543D00F343F3 /* 更新背景2.png in Resources */ = {isa = PBXBuildFile; fileRef = 80710B7A1B7E543D00F343F3 /* 更新背景2.png */; };
+		80710B831B7E543D00F343F3 /* 更新背景2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 80710B7B1B7E543D00F343F3 /* 更新背景2@2x.png */; };
+		80710B841B7E543D00F343F3 /* glass.wav in Resources */ = {isa = PBXBuildFile; fileRef = 80710B7D1B7E543D00F343F3 /* glass.wav */; };
+		80710B881B7E545600F343F3 /* ShakeOneShake.m in Sources */ = {isa = PBXBuildFile; fileRef = 80710B861B7E545600F343F3 /* ShakeOneShake.m */; };
+		80710B8C1B7E558B00F343F3 /* ShakeOneShake+Event.m in Sources */ = {isa = PBXBuildFile; fileRef = 80710B8B1B7E558B00F343F3 /* ShakeOneShake+Event.m */; };
+		80710B8E1B7E588D00F343F3 /* ShakeOneShake.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 80710B8D1B7E588D00F343F3 /* ShakeOneShake.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		80710B651B7E533700F343F3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 80710B431B7E533700F343F3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 80710B4A1B7E533700F343F3;
+			remoteInfo = ShakeOneShake;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		80710B4B1B7E533700F343F3 /* ShakeOneShake.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShakeOneShake.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		80710B4F1B7E533700F343F3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		80710B501B7E533700F343F3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		80710B521B7E533700F343F3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		80710B531B7E533700F343F3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		80710B551B7E533700F343F3 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		80710B561B7E533700F343F3 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		80710B591B7E533700F343F3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		80710B5B1B7E533700F343F3 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		80710B5E1B7E533700F343F3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		80710B641B7E533700F343F3 /* ShakeOneShakeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShakeOneShakeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		80710B691B7E533700F343F3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		80710B6A1B7E533700F343F3 /* ShakeOneShakeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ShakeOneShakeTests.m; sourceTree = "<group>"; };
+		80710B761B7E543D00F343F3 /* Shake_01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Shake_01.png; sourceTree = "<group>"; };
+		80710B771B7E543D00F343F3 /* Shake_01@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Shake_01@2x.png"; sourceTree = "<group>"; };
+		80710B781B7E543D00F343F3 /* Shake_02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Shake_02.png; sourceTree = "<group>"; };
+		80710B791B7E543D00F343F3 /* Shake_02@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Shake_02@2x.png"; sourceTree = "<group>"; };
+		80710B7A1B7E543D00F343F3 /* 更新背景2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "更新背景2.png"; sourceTree = "<group>"; };
+		80710B7B1B7E543D00F343F3 /* 更新背景2@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "更新背景2@2x.png"; sourceTree = "<group>"; };
+		80710B7D1B7E543D00F343F3 /* glass.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = glass.wav; sourceTree = "<group>"; };
+		80710B851B7E545600F343F3 /* ShakeOneShake.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShakeOneShake.h; sourceTree = "<group>"; };
+		80710B861B7E545600F343F3 /* ShakeOneShake.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShakeOneShake.m; sourceTree = "<group>"; };
+		80710B8A1B7E558B00F343F3 /* ShakeOneShake+Event.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ShakeOneShake+Event.h"; sourceTree = "<group>"; };
+		80710B8B1B7E558B00F343F3 /* ShakeOneShake+Event.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ShakeOneShake+Event.m"; sourceTree = "<group>"; };
+		80710B8D1B7E588D00F343F3 /* ShakeOneShake.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = ShakeOneShake.storyboard; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		80710B481B7E533700F343F3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80710B611B7E533700F343F3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		80710B421B7E533700F343F3 = {
+			isa = PBXGroup;
+			children = (
+				80710B4D1B7E533700F343F3 /* ShakeOneShake */,
+				80710B671B7E533700F343F3 /* ShakeOneShakeTests */,
+				80710B4C1B7E533700F343F3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		80710B4C1B7E533700F343F3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				80710B4B1B7E533700F343F3 /* ShakeOneShake.app */,
+				80710B641B7E533700F343F3 /* ShakeOneShakeTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		80710B4D1B7E533700F343F3 /* ShakeOneShake */ = {
+			isa = PBXGroup;
+			children = (
+				80710B521B7E533700F343F3 /* AppDelegate.h */,
+				80710B531B7E533700F343F3 /* AppDelegate.m */,
+				80710B551B7E533700F343F3 /* ViewController.h */,
+				80710B561B7E533700F343F3 /* ViewController.m */,
+				80710B581B7E533700F343F3 /* Main.storyboard */,
+				80710B5B1B7E533700F343F3 /* Images.xcassets */,
+				80710B5D1B7E533700F343F3 /* LaunchScreen.xib */,
+				80710B741B7E543D00F343F3 /* Controller */,
+				80710B751B7E543D00F343F3 /* res_image */,
+				80710B7C1B7E543D00F343F3 /* res_voice */,
+				80710B4E1B7E533700F343F3 /* Supporting Files */,
+			);
+			path = ShakeOneShake;
+			sourceTree = "<group>";
+		};
+		80710B4E1B7E533700F343F3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				80710B4F1B7E533700F343F3 /* Info.plist */,
+				80710B501B7E533700F343F3 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		80710B671B7E533700F343F3 /* ShakeOneShakeTests */ = {
+			isa = PBXGroup;
+			children = (
+				80710B6A1B7E533700F343F3 /* ShakeOneShakeTests.m */,
+				80710B681B7E533700F343F3 /* Supporting Files */,
+			);
+			path = ShakeOneShakeTests;
+			sourceTree = "<group>";
+		};
+		80710B681B7E533700F343F3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				80710B691B7E533700F343F3 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		80710B741B7E543D00F343F3 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				80710B8D1B7E588D00F343F3 /* ShakeOneShake.storyboard */,
+				80710B851B7E545600F343F3 /* ShakeOneShake.h */,
+				80710B861B7E545600F343F3 /* ShakeOneShake.m */,
+				80710B8A1B7E558B00F343F3 /* ShakeOneShake+Event.h */,
+				80710B8B1B7E558B00F343F3 /* ShakeOneShake+Event.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		80710B751B7E543D00F343F3 /* res_image */ = {
+			isa = PBXGroup;
+			children = (
+				80710B761B7E543D00F343F3 /* Shake_01.png */,
+				80710B771B7E543D00F343F3 /* Shake_01@2x.png */,
+				80710B781B7E543D00F343F3 /* Shake_02.png */,
+				80710B791B7E543D00F343F3 /* Shake_02@2x.png */,
+				80710B7A1B7E543D00F343F3 /* 更新背景2.png */,
+				80710B7B1B7E543D00F343F3 /* 更新背景2@2x.png */,
+			);
+			path = res_image;
+			sourceTree = "<group>";
+		};
+		80710B7C1B7E543D00F343F3 /* res_voice */ = {
+			isa = PBXGroup;
+			children = (
+				80710B7D1B7E543D00F343F3 /* glass.wav */,
+			);
+			path = res_voice;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		80710B4A1B7E533700F343F3 /* ShakeOneShake */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 80710B6E1B7E533700F343F3 /* Build configuration list for PBXNativeTarget "ShakeOneShake" */;
+			buildPhases = (
+				80710B471B7E533700F343F3 /* Sources */,
+				80710B481B7E533700F343F3 /* Frameworks */,
+				80710B491B7E533700F343F3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ShakeOneShake;
+			productName = ShakeOneShake;
+			productReference = 80710B4B1B7E533700F343F3 /* ShakeOneShake.app */;
+			productType = "com.apple.product-type.application";
+		};
+		80710B631B7E533700F343F3 /* ShakeOneShakeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 80710B711B7E533700F343F3 /* Build configuration list for PBXNativeTarget "ShakeOneShakeTests" */;
+			buildPhases = (
+				80710B601B7E533700F343F3 /* Sources */,
+				80710B611B7E533700F343F3 /* Frameworks */,
+				80710B621B7E533700F343F3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				80710B661B7E533700F343F3 /* PBXTargetDependency */,
+			);
+			name = ShakeOneShakeTests;
+			productName = ShakeOneShakeTests;
+			productReference = 80710B641B7E533700F343F3 /* ShakeOneShakeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		80710B431B7E533700F343F3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = ciyouzen;
+				TargetAttributes = {
+					80710B4A1B7E533700F343F3 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					80710B631B7E533700F343F3 = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = 80710B4A1B7E533700F343F3;
+					};
+				};
+			};
+			buildConfigurationList = 80710B461B7E533700F343F3 /* Build configuration list for PBXProject "ShakeOneShake" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 80710B421B7E533700F343F3;
+			productRefGroup = 80710B4C1B7E533700F343F3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				80710B4A1B7E533700F343F3 /* ShakeOneShake */,
+				80710B631B7E533700F343F3 /* ShakeOneShakeTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		80710B491B7E533700F343F3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80710B5A1B7E533700F343F3 /* Main.storyboard in Resources */,
+				80710B5F1B7E533700F343F3 /* LaunchScreen.xib in Resources */,
+				80710B801B7E543D00F343F3 /* Shake_02.png in Resources */,
+				80710B841B7E543D00F343F3 /* glass.wav in Resources */,
+				80710B5C1B7E533700F343F3 /* Images.xcassets in Resources */,
+				80710B831B7E543D00F343F3 /* 更新背景2@2x.png in Resources */,
+				80710B7E1B7E543D00F343F3 /* Shake_01.png in Resources */,
+				80710B821B7E543D00F343F3 /* 更新背景2.png in Resources */,
+				80710B8E1B7E588D00F343F3 /* ShakeOneShake.storyboard in Resources */,
+				80710B811B7E543D00F343F3 /* Shake_02@2x.png in Resources */,
+				80710B7F1B7E543D00F343F3 /* Shake_01@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80710B621B7E533700F343F3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		80710B471B7E533700F343F3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80710B881B7E545600F343F3 /* ShakeOneShake.m in Sources */,
+				80710B571B7E533700F343F3 /* ViewController.m in Sources */,
+				80710B541B7E533700F343F3 /* AppDelegate.m in Sources */,
+				80710B511B7E533700F343F3 /* main.m in Sources */,
+				80710B8C1B7E558B00F343F3 /* ShakeOneShake+Event.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80710B601B7E533700F343F3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80710B6B1B7E533700F343F3 /* ShakeOneShakeTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		80710B661B7E533700F343F3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 80710B4A1B7E533700F343F3 /* ShakeOneShake */;
+			targetProxy = 80710B651B7E533700F343F3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		80710B581B7E533700F343F3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				80710B591B7E533700F343F3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		80710B5D1B7E533700F343F3 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				80710B5E1B7E533700F343F3 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		80710B6C1B7E533700F343F3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		80710B6D1B7E533700F343F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		80710B6F1B7E533700F343F3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ShakeOneShake/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		80710B701B7E533700F343F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ShakeOneShake/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		80710B721B7E533700F343F3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ShakeOneShakeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ShakeOneShake.app/ShakeOneShake";
+			};
+			name = Debug;
+		};
+		80710B731B7E533700F343F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ShakeOneShakeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ShakeOneShake.app/ShakeOneShake";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		80710B461B7E533700F343F3 /* Build configuration list for PBXProject "ShakeOneShake" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				80710B6C1B7E533700F343F3 /* Debug */,
+				80710B6D1B7E533700F343F3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		80710B6E1B7E533700F343F3 /* Build configuration list for PBXNativeTarget "ShakeOneShake" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				80710B6F1B7E533700F343F3 /* Debug */,
+				80710B701B7E533700F343F3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		80710B711B7E533700F343F3 /* Build configuration list for PBXNativeTarget "ShakeOneShakeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				80710B721B7E533700F343F3 /* Debug */,
+				80710B731B7E533700F343F3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 80710B431B7E533700F343F3 /* Project object */;
+}

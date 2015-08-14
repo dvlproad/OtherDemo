@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7706" systemVersion="14E46" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--Shake One Shake-->
+        <scene sceneID="fBU-u0-n3N">
+            <objects>
+                <viewController storyboardIdentifier="ShakeOneShake" id="wjf-DR-M3C" customClass="ShakeOneShake" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="1S9-lE-pOl"/>
+                        <viewControllerLayoutGuide type="bottom" id="wwM-z1-D1S"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="WBg-uT-0Ke">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="504"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="更新背景2.png" translatesAutoresizingMaskIntoConstraints="NO" id="B37-mH-HVX">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="504"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Shake_01.png" translatesAutoresizingMaskIntoConstraints="NO" id="RkT-2N-vPR">
+                                <rect key="frame" x="0.0" y="62" width="320" height="200"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Shake_02.png" translatesAutoresizingMaskIntoConstraints="NO" id="rNS-de-vna">
+                                <rect key="frame" x="0.0" y="259" width="320" height="200"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="200" id="76b-Lp-ZPA"/>
+                                </constraints>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BAo-I7-ryJ">
+                                <rect key="frame" x="29" y="24" width="263" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="L69-Yx-1em"/>
+                                </constraints>
+                                <state key="normal" title="点击按钮，模拟真机摇动">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="testShake:" destination="wjf-DR-M3C" eventType="touchUpInside" id="H2a-GF-d4B"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="RkT-2N-vPR" firstAttribute="centerX" secondItem="BAo-I7-ryJ" secondAttribute="centerX" id="1fL-ng-dEB"/>
+                            <constraint firstItem="RkT-2N-vPR" firstAttribute="top" secondItem="BAo-I7-ryJ" secondAttribute="bottom" constant="8" symbolic="YES" id="3wM-af-GlR"/>
+                            <constraint firstItem="wwM-z1-D1S" firstAttribute="top" secondItem="RkT-2N-vPR" secondAttribute="bottom" constant="242" id="4vD-hB-N5u"/>
+                            <constraint firstItem="wwM-z1-D1S" firstAttribute="top" secondItem="rNS-de-vna" secondAttribute="bottom" constant="45" id="Ecd-r0-975"/>
+                            <constraint firstItem="rNS-de-vna" firstAttribute="leading" secondItem="RkT-2N-vPR" secondAttribute="leading" id="HFB-lS-Qgm"/>
+                            <constraint firstItem="B37-mH-HVX" firstAttribute="top" secondItem="1S9-lE-pOl" secondAttribute="bottom" id="KvU-S0-E2I"/>
+                            <constraint firstItem="B37-mH-HVX" firstAttribute="bottom" secondItem="wwM-z1-D1S" secondAttribute="top" id="e15-DJ-n9N"/>
+                            <constraint firstItem="B37-mH-HVX" firstAttribute="leading" secondItem="RkT-2N-vPR" secondAttribute="leading" id="eI7-RV-Lvl"/>
+                            <constraint firstItem="BAo-I7-ryJ" firstAttribute="leading" secondItem="WBg-uT-0Ke" secondAttribute="leadingMargin" constant="13" id="eJg-XV-1WP"/>
+                            <constraint firstItem="BAo-I7-ryJ" firstAttribute="top" secondItem="1S9-lE-pOl" secondAttribute="bottom" constant="24" id="ejK-l1-RcH"/>
+                            <constraint firstItem="RkT-2N-vPR" firstAttribute="leading" secondItem="WBg-uT-0Ke" secondAttribute="leading" id="gEH-jC-TDK"/>
+                        </constraints>
+                    </view>
+                    <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" translucent="NO" prompted="NO"/>
+                    <connections>
+                        <outlet property="imgVDown" destination="rNS-de-vna" id="nZd-Ja-RJ1"/>
+                        <outlet property="imgVUp" destination="RkT-2N-vPR" id="zib-Bx-NmD"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ix1-fG-YIY" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="109" y="254"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Shake_01.png" width="320" height="208"/>
+        <image name="Shake_02.png" width="320" height="208"/>
+        <image name="更新背景2.png" width="320" height="96"/>
+    </resources>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination" type="retina4"/>
+    </simulatedMetricsContainer>
+</document>
