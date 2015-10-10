@@ -1,0 +1,750 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		01728D7E2B89D1B79DC88166 /* libPods-VoiceRecognition.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 950A8DF67AA2EDD15F4232E6 /* libPods-VoiceRecognition.a */; };
+		8064FF831B8566B80016409D /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 8064FF821B8566B80016409D /* icon.png */; };
+		8064FF871B856D1E0016409D /* guide_login_bg.png in Resources */ = {isa = PBXBuildFile; fileRef = 8064FF841B856D1E0016409D /* guide_login_bg.png */; };
+		8064FF881B856D1E0016409D /* guide_login_bg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8064FF851B856D1E0016409D /* guide_login_bg@2x.png */; };
+		8064FF891B856D1E0016409D /* guide_login_logo@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8064FF861B856D1E0016409D /* guide_login_logo@2x.png */; };
+		80710B9E1B7E5DAE00F343F3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 80710B9D1B7E5DAE00F343F3 /* main.m */; };
+		80710BA11B7E5DAE00F343F3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 80710BA01B7E5DAE00F343F3 /* AppDelegate.m */; };
+		80710BA41B7E5DAE00F343F3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 80710BA31B7E5DAE00F343F3 /* ViewController.m */; };
+		80710BA71B7E5DAE00F343F3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 80710BA51B7E5DAE00F343F3 /* Main.storyboard */; };
+		80710BA91B7E5DAE00F343F3 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 80710BA81B7E5DAE00F343F3 /* Images.xcassets */; };
+		80710BAC1B7E5DAE00F343F3 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 80710BAA1B7E5DAE00F343F3 /* LaunchScreen.xib */; };
+		80710BB81B7E5DAE00F343F3 /* VoiceRecognitionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 80710BB71B7E5DAE00F343F3 /* VoiceRecognitionTests.m */; };
+		80710BC41B7E5E2D00F343F3 /* VoiceRecognition.m in Sources */ = {isa = PBXBuildFile; fileRef = 80710BC31B7E5E2D00F343F3 /* VoiceRecognition.m */; };
+		80710BC71B7E5E4500F343F3 /* VoiceRecognition+Event.m in Sources */ = {isa = PBXBuildFile; fileRef = 80710BC61B7E5E4500F343F3 /* VoiceRecognition+Event.m */; };
+		80710BC91B7E5E7F00F343F3 /* VoiceRecognition.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 80710BC81B7E5E7F00F343F3 /* VoiceRecognition.storyboard */; };
+		80710BD81B7E6BF600F343F3 /* AppContext.m in Sources */ = {isa = PBXBuildFile; fileRef = 80710BCC1B7E6BF600F343F3 /* AppContext.m */; };
+		80710BD91B7E6BF600F343F3 /* UIColor+VNHex.m in Sources */ = {isa = PBXBuildFile; fileRef = 80710BCF1B7E6BF600F343F3 /* UIColor+VNHex.m */; };
+		80710BDA1B7E6BF600F343F3 /* VNConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = 80710BD11B7E6BF600F343F3 /* VNConstants.m */; };
+		80710BDB1B7E6BF600F343F3 /* NoteDetailController.m in Sources */ = {isa = PBXBuildFile; fileRef = 80710BD31B7E6BF600F343F3 /* NoteDetailController.m */; };
+		80710BDC1B7E6BF600F343F3 /* NoteListCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 80710BD51B7E6BF600F343F3 /* NoteListCell.m */; };
+		80710BDD1B7E6BF600F343F3 /* NoteListController.m in Sources */ = {isa = PBXBuildFile; fileRef = 80710BD71B7E6BF600F343F3 /* NoteListController.m */; };
+		80710BF81B7E6C0800F343F3 /* libMobClickLibrary.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 80710BE01B7E6C0800F343F3 /* libMobClickLibrary.a */; };
+		80710BF91B7E6C0800F343F3 /* VNNote.m in Sources */ = {isa = PBXBuildFile; fileRef = 80710BE51B7E6C0800F343F3 /* VNNote.m */; };
+		80710BFA1B7E6C0800F343F3 /* VNNoteManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 80710BE71B7E6C0800F343F3 /* VNNoteManager.m */; };
+		80710BFB1B7E6C0800F343F3 /* edit_file@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 80710BE91B7E6C0800F343F3 /* edit_file@2x.png */; };
+		80710BFC1B7E6C0800F343F3 /* edit_image-50@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 80710BEA1B7E6C0800F343F3 /* edit_image-50@2x.png */; };
+		80710BFD1B7E6C0800F343F3 /* ic_add_tab@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 80710BEB1B7E6C0800F343F3 /* ic_add_tab@2x.png */; };
+		80710BFE1B7E6C0800F343F3 /* ic_more_white@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 80710BEC1B7E6C0800F343F3 /* ic_more_white@2x.png */; };
+		80710BFF1B7E6C0800F343F3 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 80710BED1B7E6C0800F343F3 /* Localizable.strings */; };
+		80710C061B7E6C0800F343F3 /* micro@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 80710BF51B7E6C0800F343F3 /* micro@2x.png */; };
+		80710C071B7E6C0800F343F3 /* micro_small@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 80710BF61B7E6C0800F343F3 /* micro_small@2x.png */; };
+		80710C081B7E6C0800F343F3 /* save@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 80710BF71B7E6C0800F343F3 /* save@2x.png */; };
+		80710C0F1B7E6C5A00F343F3 /* iflyMSC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 80710C0A1B7E6C5A00F343F3 /* iflyMSC.framework */; };
+		80710C101B7E6C5A00F343F3 /* libWeChatSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 80710C0C1B7E6C5A00F343F3 /* libWeChatSDK.a */; };
+		80710C121B7E6D1F00F343F3 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 80710C111B7E6D1F00F343F3 /* libz.dylib */; };
+		80710C141B7E6D2D00F343F3 /* AddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 80710C131B7E6D2D00F343F3 /* AddressBook.framework */; };
+		80710C161B7E6D3700F343F3 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 80710C151B7E6D3700F343F3 /* AudioToolbox.framework */; };
+		80710C181B7E6D4100F343F3 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 80710C171B7E6D4100F343F3 /* SystemConfiguration.framework */; };
+		80710C1A1B7E6D4700F343F3 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 80710C191B7E6D4700F343F3 /* AVFoundation.framework */; };
+		80710C1C1B7E6D5B00F343F3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 80710C1B1B7E6D5B00F343F3 /* Foundation.framework */; };
+		80710C1E1B7E6D6B00F343F3 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 80710C1D1B7E6D6B00F343F3 /* CoreGraphics.framework */; };
+		80710C231B7E718D00F343F3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 80710C221B7E718D00F343F3 /* InfoPlist.strings */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		80710BB21B7E5DAE00F343F3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 80710B901B7E5DAE00F343F3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 80710B971B7E5DAE00F343F3;
+			remoteInfo = VoiceRecognition;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8064FF821B8566B80016409D /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		8064FF841B856D1E0016409D /* guide_login_bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = guide_login_bg.png; sourceTree = "<group>"; };
+		8064FF851B856D1E0016409D /* guide_login_bg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "guide_login_bg@2x.png"; sourceTree = "<group>"; };
+		8064FF861B856D1E0016409D /* guide_login_logo@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "guide_login_logo@2x.png"; sourceTree = "<group>"; };
+		80710B981B7E5DAE00F343F3 /* VoiceRecognition.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VoiceRecognition.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		80710B9C1B7E5DAE00F343F3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		80710B9D1B7E5DAE00F343F3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		80710B9F1B7E5DAE00F343F3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		80710BA01B7E5DAE00F343F3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		80710BA21B7E5DAE00F343F3 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		80710BA31B7E5DAE00F343F3 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		80710BA61B7E5DAE00F343F3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		80710BA81B7E5DAE00F343F3 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		80710BAB1B7E5DAE00F343F3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		80710BB11B7E5DAE00F343F3 /* VoiceRecognitionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VoiceRecognitionTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		80710BB61B7E5DAE00F343F3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		80710BB71B7E5DAE00F343F3 /* VoiceRecognitionTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VoiceRecognitionTests.m; sourceTree = "<group>"; };
+		80710BC21B7E5E2D00F343F3 /* VoiceRecognition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VoiceRecognition.h; sourceTree = "<group>"; };
+		80710BC31B7E5E2D00F343F3 /* VoiceRecognition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VoiceRecognition.m; sourceTree = "<group>"; };
+		80710BC51B7E5E4500F343F3 /* VoiceRecognition+Event.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "VoiceRecognition+Event.h"; sourceTree = "<group>"; };
+		80710BC61B7E5E4500F343F3 /* VoiceRecognition+Event.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "VoiceRecognition+Event.m"; sourceTree = "<group>"; };
+		80710BC81B7E5E7F00F343F3 /* VoiceRecognition.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = VoiceRecognition.storyboard; sourceTree = "<group>"; };
+		80710BCB1B7E6BF600F343F3 /* AppContext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppContext.h; sourceTree = "<group>"; };
+		80710BCC1B7E6BF600F343F3 /* AppContext.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppContext.m; sourceTree = "<group>"; };
+		80710BCE1B7E6BF600F343F3 /* UIColor+VNHex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+VNHex.h"; sourceTree = "<group>"; };
+		80710BCF1B7E6BF600F343F3 /* UIColor+VNHex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+VNHex.m"; sourceTree = "<group>"; };
+		80710BD01B7E6BF600F343F3 /* VNConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VNConstants.h; sourceTree = "<group>"; };
+		80710BD11B7E6BF600F343F3 /* VNConstants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VNConstants.m; sourceTree = "<group>"; };
+		80710BD21B7E6BF600F343F3 /* NoteDetailController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NoteDetailController.h; sourceTree = "<group>"; };
+		80710BD31B7E6BF600F343F3 /* NoteDetailController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NoteDetailController.m; sourceTree = "<group>"; };
+		80710BD41B7E6BF600F343F3 /* NoteListCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NoteListCell.h; sourceTree = "<group>"; };
+		80710BD51B7E6BF600F343F3 /* NoteListCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NoteListCell.m; sourceTree = "<group>"; };
+		80710BD61B7E6BF600F343F3 /* NoteListController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NoteListController.h; sourceTree = "<group>"; };
+		80710BD71B7E6BF600F343F3 /* NoteListController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NoteListController.m; sourceTree = "<group>"; };
+		80710BE01B7E6C0800F343F3 /* libMobClickLibrary.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libMobClickLibrary.a; sourceTree = "<group>"; };
+		80710BE11B7E6C0800F343F3 /* MobClick.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MobClick.h; sourceTree = "<group>"; };
+		80710BE21B7E6C0800F343F3 /* MobClickSocialAnalytics.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MobClickSocialAnalytics.h; sourceTree = "<group>"; };
+		80710BE41B7E6C0800F343F3 /* VNNote.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VNNote.h; sourceTree = "<group>"; };
+		80710BE51B7E6C0800F343F3 /* VNNote.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VNNote.m; sourceTree = "<group>"; };
+		80710BE61B7E6C0800F343F3 /* VNNoteManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VNNoteManager.h; sourceTree = "<group>"; };
+		80710BE71B7E6C0800F343F3 /* VNNoteManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VNNoteManager.m; sourceTree = "<group>"; };
+		80710BE91B7E6C0800F343F3 /* edit_file@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "edit_file@2x.png"; sourceTree = "<group>"; };
+		80710BEA1B7E6C0800F343F3 /* edit_image-50@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "edit_image-50@2x.png"; sourceTree = "<group>"; };
+		80710BEB1B7E6C0800F343F3 /* ic_add_tab@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ic_add_tab@2x.png"; sourceTree = "<group>"; };
+		80710BEC1B7E6C0800F343F3 /* ic_more_white@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ic_more_white@2x.png"; sourceTree = "<group>"; };
+		80710BED1B7E6C0800F343F3 /* Localizable.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
+		80710BF51B7E6C0800F343F3 /* micro@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "micro@2x.png"; sourceTree = "<group>"; };
+		80710BF61B7E6C0800F343F3 /* micro_small@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "micro_small@2x.png"; sourceTree = "<group>"; };
+		80710BF71B7E6C0800F343F3 /* save@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "save@2x.png"; sourceTree = "<group>"; };
+		80710C0A1B7E6C5A00F343F3 /* iflyMSC.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = iflyMSC.framework; sourceTree = "<group>"; };
+		80710C0C1B7E6C5A00F343F3 /* libWeChatSDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libWeChatSDK.a; sourceTree = "<group>"; };
+		80710C0D1B7E6C5A00F343F3 /* WXApi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXApi.h; sourceTree = "<group>"; };
+		80710C0E1B7E6C5A00F343F3 /* WXApiObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXApiObject.h; sourceTree = "<group>"; };
+		80710C111B7E6D1F00F343F3 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		80710C131B7E6D2D00F343F3 /* AddressBook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBook.framework; path = System/Library/Frameworks/AddressBook.framework; sourceTree = SDKROOT; };
+		80710C151B7E6D3700F343F3 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		80710C171B7E6D4100F343F3 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		80710C191B7E6D4700F343F3 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		80710C1B1B7E6D5B00F343F3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		80710C1D1B7E6D6B00F343F3 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		80710C221B7E718D00F343F3 /* InfoPlist.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = InfoPlist.strings; sourceTree = "<group>"; };
+		8F9D158E95CC85BB9C47ED75 /* Pods-VoiceRecognition.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VoiceRecognition.debug.xcconfig"; path = "Pods/Target Support Files/Pods-VoiceRecognition/Pods-VoiceRecognition.debug.xcconfig"; sourceTree = "<group>"; };
+		950A8DF67AA2EDD15F4232E6 /* libPods-VoiceRecognition.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-VoiceRecognition.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD29E0A7F9D74CA936DBF6AF /* Pods-VoiceRecognition.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VoiceRecognition.release.xcconfig"; path = "Pods/Target Support Files/Pods-VoiceRecognition/Pods-VoiceRecognition.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		80710B951B7E5DAE00F343F3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80710C1E1B7E6D6B00F343F3 /* CoreGraphics.framework in Frameworks */,
+				80710C1C1B7E6D5B00F343F3 /* Foundation.framework in Frameworks */,
+				80710C1A1B7E6D4700F343F3 /* AVFoundation.framework in Frameworks */,
+				80710C181B7E6D4100F343F3 /* SystemConfiguration.framework in Frameworks */,
+				80710C161B7E6D3700F343F3 /* AudioToolbox.framework in Frameworks */,
+				80710C141B7E6D2D00F343F3 /* AddressBook.framework in Frameworks */,
+				80710C121B7E6D1F00F343F3 /* libz.dylib in Frameworks */,
+				80710C0F1B7E6C5A00F343F3 /* iflyMSC.framework in Frameworks */,
+				01728D7E2B89D1B79DC88166 /* libPods-VoiceRecognition.a in Frameworks */,
+				80710C101B7E6C5A00F343F3 /* libWeChatSDK.a in Frameworks */,
+				80710BF81B7E6C0800F343F3 /* libMobClickLibrary.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80710BAE1B7E5DAE00F343F3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		437542A27A324DBA6C13CD2E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				80710C1D1B7E6D6B00F343F3 /* CoreGraphics.framework */,
+				80710C1B1B7E6D5B00F343F3 /* Foundation.framework */,
+				80710C191B7E6D4700F343F3 /* AVFoundation.framework */,
+				80710C171B7E6D4100F343F3 /* SystemConfiguration.framework */,
+				80710C151B7E6D3700F343F3 /* AudioToolbox.framework */,
+				80710C131B7E6D2D00F343F3 /* AddressBook.framework */,
+				80710C111B7E6D1F00F343F3 /* libz.dylib */,
+				950A8DF67AA2EDD15F4232E6 /* libPods-VoiceRecognition.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		80710B8F1B7E5DAE00F343F3 = {
+			isa = PBXGroup;
+			children = (
+				80710B9A1B7E5DAE00F343F3 /* VoiceRecognition */,
+				80710BB41B7E5DAE00F343F3 /* VoiceRecognitionTests */,
+				80710B991B7E5DAE00F343F3 /* Products */,
+				C3F875019E6ABC807AA6E84D /* Pods */,
+				437542A27A324DBA6C13CD2E /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		80710B991B7E5DAE00F343F3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				80710B981B7E5DAE00F343F3 /* VoiceRecognition.app */,
+				80710BB11B7E5DAE00F343F3 /* VoiceRecognitionTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		80710B9A1B7E5DAE00F343F3 /* VoiceRecognition */ = {
+			isa = PBXGroup;
+			children = (
+				80710B9F1B7E5DAE00F343F3 /* AppDelegate.h */,
+				80710BA01B7E5DAE00F343F3 /* AppDelegate.m */,
+				80710BA21B7E5DAE00F343F3 /* ViewController.h */,
+				80710BA31B7E5DAE00F343F3 /* ViewController.m */,
+				80710BA51B7E5DAE00F343F3 /* Main.storyboard */,
+				80710BA81B7E5DAE00F343F3 /* Images.xcassets */,
+				80710BAA1B7E5DAE00F343F3 /* LaunchScreen.xib */,
+				80710C091B7E6C5A00F343F3 /* Framework */,
+				80710BDE1B7E6C0800F343F3 /* Library */,
+				80710BE31B7E6C0800F343F3 /* Model */,
+				80710BE81B7E6C0800F343F3 /* res_image */,
+				80710BC11B7E5E1900F343F3 /* Controller */,
+				80710B9B1B7E5DAE00F343F3 /* Supporting Files */,
+			);
+			path = VoiceRecognition;
+			sourceTree = "<group>";
+		};
+		80710B9B1B7E5DAE00F343F3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				80710B9C1B7E5DAE00F343F3 /* Info.plist */,
+				80710B9D1B7E5DAE00F343F3 /* main.m */,
+				80710C221B7E718D00F343F3 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		80710BB41B7E5DAE00F343F3 /* VoiceRecognitionTests */ = {
+			isa = PBXGroup;
+			children = (
+				80710BB71B7E5DAE00F343F3 /* VoiceRecognitionTests.m */,
+				80710BB51B7E5DAE00F343F3 /* Supporting Files */,
+			);
+			path = VoiceRecognitionTests;
+			sourceTree = "<group>";
+		};
+		80710BB51B7E5DAE00F343F3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				80710BB61B7E5DAE00F343F3 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		80710BC11B7E5E1900F343F3 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				80710BCA1B7E6BF500F343F3 /* Note */,
+				80710BC81B7E5E7F00F343F3 /* VoiceRecognition.storyboard */,
+				80710BC21B7E5E2D00F343F3 /* VoiceRecognition.h */,
+				80710BC31B7E5E2D00F343F3 /* VoiceRecognition.m */,
+				80710BC51B7E5E4500F343F3 /* VoiceRecognition+Event.h */,
+				80710BC61B7E5E4500F343F3 /* VoiceRecognition+Event.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		80710BCA1B7E6BF500F343F3 /* Note */ = {
+			isa = PBXGroup;
+			children = (
+				80710BCB1B7E6BF600F343F3 /* AppContext.h */,
+				80710BCC1B7E6BF600F343F3 /* AppContext.m */,
+				80710BCD1B7E6BF600F343F3 /* Common */,
+				80710BD21B7E6BF600F343F3 /* NoteDetailController.h */,
+				80710BD31B7E6BF600F343F3 /* NoteDetailController.m */,
+				80710BD41B7E6BF600F343F3 /* NoteListCell.h */,
+				80710BD51B7E6BF600F343F3 /* NoteListCell.m */,
+				80710BD61B7E6BF600F343F3 /* NoteListController.h */,
+				80710BD71B7E6BF600F343F3 /* NoteListController.m */,
+			);
+			path = Note;
+			sourceTree = "<group>";
+		};
+		80710BCD1B7E6BF600F343F3 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				80710BCE1B7E6BF600F343F3 /* UIColor+VNHex.h */,
+				80710BCF1B7E6BF600F343F3 /* UIColor+VNHex.m */,
+				80710BD01B7E6BF600F343F3 /* VNConstants.h */,
+				80710BD11B7E6BF600F343F3 /* VNConstants.m */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		80710BDE1B7E6C0800F343F3 /* Library */ = {
+			isa = PBXGroup;
+			children = (
+				80710BDF1B7E6C0800F343F3 /* Umeng */,
+			);
+			path = Library;
+			sourceTree = "<group>";
+		};
+		80710BDF1B7E6C0800F343F3 /* Umeng */ = {
+			isa = PBXGroup;
+			children = (
+				80710BE01B7E6C0800F343F3 /* libMobClickLibrary.a */,
+				80710BE11B7E6C0800F343F3 /* MobClick.h */,
+				80710BE21B7E6C0800F343F3 /* MobClickSocialAnalytics.h */,
+			);
+			path = Umeng;
+			sourceTree = "<group>";
+		};
+		80710BE31B7E6C0800F343F3 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				80710BE41B7E6C0800F343F3 /* VNNote.h */,
+				80710BE51B7E6C0800F343F3 /* VNNote.m */,
+				80710BE61B7E6C0800F343F3 /* VNNoteManager.h */,
+				80710BE71B7E6C0800F343F3 /* VNNoteManager.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		80710BE81B7E6C0800F343F3 /* res_image */ = {
+			isa = PBXGroup;
+			children = (
+				80710BE91B7E6C0800F343F3 /* edit_file@2x.png */,
+				80710BEA1B7E6C0800F343F3 /* edit_image-50@2x.png */,
+				80710BEB1B7E6C0800F343F3 /* ic_add_tab@2x.png */,
+				80710BEC1B7E6C0800F343F3 /* ic_more_white@2x.png */,
+				8064FF841B856D1E0016409D /* guide_login_bg.png */,
+				8064FF851B856D1E0016409D /* guide_login_bg@2x.png */,
+				8064FF861B856D1E0016409D /* guide_login_logo@2x.png */,
+				8064FF821B8566B80016409D /* icon.png */,
+				80710BED1B7E6C0800F343F3 /* Localizable.strings */,
+				80710BF51B7E6C0800F343F3 /* micro@2x.png */,
+				80710BF61B7E6C0800F343F3 /* micro_small@2x.png */,
+				80710BF71B7E6C0800F343F3 /* save@2x.png */,
+			);
+			path = res_image;
+			sourceTree = "<group>";
+		};
+		80710C091B7E6C5A00F343F3 /* Framework */ = {
+			isa = PBXGroup;
+			children = (
+				80710C0A1B7E6C5A00F343F3 /* iflyMSC.framework */,
+				80710C0B1B7E6C5A00F343F3 /* Weixin */,
+			);
+			path = Framework;
+			sourceTree = "<group>";
+		};
+		80710C0B1B7E6C5A00F343F3 /* Weixin */ = {
+			isa = PBXGroup;
+			children = (
+				80710C0C1B7E6C5A00F343F3 /* libWeChatSDK.a */,
+				80710C0D1B7E6C5A00F343F3 /* WXApi.h */,
+				80710C0E1B7E6C5A00F343F3 /* WXApiObject.h */,
+			);
+			path = Weixin;
+			sourceTree = "<group>";
+		};
+		C3F875019E6ABC807AA6E84D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8F9D158E95CC85BB9C47ED75 /* Pods-VoiceRecognition.debug.xcconfig */,
+				FD29E0A7F9D74CA936DBF6AF /* Pods-VoiceRecognition.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		80710B971B7E5DAE00F343F3 /* VoiceRecognition */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 80710BBB1B7E5DAE00F343F3 /* Build configuration list for PBXNativeTarget "VoiceRecognition" */;
+			buildPhases = (
+				F3855D0880D7223DDA84E1A1 /* Check Pods Manifest.lock */,
+				80710B941B7E5DAE00F343F3 /* Sources */,
+				80710B951B7E5DAE00F343F3 /* Frameworks */,
+				80710B961B7E5DAE00F343F3 /* Resources */,
+				6CF399D1B828446724F5A302 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VoiceRecognition;
+			productName = VoiceRecognition;
+			productReference = 80710B981B7E5DAE00F343F3 /* VoiceRecognition.app */;
+			productType = "com.apple.product-type.application";
+		};
+		80710BB01B7E5DAE00F343F3 /* VoiceRecognitionTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 80710BBE1B7E5DAE00F343F3 /* Build configuration list for PBXNativeTarget "VoiceRecognitionTests" */;
+			buildPhases = (
+				80710BAD1B7E5DAE00F343F3 /* Sources */,
+				80710BAE1B7E5DAE00F343F3 /* Frameworks */,
+				80710BAF1B7E5DAE00F343F3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				80710BB31B7E5DAE00F343F3 /* PBXTargetDependency */,
+			);
+			name = VoiceRecognitionTests;
+			productName = VoiceRecognitionTests;
+			productReference = 80710BB11B7E5DAE00F343F3 /* VoiceRecognitionTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		80710B901B7E5DAE00F343F3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = ciyouzen;
+				TargetAttributes = {
+					80710B971B7E5DAE00F343F3 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					80710BB01B7E5DAE00F343F3 = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = 80710B971B7E5DAE00F343F3;
+					};
+				};
+			};
+			buildConfigurationList = 80710B931B7E5DAE00F343F3 /* Build configuration list for PBXProject "VoiceRecognition" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 80710B8F1B7E5DAE00F343F3;
+			productRefGroup = 80710B991B7E5DAE00F343F3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				80710B971B7E5DAE00F343F3 /* VoiceRecognition */,
+				80710BB01B7E5DAE00F343F3 /* VoiceRecognitionTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		80710B961B7E5DAE00F343F3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8064FF881B856D1E0016409D /* guide_login_bg@2x.png in Resources */,
+				80710BA71B7E5DAE00F343F3 /* Main.storyboard in Resources */,
+				80710C081B7E6C0800F343F3 /* save@2x.png in Resources */,
+				80710BFC1B7E6C0800F343F3 /* edit_image-50@2x.png in Resources */,
+				80710C061B7E6C0800F343F3 /* micro@2x.png in Resources */,
+				80710BC91B7E5E7F00F343F3 /* VoiceRecognition.storyboard in Resources */,
+				8064FF891B856D1E0016409D /* guide_login_logo@2x.png in Resources */,
+				80710BAC1B7E5DAE00F343F3 /* LaunchScreen.xib in Resources */,
+				80710BFF1B7E6C0800F343F3 /* Localizable.strings in Resources */,
+				80710BFB1B7E6C0800F343F3 /* edit_file@2x.png in Resources */,
+				8064FF871B856D1E0016409D /* guide_login_bg.png in Resources */,
+				8064FF831B8566B80016409D /* icon.png in Resources */,
+				80710C231B7E718D00F343F3 /* InfoPlist.strings in Resources */,
+				80710BA91B7E5DAE00F343F3 /* Images.xcassets in Resources */,
+				80710BFD1B7E6C0800F343F3 /* ic_add_tab@2x.png in Resources */,
+				80710C071B7E6C0800F343F3 /* micro_small@2x.png in Resources */,
+				80710BFE1B7E6C0800F343F3 /* ic_more_white@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80710BAF1B7E5DAE00F343F3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6CF399D1B828446724F5A302 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-VoiceRecognition/Pods-VoiceRecognition-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F3855D0880D7223DDA84E1A1 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		80710B941B7E5DAE00F343F3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80710BC41B7E5E2D00F343F3 /* VoiceRecognition.m in Sources */,
+				80710BDA1B7E6BF600F343F3 /* VNConstants.m in Sources */,
+				80710BA41B7E5DAE00F343F3 /* ViewController.m in Sources */,
+				80710BA11B7E5DAE00F343F3 /* AppDelegate.m in Sources */,
+				80710B9E1B7E5DAE00F343F3 /* main.m in Sources */,
+				80710BF91B7E6C0800F343F3 /* VNNote.m in Sources */,
+				80710BD91B7E6BF600F343F3 /* UIColor+VNHex.m in Sources */,
+				80710BC71B7E5E4500F343F3 /* VoiceRecognition+Event.m in Sources */,
+				80710BD81B7E6BF600F343F3 /* AppContext.m in Sources */,
+				80710BFA1B7E6C0800F343F3 /* VNNoteManager.m in Sources */,
+				80710BDD1B7E6BF600F343F3 /* NoteListController.m in Sources */,
+				80710BDB1B7E6BF600F343F3 /* NoteDetailController.m in Sources */,
+				80710BDC1B7E6BF600F343F3 /* NoteListCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80710BAD1B7E5DAE00F343F3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80710BB81B7E5DAE00F343F3 /* VoiceRecognitionTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		80710BB31B7E5DAE00F343F3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 80710B971B7E5DAE00F343F3 /* VoiceRecognition */;
+			targetProxy = 80710BB21B7E5DAE00F343F3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		80710BA51B7E5DAE00F343F3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				80710BA61B7E5DAE00F343F3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		80710BAA1B7E5DAE00F343F3 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				80710BAB1B7E5DAE00F343F3 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		80710BB91B7E5DAE00F343F3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		80710BBA1B7E5DAE00F343F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		80710BBC1B7E5DAE00F343F3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8F9D158E95CC85BB9C47ED75 /* Pods-VoiceRecognition.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/VoiceRecognition/Framework",
+				);
+				INFOPLIST_FILE = VoiceRecognition/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/VoiceRecognition/Library/Umeng",
+					"$(PROJECT_DIR)/VoiceRecognition/Framework/Weixin",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		80710BBD1B7E5DAE00F343F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FD29E0A7F9D74CA936DBF6AF /* Pods-VoiceRecognition.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/VoiceRecognition/Framework",
+				);
+				INFOPLIST_FILE = VoiceRecognition/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/VoiceRecognition/Library/Umeng",
+					"$(PROJECT_DIR)/VoiceRecognition/Framework/Weixin",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		80710BBF1B7E5DAE00F343F3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = VoiceRecognitionTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VoiceRecognition.app/VoiceRecognition";
+			};
+			name = Debug;
+		};
+		80710BC01B7E5DAE00F343F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = VoiceRecognitionTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VoiceRecognition.app/VoiceRecognition";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		80710B931B7E5DAE00F343F3 /* Build configuration list for PBXProject "VoiceRecognition" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				80710BB91B7E5DAE00F343F3 /* Debug */,
+				80710BBA1B7E5DAE00F343F3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		80710BBB1B7E5DAE00F343F3 /* Build configuration list for PBXNativeTarget "VoiceRecognition" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				80710BBC1B7E5DAE00F343F3 /* Debug */,
+				80710BBD1B7E5DAE00F343F3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		80710BBE1B7E5DAE00F343F3 /* Build configuration list for PBXNativeTarget "VoiceRecognitionTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				80710BBF1B7E5DAE00F343F3 /* Debug */,
+				80710BC01B7E5DAE00F343F3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 80710B901B7E5DAE00F343F3 /* Project object */;
+}

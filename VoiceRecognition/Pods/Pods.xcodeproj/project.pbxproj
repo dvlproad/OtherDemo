@@ -1,0 +1,586 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1F308A52460E465E962C6482 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4CDA3B2A24BCFDE6B8BDF89 /* Foundation.framework */; };
+		517858DC50622A4CABD78BD4 /* SVProgressHUD.h in Headers */ = {isa = PBXBuildFile; fileRef = 48AD4A836FFB8FDB63DA3236 /* SVProgressHUD.h */; };
+		5329603A3218F0E4D38D6DA5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4CDA3B2A24BCFDE6B8BDF89 /* Foundation.framework */; };
+		5376C8EA6478AA5570BC6209 /* Colours.m in Sources */ = {isa = PBXBuildFile; fileRef = ABAD2C5394BCE465156A06B0 /* Colours.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		7E04E164A0102A54D2D72F2A /* SVIndefiniteAnimatedView.h in Headers */ = {isa = PBXBuildFile; fileRef = B25B769AFAE49475FF9ED8A7 /* SVIndefiniteAnimatedView.h */; };
+		86A4BC4BDB6581566C6A7724 /* SVProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 322BF1A084BB2D0B664C9434 /* SVProgressHUD.m */; };
+		A58E204C687D487623E7BB3E /* Pods-VoiceRecognition-Colours-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CF39C303647B6AC0D2CFEF86 /* Pods-VoiceRecognition-Colours-dummy.m */; };
+		AA2B3F3288795DC1936CC8AF /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E613FF4BA97301364E757EB /* QuartzCore.framework */; };
+		B83B89C10D071C2BE8421BF2 /* Colours.h in Headers */ = {isa = PBXBuildFile; fileRef = AD6D85151E0F7023B304D1BF /* Colours.h */; };
+		BD1F84E03A1D1AD152CBE828 /* SVIndefiniteAnimatedView.m in Sources */ = {isa = PBXBuildFile; fileRef = 689399DAF0BE89DD8B00142B /* SVIndefiniteAnimatedView.m */; };
+		D3A0F6E1EF11B15E5EE153F8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4CDA3B2A24BCFDE6B8BDF89 /* Foundation.framework */; };
+		F6321C1A33908B4742EC53F4 /* Pods-VoiceRecognition-SVProgressHUD-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C22169BE14C9C85D93A12B0 /* Pods-VoiceRecognition-SVProgressHUD-dummy.m */; };
+		FC191E5C6D1E4819B6A71C4B /* Pods-VoiceRecognition-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DE1F1498ACC955197858A23B /* Pods-VoiceRecognition-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		24AA4354003439E11E66AA7C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DE4F71D8A4B42A5FA1573E92 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 15453F9700AC28C4F425CAD4;
+			remoteInfo = "Pods-VoiceRecognition-SVProgressHUD";
+		};
+		397B0655F90678FAB87E2D1F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DE4F71D8A4B42A5FA1573E92 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CEA88A293164270219C0B9A4;
+			remoteInfo = "Pods-VoiceRecognition-Colours";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		05D3662069659EFA440DBECE /* Pods-VoiceRecognition-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-VoiceRecognition-environment.h"; sourceTree = "<group>"; };
+		0E613FF4BA97301364E757EB /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+		14472F981A3442091D2EEA18 /* Pods-VoiceRecognition-Colours-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-VoiceRecognition-Colours-Private.xcconfig"; sourceTree = "<group>"; };
+		1B307908D4488A67605FA0C5 /* Pods-VoiceRecognition.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-VoiceRecognition.debug.xcconfig"; sourceTree = "<group>"; };
+		1BAB21F4EC545745CAF976EC /* Pods-VoiceRecognition-Colours.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-VoiceRecognition-Colours.xcconfig"; sourceTree = "<group>"; };
+		1C22169BE14C9C85D93A12B0 /* Pods-VoiceRecognition-SVProgressHUD-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-VoiceRecognition-SVProgressHUD-dummy.m"; sourceTree = "<group>"; };
+		241DF476F10CB617AC19B303 /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		2AB9699BC3619F2D32BA57FD /* Pods-VoiceRecognition-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-VoiceRecognition-resources.sh"; sourceTree = "<group>"; };
+		2CC42F10BFE70D435D178C47 /* Pods-VoiceRecognition-SVProgressHUD.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-VoiceRecognition-SVProgressHUD.xcconfig"; sourceTree = "<group>"; };
+		2DCE2EEA5279844985AD5754 /* libPods-VoiceRecognition-SVProgressHUD.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-VoiceRecognition-SVProgressHUD.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		322BF1A084BB2D0B664C9434 /* SVProgressHUD.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SVProgressHUD.m; path = SVProgressHUD/SVProgressHUD.m; sourceTree = "<group>"; };
+		42CFFDD03DA33F60935C08A0 /* Pods-VoiceRecognition-Colours-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-VoiceRecognition-Colours-prefix.pch"; sourceTree = "<group>"; };
+		48AD4A836FFB8FDB63DA3236 /* SVProgressHUD.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SVProgressHUD.h; path = SVProgressHUD/SVProgressHUD.h; sourceTree = "<group>"; };
+		58025034DF1C7D79FBDCA70F /* libPods-VoiceRecognition.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-VoiceRecognition.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		689399DAF0BE89DD8B00142B /* SVIndefiniteAnimatedView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SVIndefiniteAnimatedView.m; path = SVProgressHUD/SVIndefiniteAnimatedView.m; sourceTree = "<group>"; };
+		723C3A59092BE686D8BA12AE /* Pods-VoiceRecognition-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-VoiceRecognition-acknowledgements.plist"; sourceTree = "<group>"; };
+		80806DD760D67EB95F035216 /* SVProgressHUD.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = SVProgressHUD.bundle; path = SVProgressHUD/SVProgressHUD.bundle; sourceTree = "<group>"; };
+		9FC0655E0C5CADE61F509AFB /* Pods-VoiceRecognition-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-VoiceRecognition-acknowledgements.markdown"; sourceTree = "<group>"; };
+		A4CDA3B2A24BCFDE6B8BDF89 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		ABAD2C5394BCE465156A06B0 /* Colours.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = Colours.m; sourceTree = "<group>"; };
+		AD6D85151E0F7023B304D1BF /* Colours.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = Colours.h; sourceTree = "<group>"; };
+		B25B769AFAE49475FF9ED8A7 /* SVIndefiniteAnimatedView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SVIndefiniteAnimatedView.h; path = SVProgressHUD/SVIndefiniteAnimatedView.h; sourceTree = "<group>"; };
+		BF917EAED4ADD837A589FF7B /* Pods-VoiceRecognition.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-VoiceRecognition.release.xcconfig"; sourceTree = "<group>"; };
+		C2A7CDA45890432C6CF0BF95 /* Pods-VoiceRecognition-SVProgressHUD-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-VoiceRecognition-SVProgressHUD-Private.xcconfig"; sourceTree = "<group>"; };
+		CF39C303647B6AC0D2CFEF86 /* Pods-VoiceRecognition-Colours-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-VoiceRecognition-Colours-dummy.m"; sourceTree = "<group>"; };
+		DE1F1498ACC955197858A23B /* Pods-VoiceRecognition-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-VoiceRecognition-dummy.m"; sourceTree = "<group>"; };
+		E3B79124E8A6D584AE6D42B2 /* Pods-VoiceRecognition-SVProgressHUD-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-VoiceRecognition-SVProgressHUD-prefix.pch"; sourceTree = "<group>"; };
+		F24ED25D877546D1DD1A1803 /* libPods-VoiceRecognition-Colours.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-VoiceRecognition-Colours.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2E205762B6B8E4C370084779 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F308A52460E465E962C6482 /* Foundation.framework in Frameworks */,
+				AA2B3F3288795DC1936CC8AF /* QuartzCore.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4A3F978068CF811B42472387 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3A0F6E1EF11B15E5EE153F8 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5E907D799C08CDE99CBC1B4E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5329603A3218F0E4D38D6DA5 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		07DC7C35E57122019F48ED7C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				58025034DF1C7D79FBDCA70F /* libPods-VoiceRecognition.a */,
+				F24ED25D877546D1DD1A1803 /* libPods-VoiceRecognition-Colours.a */,
+				2DCE2EEA5279844985AD5754 /* libPods-VoiceRecognition-SVProgressHUD.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		13508C01810A5FD21BB3ACF5 /* Pods-VoiceRecognition */ = {
+			isa = PBXGroup;
+			children = (
+				9FC0655E0C5CADE61F509AFB /* Pods-VoiceRecognition-acknowledgements.markdown */,
+				723C3A59092BE686D8BA12AE /* Pods-VoiceRecognition-acknowledgements.plist */,
+				DE1F1498ACC955197858A23B /* Pods-VoiceRecognition-dummy.m */,
+				05D3662069659EFA440DBECE /* Pods-VoiceRecognition-environment.h */,
+				2AB9699BC3619F2D32BA57FD /* Pods-VoiceRecognition-resources.sh */,
+				1B307908D4488A67605FA0C5 /* Pods-VoiceRecognition.debug.xcconfig */,
+				BF917EAED4ADD837A589FF7B /* Pods-VoiceRecognition.release.xcconfig */,
+			);
+			name = "Pods-VoiceRecognition";
+			path = "Target Support Files/Pods-VoiceRecognition";
+			sourceTree = "<group>";
+		};
+		22AA447AC6B96C27C9C33C4A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A83240BE6BCF011931185FB4 /* Colours */,
+				8ADC24006A43BBE040AA05A4 /* SVProgressHUD */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		3AE4E50A1A9FA2E748372AD8 = {
+			isa = PBXGroup;
+			children = (
+				241DF476F10CB617AC19B303 /* Podfile */,
+				D2A0B58BD088AFC808676D4F /* Frameworks */,
+				22AA447AC6B96C27C9C33C4A /* Pods */,
+				07DC7C35E57122019F48ED7C /* Products */,
+				E2ABB146EA1C148EBFFF307D /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		59F1AE813069B345D0D2F5C2 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				2CC42F10BFE70D435D178C47 /* Pods-VoiceRecognition-SVProgressHUD.xcconfig */,
+				C2A7CDA45890432C6CF0BF95 /* Pods-VoiceRecognition-SVProgressHUD-Private.xcconfig */,
+				1C22169BE14C9C85D93A12B0 /* Pods-VoiceRecognition-SVProgressHUD-dummy.m */,
+				E3B79124E8A6D584AE6D42B2 /* Pods-VoiceRecognition-SVProgressHUD-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Pods-VoiceRecognition-SVProgressHUD";
+			sourceTree = "<group>";
+		};
+		8ADC24006A43BBE040AA05A4 /* SVProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				B25B769AFAE49475FF9ED8A7 /* SVIndefiniteAnimatedView.h */,
+				689399DAF0BE89DD8B00142B /* SVIndefiniteAnimatedView.m */,
+				48AD4A836FFB8FDB63DA3236 /* SVProgressHUD.h */,
+				322BF1A084BB2D0B664C9434 /* SVProgressHUD.m */,
+				EDD51E36E1C8C0C7E88797D9 /* Resources */,
+				59F1AE813069B345D0D2F5C2 /* Support Files */,
+			);
+			path = SVProgressHUD;
+			sourceTree = "<group>";
+		};
+		A83240BE6BCF011931185FB4 /* Colours */ = {
+			isa = PBXGroup;
+			children = (
+				AD6D85151E0F7023B304D1BF /* Colours.h */,
+				ABAD2C5394BCE465156A06B0 /* Colours.m */,
+				A86C68D8BC0ABE65C2FAAA3F /* Support Files */,
+			);
+			path = Colours;
+			sourceTree = "<group>";
+		};
+		A86C68D8BC0ABE65C2FAAA3F /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				1BAB21F4EC545745CAF976EC /* Pods-VoiceRecognition-Colours.xcconfig */,
+				14472F981A3442091D2EEA18 /* Pods-VoiceRecognition-Colours-Private.xcconfig */,
+				CF39C303647B6AC0D2CFEF86 /* Pods-VoiceRecognition-Colours-dummy.m */,
+				42CFFDD03DA33F60935C08A0 /* Pods-VoiceRecognition-Colours-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Pods-VoiceRecognition-Colours";
+			sourceTree = "<group>";
+		};
+		D2A0B58BD088AFC808676D4F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E225AB20BC7A9D24C12E3E2C /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E225AB20BC7A9D24C12E3E2C /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				A4CDA3B2A24BCFDE6B8BDF89 /* Foundation.framework */,
+				0E613FF4BA97301364E757EB /* QuartzCore.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		E2ABB146EA1C148EBFFF307D /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				13508C01810A5FD21BB3ACF5 /* Pods-VoiceRecognition */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		EDD51E36E1C8C0C7E88797D9 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				80806DD760D67EB95F035216 /* SVProgressHUD.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		C783F43654E03B00A9706DBC /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B83B89C10D071C2BE8421BF2 /* Colours.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C9502F2882A5D246ADEABA03 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E04E164A0102A54D2D72F2A /* SVIndefiniteAnimatedView.h in Headers */,
+				517858DC50622A4CABD78BD4 /* SVProgressHUD.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		15453F9700AC28C4F425CAD4 /* Pods-VoiceRecognition-SVProgressHUD */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 06A08544CDCF998164A5BB0B /* Build configuration list for PBXNativeTarget "Pods-VoiceRecognition-SVProgressHUD" */;
+			buildPhases = (
+				50DBD834CC302621FA79FA0C /* Sources */,
+				2E205762B6B8E4C370084779 /* Frameworks */,
+				C9502F2882A5D246ADEABA03 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-VoiceRecognition-SVProgressHUD";
+			productName = "Pods-VoiceRecognition-SVProgressHUD";
+			productReference = 2DCE2EEA5279844985AD5754 /* libPods-VoiceRecognition-SVProgressHUD.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		32488DBA330D5A0C917AAE04 /* Pods-VoiceRecognition */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C61ADBC83492C1FAB64F8652 /* Build configuration list for PBXNativeTarget "Pods-VoiceRecognition" */;
+			buildPhases = (
+				B681025E2697EA22CCAAD623 /* Sources */,
+				5E907D799C08CDE99CBC1B4E /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5607A2E1A2A0D7AEC5D21DB0 /* PBXTargetDependency */,
+				1D2A9E30D261E9C521721F20 /* PBXTargetDependency */,
+			);
+			name = "Pods-VoiceRecognition";
+			productName = "Pods-VoiceRecognition";
+			productReference = 58025034DF1C7D79FBDCA70F /* libPods-VoiceRecognition.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		CEA88A293164270219C0B9A4 /* Pods-VoiceRecognition-Colours */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BC5DDDCE7E2F1EEF9067334B /* Build configuration list for PBXNativeTarget "Pods-VoiceRecognition-Colours" */;
+			buildPhases = (
+				77CE7681D64D58FB2121BEC6 /* Sources */,
+				4A3F978068CF811B42472387 /* Frameworks */,
+				C783F43654E03B00A9706DBC /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-VoiceRecognition-Colours";
+			productName = "Pods-VoiceRecognition-Colours";
+			productReference = F24ED25D877546D1DD1A1803 /* libPods-VoiceRecognition-Colours.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DE4F71D8A4B42A5FA1573E92 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+			};
+			buildConfigurationList = 43AA0871F6383BDD6E5022DF /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 3AE4E50A1A9FA2E748372AD8;
+			productRefGroup = 07DC7C35E57122019F48ED7C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				32488DBA330D5A0C917AAE04 /* Pods-VoiceRecognition */,
+				CEA88A293164270219C0B9A4 /* Pods-VoiceRecognition-Colours */,
+				15453F9700AC28C4F425CAD4 /* Pods-VoiceRecognition-SVProgressHUD */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		50DBD834CC302621FA79FA0C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6321C1A33908B4742EC53F4 /* Pods-VoiceRecognition-SVProgressHUD-dummy.m in Sources */,
+				BD1F84E03A1D1AD152CBE828 /* SVIndefiniteAnimatedView.m in Sources */,
+				86A4BC4BDB6581566C6A7724 /* SVProgressHUD.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		77CE7681D64D58FB2121BEC6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5376C8EA6478AA5570BC6209 /* Colours.m in Sources */,
+				A58E204C687D487623E7BB3E /* Pods-VoiceRecognition-Colours-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B681025E2697EA22CCAAD623 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC191E5C6D1E4819B6A71C4B /* Pods-VoiceRecognition-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1D2A9E30D261E9C521721F20 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-VoiceRecognition-SVProgressHUD";
+			target = 15453F9700AC28C4F425CAD4 /* Pods-VoiceRecognition-SVProgressHUD */;
+			targetProxy = 24AA4354003439E11E66AA7C /* PBXContainerItemProxy */;
+		};
+		5607A2E1A2A0D7AEC5D21DB0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-VoiceRecognition-Colours";
+			target = CEA88A293164270219C0B9A4 /* Pods-VoiceRecognition-Colours */;
+			targetProxy = 397B0655F90678FAB87E2D1F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		292530EDD62E9C4B70F13308 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		522DC02661E64530D02E6206 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1B307908D4488A67605FA0C5 /* Pods-VoiceRecognition.debug.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		5F76B2B151EE4239E0DBC994 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BF917EAED4ADD837A589FF7B /* Pods-VoiceRecognition.release.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		7F190582C50847446AA95A55 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		90B915774C73FDF3D8FE2AF0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 14472F981A3442091D2EEA18 /* Pods-VoiceRecognition-Colours-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-VoiceRecognition-Colours/Pods-VoiceRecognition-Colours-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		D34F9F15F5353C909DC4B72E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C2A7CDA45890432C6CF0BF95 /* Pods-VoiceRecognition-SVProgressHUD-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-VoiceRecognition-SVProgressHUD/Pods-VoiceRecognition-SVProgressHUD-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		DF0AB0E84CEBC8E9235D52F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 14472F981A3442091D2EEA18 /* Pods-VoiceRecognition-Colours-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-VoiceRecognition-Colours/Pods-VoiceRecognition-Colours-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		EC8BD79178F8B19BEDDA376D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C2A7CDA45890432C6CF0BF95 /* Pods-VoiceRecognition-SVProgressHUD-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-VoiceRecognition-SVProgressHUD/Pods-VoiceRecognition-SVProgressHUD-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		06A08544CDCF998164A5BB0B /* Build configuration list for PBXNativeTarget "Pods-VoiceRecognition-SVProgressHUD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC8BD79178F8B19BEDDA376D /* Debug */,
+				D34F9F15F5353C909DC4B72E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		43AA0871F6383BDD6E5022DF /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7F190582C50847446AA95A55 /* Debug */,
+				292530EDD62E9C4B70F13308 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BC5DDDCE7E2F1EEF9067334B /* Build configuration list for PBXNativeTarget "Pods-VoiceRecognition-Colours" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				90B915774C73FDF3D8FE2AF0 /* Debug */,
+				DF0AB0E84CEBC8E9235D52F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C61ADBC83492C1FAB64F8652 /* Build configuration list for PBXNativeTarget "Pods-VoiceRecognition" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				522DC02661E64530D02E6206 /* Debug */,
+				5F76B2B151EE4239E0DBC994 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DE4F71D8A4B42A5FA1573E92 /* Project object */;
+}
