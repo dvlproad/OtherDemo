@@ -9,7 +9,6 @@
 #import "NoteDetailController.h"
 #import "SVProgressHUD.h"
 #import "VNConstants.h"
-#import "iflyMSC/IFlyRecognizerView.h"
 #import "iflyMSC/IFlySpeechConstant.h"
 #import "iflyMSC/IFlySpeechUtility.h"
 #import "iflyMSC/IFlyRecognizerView.h"
@@ -19,7 +18,13 @@
 #import "Colours.h"
 #import "UIColor+VNHex.h"
 #import "AppContext.h"
-#import "MobClick.h"
+
+#import <UMMobClick/MobClick.h>
+
+#import "CJIFlySpeechManager.h"
+#import "CJIFlyRecognizerNoViewManager.h"
+#import "CJIFlyRecognizerViewManager.h"
+
 @import MessageUI;
 
 static const CGFloat kViewOriginY = 70;
@@ -27,7 +32,7 @@ static const CGFloat kTextFieldHeight = 30;
 static const CGFloat kToolbarHeight = 44;
 static const CGFloat kVoiceButtonWidth = 100;
 
-@interface NoteDetailController () <IFlyRecognizerViewDelegate, UIActionSheetDelegate,
+@interface NoteDetailController () <UIActionSheetDelegate,
 MFMailComposeViewControllerDelegate, UINavigationControllerDelegate, UIAlertViewDelegate>
 {
     VNNote *_note;
@@ -56,12 +61,6 @@ MFMailComposeViewControllerDelegate, UINavigationControllerDelegate, UIAlertView
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    [self.view setBackgroundColor:[UIColor whiteColor]];
-    
-    [self initComps];
-    [self setupNavigationBar];
-    [self setupSpeechRecognizer];
-    
     
     [[NSNotificationCenter defaultCenter] addObserver:self
                                              selector:@selector(keyboardWillShow:)
@@ -72,6 +71,12 @@ MFMailComposeViewControllerDelegate, UINavigationControllerDelegate, UIAlertView
                                              selector:@selector(keyboardWillHide:)
                                                  name:UIKeyboardWillHideNotification
                                                object:nil];
+    
+    self.view.backgroundColor = [UIColor whiteColor];
+    [self setupNavigationBar];
+    [self setupViews];
+    
+    [self updateViewByData];
 }
 
 - (void)dealloc
@@ -104,21 +109,7 @@ MFMailComposeViewControllerDelegate, UINavigationControllerDelegate, UIAlertView
     self.navigationItem.rightBarButtonItem = copyItem;
 }
 
-
-- (void)setupSpeechRecognizer
-{
-    NSString *initString = [NSString stringWithFormat:@"%@=%@", [IFlySpeechConstant APPID], kIFlyAppID];
-    
-    [IFlySpeechUtility createUtility:initString];
-    _iflyRecognizerView = [[IFlyRecognizerView alloc] initWithCenter:self.view.center];
-    _iflyRecognizerView.delegate = self;
-    
-    [_iflyRecognizerView setParameter:@"iat" forKey:[IFlySpeechConstant IFLY_DOMAIN]];
-    [_iflyRecognizerView setParameter:@"asr.pcm" forKey:[IFlySpeechConstant ASR_AUDIO_PATH]];
-    [_iflyRecognizerView setParameter:@"plain" forKey:[IFlySpeechConstant RESULT_TYPE]];
-}
-
-- (void)initComps
+- (void)setupViews
 {
     CGRect frame = CGRectMake(kHorizontalMargin, kViewOriginY, self.view.frame.size.width - kHorizontalMargin * 2, kTextFieldHeight);
     
@@ -133,11 +124,7 @@ MFMailComposeViewControllerDelegate, UINavigationControllerDelegate, UIAlertView
     toolbar.items = [NSArray arrayWithObjects:doneBarButton, voiceBarButton, nil];
     
     _titleTextField = [[UITextField alloc] initWithFrame:frame];
-    if (_note) {
-        _titleTextField.text = _note.title;
-    } else {
-        _titleTextField.placeholder = NSLocalizedString(@"InputViewTitle", @"");
-    }
+    _titleTextField.placeholder = NSLocalizedString(@"InputViewTitle", @"");
     _titleTextField.textColor = [UIColor systemDarkColor];
     _titleTextField.inputAccessoryView = toolbar;
     [self.view addSubview:_titleTextField];
@@ -157,9 +144,6 @@ MFMailComposeViewControllerDelegate, UINavigationControllerDelegate, UIAlertView
     _contentTextView.autocorrectionType = UITextAutocorrectionTypeNo;
     _contentTextView.autocapitalizationType = UITextAutocapitalizationTypeNone;
     [_contentTextView setScrollEnabled:YES];
-    if (_note) {
-        _contentTextView.text = _note.content;
-    }
     _contentTextView.inputAccessoryView = toolbar;
     [self.view addSubview:_contentTextView];
     
@@ -175,15 +159,56 @@ MFMailComposeViewControllerDelegate, UINavigationControllerDelegate, UIAlertView
     [self.view addSubview:_voiceButton];
 }
 
+- (void)updateViewByData {
+    if (_note == nil) {
+        return;
+    }
+    
+    _titleTextField.text = _note.title;
+    _contentTextView.text = _note.content;
+    [[CJIFlySpeechManager sharedInstance] speak:_note.content];
+}
+
 - (void)viewWillDisappear:(BOOL)animated
 {
     [self saveForce];//增加一个强制保存的功能
     [IFlySpeechUtility destroy];
+    
+//    [[CJIFlySpeechManager sharedInstance] stop];
 }
 
 - (void)startListenning
 {
-    [_iflyRecognizerView start];
+    [_voiceButton setTitle:@"正在进行" forState:UIControlStateNormal];
+    [_voiceButton setBackgroundColor:[UIColor systemDarkColor]];
+    
+    void(^recognizeResultBlock)(NSString *resultString, BOOL isLast) = ^(NSString *resultString, BOOL isLast) {
+        if (_isEditingTitle) {
+            _titleTextField.text = [NSString stringWithFormat:@"%@%@", _titleTextField.text, resultString];
+        } else {
+            _contentTextView.text = [NSString stringWithFormat:@"%@%@", _contentTextView.text, resultString];
+        }
+        
+        if (isLast) {
+            [_voiceButton setTitle:@"点击继续" forState:UIControlStateNormal];
+            [_voiceButton setBackgroundColor:[UIColor systemColor]];
+        }
+    };
+    
+    /*
+    //方法一：使用带View的
+    [[CJIFlyRecognizerViewManager sharedInstance] initIFlyRecognizerViewWithCenter:self.view.center];
+    [[CJIFlyRecognizerViewManager sharedInstance] setRecognizeResultBlock:recognizeResultBlock];
+    
+    [[CJIFlyRecognizerViewManager sharedInstance] startListening];
+    //*/
+    
+    //*
+    //方法二：使用不带view的
+    [[CJIFlyRecognizerNoViewManager sharedInstance] setRecognizeResultBlock:recognizeResultBlock];
+    [[CJIFlyRecognizerNoViewManager sharedInstance] startListening];
+    //*/
+    
     NSLog(@"start listenning...");
 }
 
@@ -220,27 +245,6 @@ MFMailComposeViewControllerDelegate, UINavigationControllerDelegate, UIAlertView
             [SVProgressHUD showSuccessWithStatus:@"上传成功"];
         } name:@"contact" data:contactList];
     }
-}
-
-#pragma mark IFlyRecognizerViewDelegate
-
-- (void)onResult:(NSArray *)resultArray isLast:(BOOL)isLast
-{
-    NSMutableString *result = [[NSMutableString alloc] init];
-    NSDictionary *dic = [resultArray objectAtIndex:0];
-    for (NSString *key in dic) {
-        [result appendFormat:@"%@", key];
-    }
-    if (_isEditingTitle) {
-        _titleTextField.text = [NSString stringWithFormat:@"%@%@", _titleTextField.text, result];
-    } else {
-        _contentTextView.text = [NSString stringWithFormat:@"%@%@", _contentTextView.text, result];
-    }
-}
-
-- (void)onError:(IFlySpeechError *)error
-{
-    NSLog(@"errorCode:%@", [error errorDesc]);
 }
 
 #pragma mark - Keyboard

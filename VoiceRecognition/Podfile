@@ -4,6 +4,9 @@ platform :ios, '7.0'
 target 'VoiceRecognition' do
     pod 'SVProgressHUD', '~> 1.0'
     pod 'Colours', '~> 5.3.0'
+    
+    
+    pod 'UMengAnalytics-NO-IDFA', '~> 4.2.5'
 end
 
 target 'VoiceRecognitionTests' do

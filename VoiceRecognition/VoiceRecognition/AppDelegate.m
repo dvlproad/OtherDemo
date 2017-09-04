@@ -7,14 +7,15 @@
 //
 
 #import "AppDelegate.h"
+#import "AppDelegate+AppStyle.h"
+#import "AppDelegate+UMMobClick.h"
+#import "AppDelegate+IFly.h"
+
 #import "NoteListController.h"
 #import "VNConstants.h"
 /*#import "WXApi.h"*/
-#import "Colours.h"
 #import "VNNote.h"
 #import "VNNoteManager.h"
-#import "UIColor+VNHex.h"
-#import "MobClick.h"
 
 
 @interface AppDelegate ()
@@ -38,31 +39,18 @@
     
     NoteListController *controller = [[NoteListController alloc] init];
     UINavigationController *navigationController = [[UINavigationController alloc] initWithRootViewController:controller];
-    
-    /* customize navigation style */
-    [[UINavigationBar appearance] setBarTintColor:[UIColor systemColor]];
-    [[UINavigationBar appearance] setTintColor:[UIColor whiteColor]];
-    NSDictionary *navbarTitleTextAttributes = [NSDictionary dictionaryWithObjectsAndKeys:
-                                               [UIColor whiteColor],NSForegroundColorAttributeName,
-                                               nil];
-    [[UINavigationBar appearance] setTitleTextAttributes:navbarTitleTextAttributes];
-    
-    [[UIApplication sharedApplication] setStatusBarStyle:UIStatusBarStyleLightContent];
-    
     self.window.rootViewController = navigationController;
     
     [self.window makeKeyAndVisible];
     
-    /*
-    [WXApi registerApp:kWeixinAppID];
-    */
-    
-//    [MobClick startWithAppkey:@"53c7945356240bd36002dabe" reportPolicy:BATCH channelId:nil];
-    [MobClick startWithAppkey:@"55d08cd367e58e154c000d0d" reportPolicy:BATCH channelId:nil];
+    [self customAppStyle];
+    [self setupUMMobClick];
+    [self setupIFly];
     
     
     return YES;
 }
+
 
 - (void)addInitFileIfNeeded
 {

@@ -1,13 +1,18 @@
 PODS:
   - Colours (5.3.0)
   - SVProgressHUD (1.1.3)
+  - UMengAnalytics-NO-IDFA (4.2.5)
 
 DEPENDENCIES:
   - Colours (~> 5.3.0)
   - SVProgressHUD (~> 1.0)
+  - UMengAnalytics-NO-IDFA (~> 4.2.5)
 
 SPEC CHECKSUMS:
   Colours: d37080ae1b4b7ea7d88e999a3557b4b8e7f90dd1
   SVProgressHUD: 748080e4f36e603f6c02aec292664239df5279c1
+  UMengAnalytics-NO-IDFA: 16666e32edce5be44ae5b14aaaa7f3582e09d6ab
 
-COCOAPODS: 0.37.2
+PODFILE CHECKSUM: 62dca154bb70fe19608d3d462de1f563e33c3770
+
+COCOAPODS: 1.1.0.rc.2

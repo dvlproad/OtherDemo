@@ -12,7 +12,9 @@
 #import "VNNote.h"
 #import "VNConstants.h"
 #import "NoteListCell.h"
-#import "MobClick.h"
+
+#import <UMMobClick/MobClick.h>
+#import "CJIFlySpeechManager.h"
 
 @interface NoteListController ()
 
@@ -65,9 +67,12 @@
 
 - (void)createTask
 {
-  [MobClick event:kEventAddNewNote];
-  NoteDetailController *controller = [[NoteDetailController alloc] init];
-  [self.navigationController pushViewController:controller animated:YES];
+    [[CJIFlySpeechManager sharedInstance] speak:@"创建任务"];
+    return;
+    
+    [MobClick event:kEventAddNewNote];
+    NoteDetailController *controller = [[NoteDetailController alloc] init];
+    [self.navigationController pushViewController:controller animated:YES];
 }
 
 #pragma mark - DataSource & Delegate
