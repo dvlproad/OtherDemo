@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		3530ACE6675F8414CEF246BA /* libPods-VoiceRecognitionTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D05FB231F1EBF79F89EA3B8 /* libPods-VoiceRecognitionTests.a */; };
+		780667E01F5EF54300B8CC69 /* TTSConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 780667DF1F5EF54300B8CC69 /* TTSConfig.m */; };
 		786798151F5BF7180093283D /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 786798141F5BF7180093283D /* libz.tbd */; };
 		786798181F5BF9900093283D /* AppDelegate+UMMobClick.m in Sources */ = {isa = PBXBuildFile; fileRef = 786798171F5BF9900093283D /* AppDelegate+UMMobClick.m */; };
 		786798211F5C0A120093283D /* AppDelegate+AppStyle.m in Sources */ = {isa = PBXBuildFile; fileRef = 786798201F5C0A120093283D /* AppDelegate+AppStyle.m */; };
@@ -16,10 +17,10 @@
 		786798331F5C67300093283D /* CJIFlySpeechManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 786798301F5C67300093283D /* CJIFlySpeechManager.m */; };
 		78E377CA1F5D9CEC00F2F8C8 /* ISRDataHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 78E377C91F5D9CEC00F2F8C8 /* ISRDataHelper.m */; };
 		78E377CD1F5DA5F200F2F8C8 /* AppDelegate+IFly.m in Sources */ = {isa = PBXBuildFile; fileRef = 78E377CC1F5DA5F200F2F8C8 /* AppDelegate+IFly.m */; };
-		78E377CF1F5DB6C300F2F8C8 /* iflyMSC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78E377CE1F5DB6C300F2F8C8 /* iflyMSC.framework */; };
 		78E377D21F5DB75800F2F8C8 /* Contacts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78E377D01F5DB75800F2F8C8 /* Contacts.framework */; };
 		78E377D31F5DB75800F2F8C8 /* ContactsUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78E377D11F5DB75800F2F8C8 /* ContactsUI.framework */; };
 		78E377D61F5DBBA000F2F8C8 /* CJIFlyRecognizerViewManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 78E377D51F5DBBA000F2F8C8 /* CJIFlyRecognizerViewManager.m */; };
+		78F61B081F616ADE00504E3D /* iflyMSC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78F61B071F616ADE00504E3D /* iflyMSC.framework */; };
 		8064FF831B8566B80016409D /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 8064FF821B8566B80016409D /* icon.png */; };
 		8064FF871B856D1E0016409D /* guide_login_bg.png in Resources */ = {isa = PBXBuildFile; fileRef = 8064FF841B856D1E0016409D /* guide_login_bg.png */; };
 		8064FF881B856D1E0016409D /* guide_login_bg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8064FF851B856D1E0016409D /* guide_login_bg@2x.png */; };
@@ -74,6 +75,8 @@
 		27C851344F703E8FA22CDE3F /* Pods-VoiceRecognitionTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VoiceRecognitionTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-VoiceRecognitionTests/Pods-VoiceRecognitionTests.release.xcconfig"; sourceTree = "<group>"; };
 		47B54E11B67DC3481436DFDC /* Pods-VoiceRecognition.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VoiceRecognition.debug.xcconfig"; path = "Pods/Target Support Files/Pods-VoiceRecognition/Pods-VoiceRecognition.debug.xcconfig"; sourceTree = "<group>"; };
 		4D05FB231F1EBF79F89EA3B8 /* libPods-VoiceRecognitionTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-VoiceRecognitionTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		780667DE1F5EF54300B8CC69 /* TTSConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTSConfig.h; sourceTree = "<group>"; };
+		780667DF1F5EF54300B8CC69 /* TTSConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTSConfig.m; sourceTree = "<group>"; };
 		786798141F5BF7180093283D /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
 		786798161F5BF9900093283D /* AppDelegate+UMMobClick.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "AppDelegate+UMMobClick.h"; sourceTree = "<group>"; };
 		786798171F5BF9900093283D /* AppDelegate+UMMobClick.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "AppDelegate+UMMobClick.m"; sourceTree = "<group>"; };
@@ -89,11 +92,11 @@
 		78E377C91F5D9CEC00F2F8C8 /* ISRDataHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ISRDataHelper.m; sourceTree = "<group>"; };
 		78E377CB1F5DA5F200F2F8C8 /* AppDelegate+IFly.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "AppDelegate+IFly.h"; sourceTree = "<group>"; };
 		78E377CC1F5DA5F200F2F8C8 /* AppDelegate+IFly.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "AppDelegate+IFly.m"; sourceTree = "<group>"; };
-		78E377CE1F5DB6C300F2F8C8 /* iflyMSC.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = iflyMSC.framework; sourceTree = "<group>"; };
 		78E377D01F5DB75800F2F8C8 /* Contacts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Contacts.framework; path = System/Library/Frameworks/Contacts.framework; sourceTree = SDKROOT; };
 		78E377D11F5DB75800F2F8C8 /* ContactsUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ContactsUI.framework; path = System/Library/Frameworks/ContactsUI.framework; sourceTree = SDKROOT; };
 		78E377D41F5DBBA000F2F8C8 /* CJIFlyRecognizerViewManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CJIFlyRecognizerViewManager.h; sourceTree = "<group>"; };
 		78E377D51F5DBBA000F2F8C8 /* CJIFlyRecognizerViewManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CJIFlyRecognizerViewManager.m; sourceTree = "<group>"; };
+		78F61B071F616ADE00504E3D /* iflyMSC.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = iflyMSC.framework; sourceTree = "<group>"; };
 		8064FF821B8566B80016409D /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
 		8064FF841B856D1E0016409D /* guide_login_bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = guide_login_bg.png; sourceTree = "<group>"; };
 		8064FF851B856D1E0016409D /* guide_login_bg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "guide_login_bg@2x.png"; sourceTree = "<group>"; };
@@ -157,6 +160,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				78F61B081F616ADE00504E3D /* iflyMSC.framework in Frameworks */,
 				78E377D21F5DB75800F2F8C8 /* Contacts.framework in Frameworks */,
 				78E377D31F5DB75800F2F8C8 /* ContactsUI.framework in Frameworks */,
 				786798151F5BF7180093283D /* libz.tbd in Frameworks */,
@@ -165,7 +169,6 @@
 				80710C1A1B7E6D4700F343F3 /* AVFoundation.framework in Frameworks */,
 				80710C181B7E6D4100F343F3 /* SystemConfiguration.framework in Frameworks */,
 				80710C161B7E6D3700F343F3 /* AudioToolbox.framework in Frameworks */,
-				78E377CF1F5DB6C300F2F8C8 /* iflyMSC.framework in Frameworks */,
 				80710C141B7E6D2D00F343F3 /* AddressBook.framework in Frameworks */,
 				CAED6C7BC1DE2029A00635C0 /* libPods-VoiceRecognition.a in Frameworks */,
 			);
@@ -240,8 +243,18 @@
 			children = (
 				7867982F1F5C67300093283D /* CJIFlySpeechManager.h */,
 				786798301F5C67300093283D /* CJIFlySpeechManager.m */,
+				780667DE1F5EF54300B8CC69 /* TTSConfig.h */,
+				780667DF1F5EF54300B8CC69 /* TTSConfig.m */,
 			);
 			path = Speak;
+			sourceTree = "<group>";
+		};
+		78F61B061F616ADE00504E3D /* iflyMSC_56e005aa */ = {
+			isa = PBXGroup;
+			children = (
+				78F61B071F616ADE00504E3D /* iflyMSC.framework */,
+			);
+			path = iflyMSC_56e005aa;
 			sourceTree = "<group>";
 		};
 		80710B8F1B7E5DAE00F343F3 = {
@@ -390,7 +403,7 @@
 		80710C091B7E6C5A00F343F3 /* Framework */ = {
 			isa = PBXGroup;
 			children = (
-				78E377CE1F5DB6C300F2F8C8 /* iflyMSC.framework */,
+				78F61B061F616ADE00504E3D /* iflyMSC_56e005aa */,
 			);
 			path = Framework;
 			sourceTree = "<group>";
@@ -626,6 +639,7 @@
 				80710BC71B7E5E4500F343F3 /* VoiceRecognition+Event.m in Sources */,
 				786798211F5C0A120093283D /* AppDelegate+AppStyle.m in Sources */,
 				80710BD81B7E6BF600F343F3 /* AppContext.m in Sources */,
+				780667E01F5EF54300B8CC69 /* TTSConfig.m in Sources */,
 				80710BFA1B7E6C0800F343F3 /* VNNoteManager.m in Sources */,
 				80710BDD1B7E6BF600F343F3 /* NoteListController.m in Sources */,
 				80710BDB1B7E6BF600F343F3 /* NoteDetailController.m in Sources */,
@@ -761,6 +775,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/VoiceRecognition/Framework",
+					"$(PROJECT_DIR)/VoiceRecognition/Framework/iflyMSC_56e005aa",
 				);
 				INFOPLIST_FILE = VoiceRecognition/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -780,6 +795,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/VoiceRecognition/Framework",
+					"$(PROJECT_DIR)/VoiceRecognition/Framework/iflyMSC_56e005aa",
 				);
 				INFOPLIST_FILE = VoiceRecognition/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";

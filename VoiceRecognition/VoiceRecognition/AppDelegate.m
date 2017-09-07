@@ -17,6 +17,8 @@
 #import "VNNote.h"
 #import "VNNoteManager.h"
 
+#import "CJIFlySpeechManager.h"
+
 
 @interface AppDelegate ()
 
@@ -47,6 +49,7 @@
     [self setupUMMobClick];
     [self setupIFly];
     
+    [[CJIFlySpeechManager sharedInstance] speak:@"初次设置完成"];
     
     return YES;
 }

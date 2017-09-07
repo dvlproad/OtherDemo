@@ -10,7 +10,8 @@
 
 #import "iflyMSC/IFlyMSC.h"
 
-#define APPID_VALUE           @"55d0c2fb"
+//#define APPID_VALUE           @"55d0c2fb"
+#define APPID_VALUE           @"56e005aa"
 
 @implementation AppDelegate (IFly)
 

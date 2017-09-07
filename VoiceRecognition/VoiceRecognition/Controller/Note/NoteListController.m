@@ -68,7 +68,7 @@
 - (void)createTask
 {
     [[CJIFlySpeechManager sharedInstance] speak:@"创建任务"];
-    return;
+//    return;
     
     [MobClick event:kEventAddNewNote];
     NoteDetailController *controller = [[NoteDetailController alloc] init];

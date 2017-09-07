@@ -17,7 +17,25 @@
 
 Android版本如果想同时使用语音唤醒和离线合成功能，需要注意SDK应该使用语音唤醒里的版本。
 */
-@interface CJIFlySpeechManager : NSObject
+
+
+typedef NS_OPTIONS(NSInteger, Status) {
+    NotStart            = 0,
+    Playing             = 2, //高异常分析需要的级别
+    Paused              = 4,
+};
+
+typedef NS_OPTIONS(NSInteger, SynthesizeType) {
+    NomalType           = 5,//普通合成
+    UriType             = 6, //uri合成
+};
+
+
+@interface CJIFlySpeechManager : NSObject {
+    
+}
+@property (nonatomic, assign) Status state;
+@property (nonatomic, assign) SynthesizeType synType;
 
 ///合成服务单例
 + (instancetype)sharedInstance;
