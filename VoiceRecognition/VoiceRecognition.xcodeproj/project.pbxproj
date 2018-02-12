@@ -15,6 +15,7 @@
 		786798311F5C67300093283D /* CJIFlyRecognizerNoViewManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 7867982B1F5C67300093283D /* CJIFlyRecognizerNoViewManager.m */; };
 		786798321F5C67300093283D /* IATConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 7867982D1F5C67300093283D /* IATConfig.m */; };
 		786798331F5C67300093283D /* CJIFlySpeechManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 786798301F5C67300093283D /* CJIFlySpeechManager.m */; };
+		78AF3F5D1F5ED7B500660373 /* XunFeiModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 78AF3F5C1F5ED7B500660373 /* XunFeiModel.m */; };
 		78E377CA1F5D9CEC00F2F8C8 /* ISRDataHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 78E377C91F5D9CEC00F2F8C8 /* ISRDataHelper.m */; };
 		78E377CD1F5DA5F200F2F8C8 /* AppDelegate+IFly.m in Sources */ = {isa = PBXBuildFile; fileRef = 78E377CC1F5DA5F200F2F8C8 /* AppDelegate+IFly.m */; };
 		78E377D21F5DB75800F2F8C8 /* Contacts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78E377D01F5DB75800F2F8C8 /* Contacts.framework */; };
@@ -88,6 +89,8 @@
 		7867982D1F5C67300093283D /* IATConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IATConfig.m; sourceTree = "<group>"; };
 		7867982F1F5C67300093283D /* CJIFlySpeechManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CJIFlySpeechManager.h; sourceTree = "<group>"; };
 		786798301F5C67300093283D /* CJIFlySpeechManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CJIFlySpeechManager.m; sourceTree = "<group>"; };
+		78AF3F5B1F5ED7B500660373 /* XunFeiModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XunFeiModel.h; sourceTree = "<group>"; };
+		78AF3F5C1F5ED7B500660373 /* XunFeiModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XunFeiModel.m; sourceTree = "<group>"; };
 		78E377C81F5D9CEC00F2F8C8 /* ISRDataHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ISRDataHelper.h; sourceTree = "<group>"; };
 		78E377C91F5D9CEC00F2F8C8 /* ISRDataHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ISRDataHelper.m; sourceTree = "<group>"; };
 		78E377CB1F5DA5F200F2F8C8 /* AppDelegate+IFly.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "AppDelegate+IFly.h"; sourceTree = "<group>"; };
@@ -243,8 +246,13 @@
 			children = (
 				7867982F1F5C67300093283D /* CJIFlySpeechManager.h */,
 				786798301F5C67300093283D /* CJIFlySpeechManager.m */,
+<<<<<<< Updated upstream
 				780667DE1F5EF54300B8CC69 /* TTSConfig.h */,
 				780667DF1F5EF54300B8CC69 /* TTSConfig.m */,
+=======
+				78AF3F5B1F5ED7B500660373 /* XunFeiModel.h */,
+				78AF3F5C1F5ED7B500660373 /* XunFeiModel.m */,
+>>>>>>> Stashed changes
 			);
 			path = Speak;
 			sourceTree = "<group>";
@@ -638,6 +646,7 @@
 				80710BD91B7E6BF600F343F3 /* UIColor+VNHex.m in Sources */,
 				80710BC71B7E5E4500F343F3 /* VoiceRecognition+Event.m in Sources */,
 				786798211F5C0A120093283D /* AppDelegate+AppStyle.m in Sources */,
+				78AF3F5D1F5ED7B500660373 /* XunFeiModel.m in Sources */,
 				80710BD81B7E6BF600F343F3 /* AppContext.m in Sources */,
 				780667E01F5EF54300B8CC69 /* TTSConfig.m in Sources */,
 				80710BFA1B7E6C0800F343F3 /* VNNoteManager.m in Sources */,
@@ -772,6 +781,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				DEVELOPMENT_TEAM = FZ5YDHE5JZ;
+				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/VoiceRecognition/Framework",
@@ -792,6 +802,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				DEVELOPMENT_TEAM = FZ5YDHE5JZ;
+				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/VoiceRecognition/Framework",

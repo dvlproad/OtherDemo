@@ -18,6 +18,7 @@
 Android版本如果想同时使用语音唤醒和离线合成功能，需要注意SDK应该使用语音唤醒里的版本。
 */
 
+<<<<<<< Updated upstream
 
 typedef NS_OPTIONS(NSInteger, Status) {
     NotStart            = 0,
@@ -36,6 +37,13 @@ typedef NS_OPTIONS(NSInteger, SynthesizeType) {
 }
 @property (nonatomic, assign) Status state;
 @property (nonatomic, assign) SynthesizeType synType;
+=======
+/* //常见问题来回切换播放突然没声音了
+ 如果出现一列[IFLYTEK] wait=58，请检查是否最后还有[IFlyTTSService sessionBegin][OUT],wait=60,errorCode=10111,sid=0这样的错误提示，这样的错误提示代表未初始化
+ */
+
+@interface CJIFlySpeechManager : NSObject
+>>>>>>> Stashed changes
 
 ///合成服务单例
 + (instancetype)sharedInstance;
