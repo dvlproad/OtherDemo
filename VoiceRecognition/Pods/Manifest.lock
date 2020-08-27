@@ -1,18 +1,32 @@
 PODS:
+  - CJBaseUIKit/UIColor (0.6.0)
   - Colours (5.3.0)
-  - SVProgressHUD (1.1.3)
+  - Masonry (1.1.0)
+  - SVProgressHUD (2.2.5)
   - UMengAnalytics-NO-IDFA (4.2.5)
 
 DEPENDENCIES:
+  - CJBaseUIKit/UIColor (~> 0.6.0)
   - Colours (~> 5.3.0)
-  - SVProgressHUD (~> 1.0)
+  - Masonry
+  - SVProgressHUD
   - UMengAnalytics-NO-IDFA (~> 4.2.5)
 
+SPEC REPOS:
+  trunk:
+    - CJBaseUIKit
+    - Colours
+    - Masonry
+    - SVProgressHUD
+    - UMengAnalytics-NO-IDFA
+
 SPEC CHECKSUMS:
+  CJBaseUIKit: d4945467678c73b872c7ddfb5367d4063ff28add
   Colours: d37080ae1b4b7ea7d88e999a3557b4b8e7f90dd1
-  SVProgressHUD: 748080e4f36e603f6c02aec292664239df5279c1
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  SVProgressHUD: 1428aafac632c1f86f62aa4243ec12008d7a51d6
   UMengAnalytics-NO-IDFA: 16666e32edce5be44ae5b14aaaa7f3582e09d6ab
 
-PODFILE CHECKSUM: 62dca154bb70fe19608d3d462de1f563e33c3770
+PODFILE CHECKSUM: ae536a998d48ce6a9111e401a284187a85763c90
 
-COCOAPODS: 1.1.0.rc.2
+COCOAPODS: 1.9.3

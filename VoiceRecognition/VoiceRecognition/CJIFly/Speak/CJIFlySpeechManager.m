@@ -112,7 +112,6 @@ static CJIFlySpeechManager *_sharedInstance = nil;
 #pragma mark - Public
 /* 完整的描述请参见文件头部 */
 - (void)speak:(NSString *)content {
-<<<<<<< Updated upstream
     if ([content isEqualToString:@""]) {
         NSLog(@"无效的文本信息");
         //[_popUpView showText:@"无效的文本信息"];
@@ -184,7 +183,6 @@ static CJIFlySpeechManager *_sharedInstance = nil;
     if (self.iFlySpeechSynthesizer.isSpeaking) {
         _state = Playing;
     }
-=======
     //先停止旧的，再播放新的
 //    [self.iFlySpeechSynthesizer stopSpeaking];
 //    [self.iFlySpeechSynthesizer startSpeaking:content];
@@ -192,7 +190,6 @@ static CJIFlySpeechManager *_sharedInstance = nil;
 //        [self.iFlySpeechSynthesizer stopSpeaking];
         [self.iFlySpeechSynthesizer startSpeaking:content];
     });
->>>>>>> Stashed changes
 }
 
 - (void)stop {

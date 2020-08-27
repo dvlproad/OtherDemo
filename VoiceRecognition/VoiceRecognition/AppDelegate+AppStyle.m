@@ -8,13 +8,11 @@
 
 #import "AppDelegate+AppStyle.h"
 
-#import "UIColor+VNHex.h"
-
 @implementation AppDelegate (AppStyle)
 
 - (void)customAppStyle {
     /* customize navigation style */
-    [[UINavigationBar appearance] setBarTintColor:[UIColor systemColor]];
+    [[UINavigationBar appearance] setBarTintColor:[UIColor redColor]];
     [[UINavigationBar appearance] setTintColor:[UIColor whiteColor]];
     NSDictionary *navbarTitleTextAttributes = [NSDictionary dictionaryWithObjectsAndKeys:
                                                [UIColor whiteColor],NSForegroundColorAttributeName,

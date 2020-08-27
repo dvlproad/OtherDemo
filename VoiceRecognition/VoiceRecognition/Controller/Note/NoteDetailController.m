@@ -7,7 +7,9 @@
 //
 
 #import "NoteDetailController.h"
-#import "SVProgressHUD.h"
+#import <Masonry/Masonry.h>
+#import <Colours/Colours.h>
+#import <SVProgressHUD/SVProgressHUD.h>
 #import "VNConstants.h"
 #import "iflyMSC/IFlySpeechConstant.h"
 #import "iflyMSC/IFlySpeechUtility.h"
@@ -15,8 +17,6 @@
 #import "iflyMSC/IFlyDataUploader.h"
 #import "iflyMSC/IFlyContact.h"
 /*#import "WXApi.h"*/
-#import "Colours.h"
-#import "UIColor+VNHex.h"
 #import "AppContext.h"
 
 #import <UMMobClick/MobClick.h>
@@ -32,17 +32,23 @@ static const CGFloat kTextFieldHeight = 30;
 static const CGFloat kToolbarHeight = 44;
 static const CGFloat kVoiceButtonWidth = 100;
 
+
+
 @interface NoteDetailController () <UIActionSheetDelegate,
 MFMailComposeViewControllerDelegate, UINavigationControllerDelegate, UIAlertViewDelegate>
 {
     VNNote *_note;
-    UITextField *_titleTextField;
-    UITextView *_contentTextView;
     
-    UIButton *_voiceButton;
     IFlyRecognizerView *_iflyRecognizerView;
     BOOL _isEditingTitle;
+    
+    UIColor *systemColor;
+    UIColor *systemDarkColor;
 }
+@property (nonatomic, strong) UITextField *titleTextField;  /**< 标题 */
+@property (nonatomic, strong) UITextView *contentTextView;  /**< 内容 */
+@property (nonatomic, strong) UIButton *voiceButton;
+@property (nonatomic, strong) UIToolbar *toolbar;
 
 @end
 
@@ -73,6 +79,9 @@ MFMailComposeViewControllerDelegate, UINavigationControllerDelegate, UIAlertView
                                                object:nil];
     
     self.view.backgroundColor = [UIColor whiteColor];
+    systemColor = [UIColor emeraldColor];
+    systemDarkColor = [UIColor hollyGreenColor];
+    
     [self setupNavigationBar];
     [self setupViews];
     
@@ -109,55 +118,6 @@ MFMailComposeViewControllerDelegate, UINavigationControllerDelegate, UIAlertView
     self.navigationItem.rightBarButtonItem = copyItem;
 }
 
-- (void)setupViews
-{
-    CGRect frame = CGRectMake(kHorizontalMargin, kViewOriginY, self.view.frame.size.width - kHorizontalMargin * 2, kTextFieldHeight);
-    
-    UIBarButtonItem *doneBarButton = [[UIBarButtonItem alloc] initWithTitle:@"Done" style:UIBarButtonItemStylePlain target:self action:@selector(hideKeyboard)];
-    doneBarButton.width = ceilf(self.view.frame.size.width) / 3 - 30;
-    
-    UIBarButtonItem *voiceBarButton = [[UIBarButtonItem alloc] initWithImage:[UIImage imageNamed:@"micro_small"] style:UIBarButtonItemStylePlain target:self action:@selector(useVoiceInput)];
-    voiceBarButton.width = ceilf(self.view.frame.size.width) / 3;
-    
-    UIToolbar *toolbar = [[UIToolbar alloc] initWithFrame:CGRectMake(0, 0, self.view.frame.size.width, kToolbarHeight)];
-    toolbar.tintColor = [UIColor systemColor];
-    toolbar.items = [NSArray arrayWithObjects:doneBarButton, voiceBarButton, nil];
-    
-    _titleTextField = [[UITextField alloc] initWithFrame:frame];
-    _titleTextField.placeholder = NSLocalizedString(@"InputViewTitle", @"");
-    _titleTextField.textColor = [UIColor systemDarkColor];
-    _titleTextField.inputAccessoryView = toolbar;
-    [self.view addSubview:_titleTextField];
-    
-    UIView *lineView = [[UIView alloc] initWithFrame:CGRectMake(kHorizontalMargin, kViewOriginY + kTextFieldHeight, self.view.frame.size.width - kHorizontalMargin, 1)];
-    lineView.backgroundColor = [UIColor systemDarkColor];
-    [self.view addSubview:lineView];
-    
-    CGFloat textY = kViewOriginY + kTextFieldHeight + kVerticalMargin;
-    frame = CGRectMake(kHorizontalMargin,
-                       textY,
-                       self.view.frame.size.width - kHorizontalMargin * 2,
-                       self.view.frame.size.height - textY - kVoiceButtonWidth - kVerticalMargin * 2);
-    _contentTextView = [[UITextView alloc] initWithFrame:frame];
-    _contentTextView.textColor = [UIColor systemDarkColor];
-    _contentTextView.font = [UIFont systemFontOfSize:16];
-    _contentTextView.autocorrectionType = UITextAutocorrectionTypeNo;
-    _contentTextView.autocapitalizationType = UITextAutocapitalizationTypeNone;
-    [_contentTextView setScrollEnabled:YES];
-    _contentTextView.inputAccessoryView = toolbar;
-    [self.view addSubview:_contentTextView];
-    
-    _voiceButton = [UIButton buttonWithType:UIButtonTypeCustom];
-    [_voiceButton setFrame:CGRectMake((self.view.frame.size.width - kVoiceButtonWidth) / 2, self.view.frame.size.height - kVoiceButtonWidth - kVerticalMargin, kVoiceButtonWidth, kVoiceButtonWidth)];
-    [_voiceButton setTitle:NSLocalizedString(@"VoiceInput", @"") forState:UIControlStateNormal];
-    [_voiceButton setTitleColor:[UIColor whiteColor] forState:UIControlStateNormal];
-    _voiceButton.layer.cornerRadius = kVoiceButtonWidth / 2;
-    _voiceButton.layer.masksToBounds = YES;
-    [_voiceButton setBackgroundColor:[UIColor systemColor]];
-    [_voiceButton addTarget:self action:@selector(useVoiceInput) forControlEvents:UIControlEventTouchUpInside];
-    [_voiceButton setTintColor:[UIColor whiteColor]];
-    [self.view addSubview:_voiceButton];
-}
 
 - (void)updateViewByData {
     if (_note == nil) {
@@ -180,7 +140,7 @@ MFMailComposeViewControllerDelegate, UINavigationControllerDelegate, UIAlertView
 - (void)startListenning
 {
     [_voiceButton setTitle:@"正在进行" forState:UIControlStateNormal];
-    [_voiceButton setBackgroundColor:[UIColor systemDarkColor]];
+    [_voiceButton setBackgroundColor:systemDarkColor];
     
     void(^recognizeResultBlock)(NSString *resultString, BOOL isLast) = ^(NSString *resultString, BOOL isLast) {
         if (_isEditingTitle) {
@@ -191,7 +151,7 @@ MFMailComposeViewControllerDelegate, UINavigationControllerDelegate, UIAlertView
         
         if (isLast) {
             [_voiceButton setTitle:@"点击继续" forState:UIControlStateNormal];
-            [_voiceButton setBackgroundColor:[UIColor systemColor]];
+            [_voiceButton setBackgroundColor:systemColor];
         }
     };
     
@@ -389,7 +349,7 @@ MFMailComposeViewControllerDelegate, UINavigationControllerDelegate, UIAlertView
     for (UIView *subview in actionSheet.subviews) {
         if ([subview isKindOfClass:[UIButton class]]) {
             UIButton *button = (UIButton *)subview;
-            [button setTitleColor:[UIColor systemColor] forState:UIControlStateNormal];
+            [button setTitleColor:systemColor forState:UIControlStateNormal];
         }
     }
 }
@@ -438,5 +398,104 @@ MFMailComposeViewControllerDelegate, UINavigationControllerDelegate, UIAlertView
     [MobClick event:kEventShareToWeixin];
   */
 }
+
+
+
+#pragma mark - SetupViews & Lazy
+- (void)setupViews
+{
+    [self.view addSubview:self.titleTextField];
+    [self.titleTextField mas_makeConstraints:^(MASConstraintMaker *make) {
+        make.left.mas_equalTo(self.view).mas_offset(kHorizontalMargin);
+        make.centerX.mas_equalTo(self.view);
+        make.top.mas_equalTo(self.mas_topLayoutGuide);
+        make.height.mas_equalTo(kTextFieldHeight);
+    }];
+    
+    UIView *lineView = [[UIView alloc] initWithFrame:CGRectZero];
+    lineView.backgroundColor = systemDarkColor;
+    [self.view addSubview:lineView];
+    [lineView mas_makeConstraints:^(MASConstraintMaker *make) {
+        make.left.mas_equalTo(_titleTextField);
+        make.centerX.mas_equalTo(_titleTextField);
+        make.top.mas_equalTo(_titleTextField.mas_bottom);
+        make.height.mas_equalTo(1);
+    }];
+    
+
+    [self.view addSubview:self.voiceButton];
+    [self.voiceButton mas_makeConstraints:^(MASConstraintMaker *make) {
+        make.width.mas_equalTo(kVoiceButtonWidth);
+        make.centerX.mas_equalTo(_titleTextField);
+        make.bottom.mas_equalTo(self.mas_bottomLayoutGuide).mas_offset(-kVerticalMargin);
+        make.height.mas_equalTo(kVoiceButtonWidth);
+    }];
+    
+    
+    
+    [self.view addSubview:self.contentTextView];
+    [self.contentTextView mas_makeConstraints:^(MASConstraintMaker *make) {
+        make.left.mas_equalTo(_titleTextField);
+        make.centerX.mas_equalTo(_titleTextField);
+        make.top.mas_equalTo(_titleTextField.mas_bottom).mas_offset(kVerticalMargin);
+        make.bottom.mas_equalTo(_voiceButton.mas_top).mas_offset(kVerticalMargin);
+    }];
+}
+
+- (UITextField *)titleTextField {
+    if (_titleTextField == nil) {
+        _titleTextField = [[UITextField alloc] initWithFrame:CGRectZero];
+        _titleTextField.placeholder = NSLocalizedString(@"InputViewTitle", @"");
+        _titleTextField.textColor = systemDarkColor;
+        _titleTextField.inputAccessoryView = self.toolbar;
+    }
+    
+    return _titleTextField;
+}
+
+- (UITextView *)contentTextView {
+    if (_contentTextView == nil) {
+        _contentTextView = [[UITextView alloc] initWithFrame:CGRectZero];
+        _contentTextView.textColor = systemDarkColor;
+        _contentTextView.font = [UIFont systemFontOfSize:16];
+        _contentTextView.autocorrectionType = UITextAutocorrectionTypeNo;
+        _contentTextView.autocapitalizationType = UITextAutocapitalizationTypeNone;
+        [_contentTextView setScrollEnabled:YES];
+        _contentTextView.inputAccessoryView = self.toolbar;
+    }
+    
+    return _contentTextView;
+}
+
+- (UIButton *)voiceButton {
+    if (_voiceButton == nil) {
+        _voiceButton = [UIButton buttonWithType:UIButtonTypeCustom];
+        [_voiceButton setFrame:CGRectZero];
+        [_voiceButton setTitle:NSLocalizedString(@"VoiceInput", @"") forState:UIControlStateNormal];
+        [_voiceButton setTitleColor:[UIColor whiteColor] forState:UIControlStateNormal];
+        _voiceButton.layer.cornerRadius = kVoiceButtonWidth / 2;
+        _voiceButton.layer.masksToBounds = YES;
+        [_voiceButton setBackgroundColor:systemColor];
+        [_voiceButton addTarget:self action:@selector(useVoiceInput) forControlEvents:UIControlEventTouchUpInside];
+        [_voiceButton setTintColor:[UIColor whiteColor]];
+    }
+    return _voiceButton;
+}
+
+- (UIToolbar *)toolbar {
+    if (_toolbar == nil) {
+        UIBarButtonItem *doneBarButton = [[UIBarButtonItem alloc] initWithTitle:@"Done" style:UIBarButtonItemStylePlain target:self action:@selector(hideKeyboard)];
+        doneBarButton.width = ceilf(self.view.frame.size.width) / 3 - 30;
+        
+        UIBarButtonItem *voiceBarButton = [[UIBarButtonItem alloc] initWithImage:[UIImage imageNamed:@"micro_small"] style:UIBarButtonItemStylePlain target:self action:@selector(useVoiceInput)];
+        voiceBarButton.width = ceilf(self.view.frame.size.width) / 3;
+        
+        _toolbar = [[UIToolbar alloc] initWithFrame:CGRectMake(0, 0, self.view.frame.size.width, kToolbarHeight)];
+        _toolbar.tintColor = systemColor;
+        _toolbar.items = [NSArray arrayWithObjects:doneBarButton, voiceBarButton, nil];
+    }
+    return _toolbar;
+}
+
 
 @end

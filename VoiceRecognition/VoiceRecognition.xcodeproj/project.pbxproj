@@ -37,7 +37,6 @@
 		80710BC71B7E5E4500F343F3 /* VoiceRecognition+Event.m in Sources */ = {isa = PBXBuildFile; fileRef = 80710BC61B7E5E4500F343F3 /* VoiceRecognition+Event.m */; };
 		80710BC91B7E5E7F00F343F3 /* VoiceRecognition.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 80710BC81B7E5E7F00F343F3 /* VoiceRecognition.storyboard */; };
 		80710BD81B7E6BF600F343F3 /* AppContext.m in Sources */ = {isa = PBXBuildFile; fileRef = 80710BCC1B7E6BF600F343F3 /* AppContext.m */; };
-		80710BD91B7E6BF600F343F3 /* UIColor+VNHex.m in Sources */ = {isa = PBXBuildFile; fileRef = 80710BCF1B7E6BF600F343F3 /* UIColor+VNHex.m */; };
 		80710BDA1B7E6BF600F343F3 /* VNConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = 80710BD11B7E6BF600F343F3 /* VNConstants.m */; };
 		80710BDB1B7E6BF600F343F3 /* NoteDetailController.m in Sources */ = {isa = PBXBuildFile; fileRef = 80710BD31B7E6BF600F343F3 /* NoteDetailController.m */; };
 		80710BDC1B7E6BF600F343F3 /* NoteListCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 80710BD51B7E6BF600F343F3 /* NoteListCell.m */; };
@@ -124,8 +123,6 @@
 		80710BC81B7E5E7F00F343F3 /* VoiceRecognition.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = VoiceRecognition.storyboard; sourceTree = "<group>"; };
 		80710BCB1B7E6BF600F343F3 /* AppContext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppContext.h; sourceTree = "<group>"; };
 		80710BCC1B7E6BF600F343F3 /* AppContext.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppContext.m; sourceTree = "<group>"; };
-		80710BCE1B7E6BF600F343F3 /* UIColor+VNHex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+VNHex.h"; sourceTree = "<group>"; };
-		80710BCF1B7E6BF600F343F3 /* UIColor+VNHex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+VNHex.m"; sourceTree = "<group>"; };
 		80710BD01B7E6BF600F343F3 /* VNConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VNConstants.h; sourceTree = "<group>"; };
 		80710BD11B7E6BF600F343F3 /* VNConstants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VNConstants.m; sourceTree = "<group>"; };
 		80710BD21B7E6BF600F343F3 /* NoteDetailController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NoteDetailController.h; sourceTree = "<group>"; };
@@ -246,13 +243,10 @@
 			children = (
 				7867982F1F5C67300093283D /* CJIFlySpeechManager.h */,
 				786798301F5C67300093283D /* CJIFlySpeechManager.m */,
-<<<<<<< Updated upstream
 				780667DE1F5EF54300B8CC69 /* TTSConfig.h */,
 				780667DF1F5EF54300B8CC69 /* TTSConfig.m */,
-=======
 				78AF3F5B1F5ED7B500660373 /* XunFeiModel.h */,
 				78AF3F5C1F5ED7B500660373 /* XunFeiModel.m */,
->>>>>>> Stashed changes
 			);
 			path = Speak;
 			sourceTree = "<group>";
@@ -370,8 +364,6 @@
 		80710BCD1B7E6BF600F343F3 /* Common */ = {
 			isa = PBXGroup;
 			children = (
-				80710BCE1B7E6BF600F343F3 /* UIColor+VNHex.h */,
-				80710BCF1B7E6BF600F343F3 /* UIColor+VNHex.m */,
 				80710BD01B7E6BF600F343F3 /* VNConstants.h */,
 				80710BD11B7E6BF600F343F3 /* VNConstants.m */,
 			);
@@ -427,8 +419,7 @@
 				80710B941B7E5DAE00F343F3 /* Sources */,
 				80710B951B7E5DAE00F343F3 /* Frameworks */,
 				80710B961B7E5DAE00F343F3 /* Resources */,
-				3BCB3E84AA688A73FB09C5B9 /* [CP] Embed Pods Frameworks */,
-				4ECECC909CE5CC28DC2123A2 /* [CP] Copy Pods Resources */,
+				987DB795A1510B8777B46839 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -447,8 +438,6 @@
 				80710BAD1B7E5DAE00F343F3 /* Sources */,
 				80710BAE1B7E5DAE00F343F3 /* Frameworks */,
 				80710BAF1B7E5DAE00F343F3 /* Resources */,
-				B1137952135B3513C03C294F /* [CP] Embed Pods Frameworks */,
-				773FD70C5ACB76ADE4E7B7D3 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -484,6 +473,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -533,79 +523,40 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		3BCB3E84AA688A73FB09C5B9 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-VoiceRecognition/Pods-VoiceRecognition-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		4ECECC909CE5CC28DC2123A2 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-VoiceRecognition/Pods-VoiceRecognition-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		69E6D87530351C24FBA1164E /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-VoiceRecognitionTests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		773FD70C5ACB76ADE4E7B7D3 /* [CP] Copy Pods Resources */ = {
+		987DB795A1510B8777B46839 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-VoiceRecognition/Pods-VoiceRecognition-resources.sh",
+				"${PODS_ROOT}/SVProgressHUD/SVProgressHUD/SVProgressHUD.bundle",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/SVProgressHUD.bundle",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-VoiceRecognitionTests/Pods-VoiceRecognitionTests-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		B1137952135B3513C03C294F /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-VoiceRecognitionTests/Pods-VoiceRecognitionTests-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-VoiceRecognition/Pods-VoiceRecognition-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		D2C6968223C541B2E9FBA9BA /* [CP] Check Pods Manifest.lock */ = {
@@ -614,13 +565,16 @@
 			files = (
 			);
 			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-VoiceRecognition-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -643,7 +597,6 @@
 				80710B9E1B7E5DAE00F343F3 /* main.m in Sources */,
 				786798311F5C67300093283D /* CJIFlyRecognizerNoViewManager.m in Sources */,
 				80710BF91B7E6C0800F343F3 /* VNNote.m in Sources */,
-				80710BD91B7E6BF600F343F3 /* UIColor+VNHex.m in Sources */,
 				80710BC71B7E5E4500F343F3 /* VoiceRecognition+Event.m in Sources */,
 				786798211F5C0A120093283D /* AppDelegate+AppStyle.m in Sources */,
 				78AF3F5D1F5ED7B500660373 /* XunFeiModel.m in Sources */,

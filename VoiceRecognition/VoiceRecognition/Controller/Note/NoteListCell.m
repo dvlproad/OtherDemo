@@ -7,9 +7,8 @@
 //
 
 #import "NoteListCell.h"
-#import "UIColor+VNHex.h"
+#import <Colours/Colours.h>
 #import "VNConstants.h"
-#import "Colours.h"
 
 static const CGFloat kCellHorizontalMargin = 4;
 static const CGFloat kCellPadding = 8;
