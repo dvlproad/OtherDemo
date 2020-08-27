@@ -1,15 +1,19 @@
 PODS:
   - CJBaseUIKit/UIColor (0.6.0)
-  - Colours (5.3.0)
+  - Colours (5.13.0):
+    - Colours/ObjC (= 5.13.0)
+  - Colours/ObjC (5.13.0)
   - Masonry (1.1.0)
   - SVProgressHUD (2.2.5)
+  - TSDemo_VoiceRecognition (0.1.4):
+    - CJBaseUIKit/UIColor
+    - Colours
+    - Masonry
+    - SVProgressHUD
   - UMengAnalytics-NO-IDFA (4.2.5)
 
 DEPENDENCIES:
-  - CJBaseUIKit/UIColor (~> 0.6.0)
-  - Colours (~> 5.3.0)
-  - Masonry
-  - SVProgressHUD
+  - TSDemo_VoiceRecognition (from `../`)
   - UMengAnalytics-NO-IDFA (~> 4.2.5)
 
 SPEC REPOS:
@@ -20,13 +24,18 @@ SPEC REPOS:
     - SVProgressHUD
     - UMengAnalytics-NO-IDFA
 
+EXTERNAL SOURCES:
+  TSDemo_VoiceRecognition:
+    :path: "../"
+
 SPEC CHECKSUMS:
   CJBaseUIKit: d4945467678c73b872c7ddfb5367d4063ff28add
-  Colours: d37080ae1b4b7ea7d88e999a3557b4b8e7f90dd1
+  Colours: f24220c38f13deac88612667e9b4a7fb96b871d4
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
   SVProgressHUD: 1428aafac632c1f86f62aa4243ec12008d7a51d6
+  TSDemo_VoiceRecognition: 4f391c848626fe3fddfb0f1a1465e81989b1ccbd
   UMengAnalytics-NO-IDFA: 16666e32edce5be44ae5b14aaaa7f3582e09d6ab
 
-PODFILE CHECKSUM: ae536a998d48ce6a9111e401a284187a85763c90
+PODFILE CHECKSUM: 2d6243fd8f7be5f0e6b0637200173add37b7444d
 
 COCOAPODS: 1.9.3

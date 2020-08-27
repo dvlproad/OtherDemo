@@ -1,0 +1,44 @@
+{
+  "name": "TSDemo_VoiceRecognition",
+  "version": "0.1.4",
+  "summary": "引导页 Guide 演示示例",
+  "homepage": "https://gitee.com/dvlproad/UIKit-Guide-iOS.git",
+  "license": {
+    "type": "Copyright",
+    "text": "              © 2008-2016 dvlproad. All rights reserved.\n"
+  },
+  "authors": {
+    "dvlproad": ""
+  },
+  "description": "-、演示示例\n\n    A longer description of TSDemo_VoiceRecognition in Markdown format.\n\n    * Think: Why did you write this? What is the focus? What does it do?\n    * CocoaPods will be using this to generate tags, and improve search results.\n    * Try to keep it short, snappy and to the point.\n    * Finally, don't worry about the indent, CocoaPods strips it!",
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source": {
+    "git": "https://gitee.com/dvlproad/UIKit-Guide-iOS.git",
+    "tag": "TSDemo_VoiceRecognition_0.1.4"
+  },
+  "frameworks": "UIKit",
+  "requires_arc": true,
+  "source_files": "TSDemo_VoiceRecognition/**/*.{h,m}",
+  "resource_bundles": {
+    "TSDemo_VoiceRecognition": [
+      "TSDemo_VoiceRecognition/**/*.{xcassets}",
+      "TSDemo_VoiceRecognition/**/*.{bundle,mp4}"
+    ]
+  },
+  "dependencies": {
+    "SVProgressHUD": [
+
+    ],
+    "Masonry": [
+
+    ],
+    "CJBaseUIKit/UIColor": [
+
+    ],
+    "Colours": [
+
+    ]
+  }
+}

@@ -7,7 +7,6 @@
 //
 
 #import "ViewController.h"
-#import "VoiceRecognition.h"
 
 @interface ViewController ()
 
@@ -18,12 +17,6 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
-}
-
-- (IBAction)goVoiceRecognition:(id)sender{
-    UIStoryboard *sboard = [UIStoryboard storyboardWithName:@"VoiceRecognition" bundle:nil];
-    VoiceRecognition *vc = [sboard instantiateViewControllerWithIdentifier:@"VoiceRecognition"];
-    [self.navigationController pushViewController:vc animated:YES];
 }
 
 - (void)didReceiveMemoryWarning {

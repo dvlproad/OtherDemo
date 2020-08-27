@@ -2,10 +2,8 @@ platform :ios, '8.0'
 #use_frameworks!
 
 target 'VoiceRecognition' do
-    pod 'SVProgressHUD'
-    pod 'Masonry'
-    pod 'CJBaseUIKit', '~> 0.6.0',  :subspecs => ['UIColor']
-    pod 'Colours', '~> 5.3.0'
+    pod 'TSDemo_VoiceRecognition',      :path => '../’
+
     
     pod 'UMengAnalytics-NO-IDFA', '~> 4.2.5'
 end

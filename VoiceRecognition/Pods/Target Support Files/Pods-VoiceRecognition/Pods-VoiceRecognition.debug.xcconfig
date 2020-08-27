@@ -1,8 +1,8 @@
 FRAMEWORK_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/UMengAnalytics-NO-IDFA/umsdk_IOS_analyics_no-idfa_v4.2.5"
 GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
-HEADER_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/Headers/Public" "${PODS_ROOT}/Headers/Public/CJBaseUIKit" "${PODS_ROOT}/Headers/Public/Colours" "${PODS_ROOT}/Headers/Public/Masonry" "${PODS_ROOT}/Headers/Public/SVProgressHUD"
-LIBRARY_SEARCH_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/CJBaseUIKit" "${PODS_CONFIGURATION_BUILD_DIR}/Colours" "${PODS_CONFIGURATION_BUILD_DIR}/Masonry" "${PODS_CONFIGURATION_BUILD_DIR}/SVProgressHUD" "$(PODS_ROOT)/UMengAnalytics-NO-IDFA/**"
-OTHER_LDFLAGS = $(inherited) -ObjC -l"CJBaseUIKit" -l"Colours" -l"Masonry" -l"SVProgressHUD" -l"sqlite3" -l"z" -framework "CoreTelephony" -framework "Foundation" -framework "QuartzCore" -framework "UIKit" -framework "UMMobClick"
+HEADER_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/Headers/Public" "${PODS_ROOT}/Headers/Public/CJBaseUIKit" "${PODS_ROOT}/Headers/Public/Colours" "${PODS_ROOT}/Headers/Public/Masonry" "${PODS_ROOT}/Headers/Public/SVProgressHUD" "${PODS_ROOT}/Headers/Public/TSDemo_VoiceRecognition"
+LIBRARY_SEARCH_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/CJBaseUIKit" "${PODS_CONFIGURATION_BUILD_DIR}/Colours" "${PODS_CONFIGURATION_BUILD_DIR}/Masonry" "${PODS_CONFIGURATION_BUILD_DIR}/SVProgressHUD" "${PODS_CONFIGURATION_BUILD_DIR}/TSDemo_VoiceRecognition" "$(PODS_ROOT)/UMengAnalytics-NO-IDFA/**"
+OTHER_LDFLAGS = $(inherited) -ObjC -l"CJBaseUIKit" -l"Colours" -l"Masonry" -l"SVProgressHUD" -l"TSDemo_VoiceRecognition" -l"sqlite3" -l"z" -framework "CoreTelephony" -framework "Foundation" -framework "QuartzCore" -framework "UIKit" -framework "UMMobClick"
 PODS_BUILD_DIR = ${BUILD_DIR}
 PODS_CONFIGURATION_BUILD_DIR = ${PODS_BUILD_DIR}/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)
 PODS_PODFILE_DIR_PATH = ${SRCROOT}/.

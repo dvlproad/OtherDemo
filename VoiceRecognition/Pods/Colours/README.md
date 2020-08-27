@@ -2,6 +2,8 @@
 
 [![Build Status](https://travis-ci.org/bennyguitar/Colours.svg?branch=4.0)](https://travis-ci.org/bennyguitar/Colours)
 
+[![Gitter chat](https://badges.gitter.im/bennyguitar/Colours.png)](https://gitter.im/bennyguitar/Colours)
+
 ## Installation
 
 Drag the included **Colours.h** and **Colours.m** files into your project. They are located in the top-level directory. You can see a demo of how to use these with the included Xcode project as well.
@@ -10,13 +12,25 @@ Drag the included **Colours.h** and **Colours.m** files into your project. They 
 
 **Cocoapods**
 
-*Note: 5.0.0 breaks previous versions' rgbaDictionary and hsbaDictionary methods!*
+<code>pod 'Colours'</code>
 
-<code>pod 'Colours', '~> 5.1.1'</code>
+or, for Swift:
+
+<code>pod 'Colours/Swift'</code>
 
 **NSColor**
 
 Colours supports <code>NSColor</code> out of the box! Just make sure you have the <code>AppKit</code> framework installed (it comes that way for a new application) and you will be set. This README uses UIColor for its examples, just substitute NSColor and the methods are all the same.
+
+**Swift**
+
+A Swift version of Colours now exists that contains everything in the Obj-C version except:
+
+* Color Components Dictionary (use the tuples instead)
+* Sorting/Comparing Colors
+* Distance between Colors
+
+Also, instead of dictionaries and arrays of color components, tuples are used instead. So instead of `[someRedColor rgbaArray]`, you would use `someRedColor.rgba()` which gives you a tuple of four `CGFloats` like `(1.0, 0.0, 0.0, 1.0)`. To get just the red value, you would write `someRedColor.rgba().r`.
 
 ## Table of Contents
 * [Color Palette](#color-palette)
@@ -28,11 +42,13 @@ Colours supports <code>NSColor</code> out of the box! Just make sure you have th
   * [CIELAB](#cielab)
   * [CMYK](#cmyk)
   * [Color Components](#color-components)
+  * [Darken/Lighten Components](#darkenlighten-colors)
   * [Black or White Contrasting Color](#black-or-white-contrasting-color)
   * [Complementary Color](#complementary-color)
 * [Distance between 2 Colors](#distance-between-2-colors)
 * [Generating Color Schemes](#generating-color-schemes)
 * [Android](#android)
+* [Xamarin](#xamarin)
 * [Reap What I Sow!](#reap-what-i-sow)
 
 ## Color Palette
@@ -162,6 +178,15 @@ CGFloat CIE_B = [[UIColor tomatoColor] CIE_b];
 CGFloat alpha = [[UIColor tomatoColor] alpha];
 ```
 
+#### Darken/Lighten Colors
+
+You can darken or lighten a color by using these methods. The only parameter is a percentage float from 0 -> 1, so a 25% lighter color would use the parameter 0.25.
+
+```objc
+UIColor *lighterColor = [[UIColor seafoamColor] lighten:0.25f];
+UIColor *darkerColor = [[UIColor seafoamColor] darken:0.25f];
+```
+
 #### Black or White Contrasting Color
 
 A lot of times you may want to put text on top of a view that is a certain color, and you want to be sure that it will look good on top of it. With this method you will return either white or black, depending on the how well each of them contrast on top of it. Here's how you use this:
@@ -234,7 +259,15 @@ Here are the different examples starting with a color scheme based off of <code>
 
 My friend, [Matt York](https://github.com/MatthewYork) ported a version of this repository over to Android, so you can use these exact same colors and color methods in your Android apps as well. You can find it here: [Colours for Android](https://github.com/MatthewYork/Colours).
 
+## Xamarin
+
+[akamud](https://github.com/akamud/) has graciously ported this library as a Xamarin Android component, which can be found at [https://github.com/akamud/Colours](https://github.com/akamud/Colours). An iOS Xamarin component is in the works as well.
+
 Reap What I Sow!
 ================
 
 This project is distributed under the standard MIT License. Please use this and twist it in whatever fashion you wish - and recommend any cool changes to help the code.
+
+
+[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/bennyguitar/colours/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
+
