@@ -1,0 +1,6 @@
+framework module TSDemo_VoiceRecognition {
+  umbrella header "TSDemo_VoiceRecognition-umbrella.h"
+
+  export *
+  module * { export * }
+}

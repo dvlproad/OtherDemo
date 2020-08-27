@@ -1,7 +1,7 @@
 {
   "name": "TSDemo_VoiceRecognition",
-  "version": "0.1.4",
-  "summary": "引导页 Guide 演示示例",
+  "version": "0.1.0",
+  "summary": "语音笔记 VoiceRecognition 演示示例",
   "homepage": "https://gitee.com/dvlproad/UIKit-Guide-iOS.git",
   "license": {
     "type": "Copyright",
@@ -16,15 +16,15 @@
   },
   "source": {
     "git": "https://gitee.com/dvlproad/UIKit-Guide-iOS.git",
-    "tag": "TSDemo_VoiceRecognition_0.1.4"
+    "tag": "TSDemo_VoiceRecognition_0.1.0"
   },
   "frameworks": "UIKit",
+  "vendored_frameworks": "TSDemo_VoiceRecognition/Framework/**/*.framework",
   "requires_arc": true,
-  "source_files": "TSDemo_VoiceRecognition/**/*.{h,m}",
+  "source_files": "TSDemo_VoiceRecognition/Src/**/*.{h,m}",
   "resource_bundles": {
     "TSDemo_VoiceRecognition": [
-      "TSDemo_VoiceRecognition/**/*.{xcassets}",
-      "TSDemo_VoiceRecognition/**/*.{bundle,mp4}"
+      "TSDemo_VoiceRecognition/**/*.{png,jpg}"
     ]
   },
   "dependencies": {

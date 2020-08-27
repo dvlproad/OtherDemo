@@ -7,15 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3530ACE6675F8414CEF246BA /* libPods-VoiceRecognitionTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D05FB231F1EBF79F89EA3B8 /* libPods-VoiceRecognitionTests.a */; };
-		7860446624F80C9400120811 /* XunFeiModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 7860445524F80C9300120811 /* XunFeiModel.m */; };
-		7860446724F80C9400120811 /* CJIFlySpeechManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 7860445624F80C9300120811 /* CJIFlySpeechManager.m */; };
-		7860446824F80C9400120811 /* TTSConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 7860445724F80C9300120811 /* TTSConfig.m */; };
-		7860446924F80C9400120811 /* iflyMSC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7860445C24F80C9400120811 /* iflyMSC.framework */; };
-		7860446A24F80C9400120811 /* CJIFlyRecognizerViewManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 7860445E24F80C9400120811 /* CJIFlyRecognizerViewManager.m */; };
-		7860446B24F80C9400120811 /* CJIFlyRecognizerNoViewManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 7860445F24F80C9400120811 /* CJIFlyRecognizerNoViewManager.m */; };
-		7860446C24F80C9400120811 /* ISRDataHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 7860446024F80C9400120811 /* ISRDataHelper.m */; };
-		7860446D24F80C9400120811 /* IATConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 7860446324F80C9400120811 /* IATConfig.m */; };
+		115CC4840EED58FB7EFDE94C /* libPods-VoiceRecognitionTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 379112ADCCF2964421FBC3AC /* libPods-VoiceRecognitionTests.a */; };
+		2F29774A6BC378E901299478 /* libPods-VoiceRecognition.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D5C70D0635E013639B3DB38 /* libPods-VoiceRecognition.a */; };
 		786798151F5BF7180093283D /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 786798141F5BF7180093283D /* libz.tbd */; };
 		786798181F5BF9900093283D /* AppDelegate+UMMobClick.m in Sources */ = {isa = PBXBuildFile; fileRef = 786798171F5BF9900093283D /* AppDelegate+UMMobClick.m */; };
 		786798211F5C0A120093283D /* AppDelegate+AppStyle.m in Sources */ = {isa = PBXBuildFile; fileRef = 786798201F5C0A120093283D /* AppDelegate+AppStyle.m */; };
@@ -36,7 +29,6 @@
 		80710C1C1B7E6D5B00F343F3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 80710C1B1B7E6D5B00F343F3 /* Foundation.framework */; };
 		80710C1E1B7E6D6B00F343F3 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 80710C1D1B7E6D6B00F343F3 /* CoreGraphics.framework */; };
 		80710C231B7E718D00F343F3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 80710C221B7E718D00F343F3 /* InfoPlist.strings */; };
-		CAED6C7BC1DE2029A00635C0 /* libPods-VoiceRecognition.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A83B0F789C982B1D35DE90DC /* libPods-VoiceRecognition.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,23 +43,9 @@
 
 /* Begin PBXFileReference section */
 		27C851344F703E8FA22CDE3F /* Pods-VoiceRecognitionTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VoiceRecognitionTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-VoiceRecognitionTests/Pods-VoiceRecognitionTests.release.xcconfig"; sourceTree = "<group>"; };
+		379112ADCCF2964421FBC3AC /* libPods-VoiceRecognitionTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-VoiceRecognitionTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D5C70D0635E013639B3DB38 /* libPods-VoiceRecognition.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-VoiceRecognition.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		47B54E11B67DC3481436DFDC /* Pods-VoiceRecognition.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VoiceRecognition.debug.xcconfig"; path = "Pods/Target Support Files/Pods-VoiceRecognition/Pods-VoiceRecognition.debug.xcconfig"; sourceTree = "<group>"; };
-		4D05FB231F1EBF79F89EA3B8 /* libPods-VoiceRecognitionTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-VoiceRecognitionTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		7860445424F80C9300120811 /* TTSConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTSConfig.h; sourceTree = "<group>"; };
-		7860445524F80C9300120811 /* XunFeiModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XunFeiModel.m; sourceTree = "<group>"; };
-		7860445624F80C9300120811 /* CJIFlySpeechManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CJIFlySpeechManager.m; sourceTree = "<group>"; };
-		7860445724F80C9300120811 /* TTSConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTSConfig.m; sourceTree = "<group>"; };
-		7860445824F80C9400120811 /* CJIFlySpeechManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CJIFlySpeechManager.h; sourceTree = "<group>"; };
-		7860445924F80C9400120811 /* XunFeiModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XunFeiModel.h; sourceTree = "<group>"; };
-		7860445C24F80C9400120811 /* iflyMSC.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = iflyMSC.framework; sourceTree = "<group>"; };
-		7860445E24F80C9400120811 /* CJIFlyRecognizerViewManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CJIFlyRecognizerViewManager.m; sourceTree = "<group>"; };
-		7860445F24F80C9400120811 /* CJIFlyRecognizerNoViewManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CJIFlyRecognizerNoViewManager.m; sourceTree = "<group>"; };
-		7860446024F80C9400120811 /* ISRDataHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ISRDataHelper.m; sourceTree = "<group>"; };
-		7860446124F80C9400120811 /* IATConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IATConfig.h; sourceTree = "<group>"; };
-		7860446224F80C9400120811 /* CJIFlyRecognizerViewManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CJIFlyRecognizerViewManager.h; sourceTree = "<group>"; };
-		7860446324F80C9400120811 /* IATConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IATConfig.m; sourceTree = "<group>"; };
-		7860446424F80C9400120811 /* ISRDataHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ISRDataHelper.h; sourceTree = "<group>"; };
-		7860446524F80C9400120811 /* CJIFlyRecognizerNoViewManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CJIFlyRecognizerNoViewManager.h; sourceTree = "<group>"; };
 		786798141F5BF7180093283D /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
 		786798161F5BF9900093283D /* AppDelegate+UMMobClick.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "AppDelegate+UMMobClick.h"; sourceTree = "<group>"; };
 		786798171F5BF9900093283D /* AppDelegate+UMMobClick.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "AppDelegate+UMMobClick.m"; sourceTree = "<group>"; };
@@ -98,7 +76,6 @@
 		80710C1D1B7E6D6B00F343F3 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		80710C221B7E718D00F343F3 /* InfoPlist.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = InfoPlist.strings; sourceTree = "<group>"; };
 		8F545175F365EA1A49984B10 /* Pods-VoiceRecognitionTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VoiceRecognitionTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-VoiceRecognitionTests/Pods-VoiceRecognitionTests.debug.xcconfig"; sourceTree = "<group>"; };
-		A83B0F789C982B1D35DE90DC /* libPods-VoiceRecognition.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-VoiceRecognition.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F1D9A83AABEB5A800C1C58EF /* Pods-VoiceRecognition.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VoiceRecognition.release.xcconfig"; path = "Pods/Target Support Files/Pods-VoiceRecognition/Pods-VoiceRecognition.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -114,10 +91,9 @@
 				80710C1C1B7E6D5B00F343F3 /* Foundation.framework in Frameworks */,
 				80710C1A1B7E6D4700F343F3 /* AVFoundation.framework in Frameworks */,
 				80710C181B7E6D4100F343F3 /* SystemConfiguration.framework in Frameworks */,
-				7860446924F80C9400120811 /* iflyMSC.framework in Frameworks */,
 				80710C161B7E6D3700F343F3 /* AudioToolbox.framework in Frameworks */,
 				80710C141B7E6D2D00F343F3 /* AddressBook.framework in Frameworks */,
-				CAED6C7BC1DE2029A00635C0 /* libPods-VoiceRecognition.a in Frameworks */,
+				2F29774A6BC378E901299478 /* libPods-VoiceRecognition.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -125,7 +101,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3530ACE6675F8414CEF246BA /* libPods-VoiceRecognitionTests.a in Frameworks */,
+				115CC4840EED58FB7EFDE94C /* libPods-VoiceRecognitionTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -155,64 +131,10 @@
 				80710C171B7E6D4100F343F3 /* SystemConfiguration.framework */,
 				80710C151B7E6D3700F343F3 /* AudioToolbox.framework */,
 				80710C131B7E6D2D00F343F3 /* AddressBook.framework */,
-				A83B0F789C982B1D35DE90DC /* libPods-VoiceRecognition.a */,
-				4D05FB231F1EBF79F89EA3B8 /* libPods-VoiceRecognitionTests.a */,
+				3D5C70D0635E013639B3DB38 /* libPods-VoiceRecognition.a */,
+				379112ADCCF2964421FBC3AC /* libPods-VoiceRecognitionTests.a */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		7860445224F80C9300120811 /* CJIFly */ = {
-			isa = PBXGroup;
-			children = (
-				7860445324F80C9300120811 /* Speak */,
-				7860445A24F80C9400120811 /* Framework */,
-				7860445D24F80C9400120811 /* Recognizer */,
-			);
-			path = CJIFly;
-			sourceTree = "<group>";
-		};
-		7860445324F80C9300120811 /* Speak */ = {
-			isa = PBXGroup;
-			children = (
-				7860445424F80C9300120811 /* TTSConfig.h */,
-				7860445524F80C9300120811 /* XunFeiModel.m */,
-				7860445624F80C9300120811 /* CJIFlySpeechManager.m */,
-				7860445724F80C9300120811 /* TTSConfig.m */,
-				7860445824F80C9400120811 /* CJIFlySpeechManager.h */,
-				7860445924F80C9400120811 /* XunFeiModel.h */,
-			);
-			path = Speak;
-			sourceTree = "<group>";
-		};
-		7860445A24F80C9400120811 /* Framework */ = {
-			isa = PBXGroup;
-			children = (
-				7860445B24F80C9400120811 /* iflyMSC_55d0c2fb */,
-			);
-			path = Framework;
-			sourceTree = "<group>";
-		};
-		7860445B24F80C9400120811 /* iflyMSC_55d0c2fb */ = {
-			isa = PBXGroup;
-			children = (
-				7860445C24F80C9400120811 /* iflyMSC.framework */,
-			);
-			path = iflyMSC_55d0c2fb;
-			sourceTree = "<group>";
-		};
-		7860445D24F80C9400120811 /* Recognizer */ = {
-			isa = PBXGroup;
-			children = (
-				7860445E24F80C9400120811 /* CJIFlyRecognizerViewManager.m */,
-				7860445F24F80C9400120811 /* CJIFlyRecognizerNoViewManager.m */,
-				7860446024F80C9400120811 /* ISRDataHelper.m */,
-				7860446124F80C9400120811 /* IATConfig.h */,
-				7860446224F80C9400120811 /* CJIFlyRecognizerViewManager.h */,
-				7860446324F80C9400120811 /* IATConfig.m */,
-				7860446424F80C9400120811 /* ISRDataHelper.h */,
-				7860446524F80C9400120811 /* CJIFlyRecognizerNoViewManager.h */,
-			);
-			path = Recognizer;
 			sourceTree = "<group>";
 		};
 		80710B8F1B7E5DAE00F343F3 = {
@@ -246,7 +168,6 @@
 				786798201F5C0A120093283D /* AppDelegate+AppStyle.m */,
 				786798161F5BF9900093283D /* AppDelegate+UMMobClick.h */,
 				786798171F5BF9900093283D /* AppDelegate+UMMobClick.m */,
-				7860445224F80C9300120811 /* CJIFly */,
 				80710BA21B7E5DAE00F343F3 /* ViewController.h */,
 				80710BA31B7E5DAE00F343F3 /* ViewController.m */,
 				80710BA51B7E5DAE00F343F3 /* Main.storyboard */,
@@ -295,7 +216,7 @@
 				80710B941B7E5DAE00F343F3 /* Sources */,
 				80710B951B7E5DAE00F343F3 /* Frameworks */,
 				80710B961B7E5DAE00F343F3 /* Resources */,
-				987DB795A1510B8777B46839 /* [CP] Copy Pods Resources */,
+				E63BAA53CE9D4D8D064E3022 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -404,7 +325,25 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		987DB795A1510B8777B46839 /* [CP] Copy Pods Resources */ = {
+		D2C6968223C541B2E9FBA9BA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-VoiceRecognition-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E63BAA53CE9D4D8D064E3022 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -424,24 +363,6 @@
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-VoiceRecognition/Pods-VoiceRecognition-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		D2C6968223C541B2E9FBA9BA /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-VoiceRecognition-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -449,16 +370,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7860446824F80C9400120811 /* TTSConfig.m in Sources */,
-				7860446624F80C9400120811 /* XunFeiModel.m in Sources */,
 				786798181F5BF9900093283D /* AppDelegate+UMMobClick.m in Sources */,
-				7860446A24F80C9400120811 /* CJIFlyRecognizerViewManager.m in Sources */,
 				78E377CD1F5DA5F200F2F8C8 /* AppDelegate+IFly.m in Sources */,
 				80710BA41B7E5DAE00F343F3 /* ViewController.m in Sources */,
-				7860446C24F80C9400120811 /* ISRDataHelper.m in Sources */,
-				7860446D24F80C9400120811 /* IATConfig.m in Sources */,
-				7860446724F80C9400120811 /* CJIFlySpeechManager.m in Sources */,
-				7860446B24F80C9400120811 /* CJIFlyRecognizerNoViewManager.m in Sources */,
 				80710BA11B7E5DAE00F343F3 /* AppDelegate.m in Sources */,
 				80710B9E1B7E5DAE00F343F3 /* main.m in Sources */,
 				786798211F5C0A120093283D /* AppDelegate+AppStyle.m in Sources */,

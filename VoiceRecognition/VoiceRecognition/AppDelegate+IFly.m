@@ -7,8 +7,7 @@
 //
 
 #import "AppDelegate+IFly.h"
-
-#import "iflyMSC/IFlyMSC.h"
+#import <iflyMSC/iflyMSC.h>
 
 //#define APPID_VALUE           @"55d0c2fb"
 #define APPID_VALUE           @"56e005aa"

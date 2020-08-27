@@ -5,7 +5,7 @@ PODS:
   - Colours/ObjC (5.13.0)
   - Masonry (1.1.0)
   - SVProgressHUD (2.2.5)
-  - TSDemo_VoiceRecognition (0.1.4):
+  - TSDemo_VoiceRecognition (0.1.0):
     - CJBaseUIKit/UIColor
     - Colours
     - Masonry
@@ -33,9 +33,9 @@ SPEC CHECKSUMS:
   Colours: f24220c38f13deac88612667e9b4a7fb96b871d4
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
   SVProgressHUD: 1428aafac632c1f86f62aa4243ec12008d7a51d6
-  TSDemo_VoiceRecognition: 4f391c848626fe3fddfb0f1a1465e81989b1ccbd
+  TSDemo_VoiceRecognition: a7db909a7e148fef9d386758900611f8b3cc8b36
   UMengAnalytics-NO-IDFA: 16666e32edce5be44ae5b14aaaa7f3582e09d6ab
 
-PODFILE CHECKSUM: 2d6243fd8f7be5f0e6b0637200173add37b7444d
+PODFILE CHECKSUM: 866122a073f8d5c5fae0bc131c3cad192f27a9f0
 
 COCOAPODS: 1.9.3

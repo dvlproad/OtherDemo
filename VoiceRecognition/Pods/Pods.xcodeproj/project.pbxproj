@@ -20,72 +20,106 @@
 
 /* Begin PBXBuildFile section */
 		0096B5A8BA8E4F2BFD8839D0FE7CD696 /* MASLayoutConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 54096ADB48A8CB3F3A97B319C99A4902 /* MASLayoutConstraint.m */; };
+		00E42E0D9C12390B46BA3CC8533A7397 /* ISRDataHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = A2A975FD3020B107B2A46004776AFF84 /* ISRDataHelper.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		0358586D75F9797FC4D107ECE2F2749C /* XunFeiModel.h in Headers */ = {isa = PBXBuildFile; fileRef = E07390C512A6A9E7EE802E0E8FD5AAC1 /* XunFeiModel.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		0A74F89C5C27FE1993322D2B994C4E4E /* NoteListController.h in Headers */ = {isa = PBXBuildFile; fileRef = 05B2517999EE3A5CAD170731FCA733BA /* NoteListController.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		0B49E88AAA52A36EAD3FA6E921F4A3CF /* CJBaseUIKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B1A0799AEAD3C4E44276B8B5E541A2C9 /* CJBaseUIKit-dummy.m */; };
-		0C1EEC3968E46ECDB339B4750E1973C7 /* VNNote.m in Sources */ = {isa = PBXBuildFile; fileRef = 153E3896A49476E14A2B05FBFE21BF4B /* VNNote.m */; };
+		10ABFFA43026EC384A2B846AF8273648 /* ic_more_white@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 009199BB69CAF5DEB6055D6948619106 /* ic_more_white@2x.png */; };
 		115ACCE253A886181B55773DDC70D6ED /* MASViewConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = 8280E85E0C5E7457F20939C09443678C /* MASViewConstraint.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		16329931AD8CDCB1BB59D74A63C82B5A /* IATConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = C67FADF8DC52FEF667F27290DA457789 /* IATConfig.m */; };
+		1CFB98AFCE9C8E70770C474A951188CD /* VNConstants.h in Headers */ = {isa = PBXBuildFile; fileRef = EC4E58740AC954E215939EEF9A97074C /* VNConstants.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		1E5D56FF58658F9F45723CA2940489EE /* MASConstraintMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = 224D7BAC27DC018D06742CB8B5FE8221 /* MASConstraintMaker.m */; };
-		25C4AEBECDC4027745BA4153EF0DECC1 /* NoteListCell.h in Headers */ = {isa = PBXBuildFile; fileRef = BB9110C2049021F59B609612D51B887C /* NoteListCell.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		1F984CCF6C924C79AD536CFC9AFFB113 /* guide_login_logo@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E916FEFE7A62A7C266D49EC1692ADD4E /* guide_login_logo@2x.png */; };
+		26E8D3FAE1B655872EB53407571D99EB /* AppContext.h in Headers */ = {isa = PBXBuildFile; fileRef = CEEB48D4DF097FD4D9109AA2FEB87747 /* AppContext.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		28EE1597D49EEC635522C951B57940C5 /* SVProgressAnimatedView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AA1AB2A90FB708D9681DE5234294035 /* SVProgressAnimatedView.m */; };
 		2BBFBBB985DD62932C499F6A0258E6C2 /* Colours-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F75BAC8FD54E57D4C3E92ECC2C4C31C0 /* Colours-dummy.m */; };
+		34C8239F324EA4029F6CC2377C284188 /* guide_login_bg.png in Resources */ = {isa = PBXBuildFile; fileRef = 9890E2A7F2C5A149D5A943E1B0EC8B1E /* guide_login_bg.png */; };
+		3AE1D246D05D73A0B06E7AEFE7B73AAA /* VNNote.m in Sources */ = {isa = PBXBuildFile; fileRef = 1817B029BB53E071E830DB5D6586415B /* VNNote.m */; };
 		42947699890A199B08A896144A878D80 /* MASViewAttribute.h in Headers */ = {isa = PBXBuildFile; fileRef = 4D6963C626CA2076C6AA1FCE6B19ED7C /* MASViewAttribute.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		46692A2E77157B00827182C8DC686F72 /* View+MASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = F48E79F6A566182FFE974CDF193B709A /* View+MASAdditions.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		4971C5D36C8DB492740A46B331AB537D /* SVProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = F6DBF6F18210DEE60345669BD3F2797A /* SVProgressHUD.m */; };
-		4BDCCD26DB2D4B86C0B9EA5FC725131E /* NoteListController.m in Sources */ = {isa = PBXBuildFile; fileRef = 83675CBC0C72AD9EF43BED1731EB1528 /* NoteListController.m */; };
+		4A2006F587825DFB3C4530EBB942EED1 /* VNNoteManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 72C1EE6347526C0308AD963B019B6B68 /* VNNoteManager.m */; };
+		4BF7791787589792FC69CAB5D413E4B7 /* TTSConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CEE609C7CAC7FC93A0B10CC070F08E4 /* TTSConfig.m */; };
 		4CE091F886EC6324673EFE0AEBBEA0FE /* MASConstraint+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = C41DB24FD9AA9F032C259A0726D9AF19 /* MASConstraint+Private.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		545325DBA1132F1E2DA1C20B95108395 /* SVIndefiniteAnimatedView.m in Sources */ = {isa = PBXBuildFile; fileRef = CA3C8E3DFF85F312B88AD35C3C7900F8 /* SVIndefiniteAnimatedView.m */; };
-		553D8FFD371F5527E044D3A8BB6F9044 /* TSDemo_VoiceRecognition-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0585CAAF83A1F8B72DD3D7284738146F /* TSDemo_VoiceRecognition-dummy.m */; };
 		572D05B146EAA3EF5530A0D0E34904A0 /* MASViewConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EF8CCBEFAF32BA04F19013B46E1DCF5 /* MASViewConstraint.m */; };
 		59EA578EED8BAC126FDC60C32AE11521 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = EF699300FD5F22449A090C3EF754C779 /* NSLayoutConstraint+MASDebugAdditions.m */; };
+		5DA72E812D8C594F603CE376E3D85D01 /* ISRDataHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = F29131B273861BEBFDB173B86C450791 /* ISRDataHelper.m */; };
+		634344526B4F2EDBCEA4EF7468608E11 /* edit_file@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3BC60D0945ADDC7AFB99328FCDA6BB09 /* edit_file@2x.png */; };
 		63F87C318437740E8202E4D3DD0826FA /* MASCompositeConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 692B03619DEE381B55FC2C4D8748972B /* MASCompositeConstraint.m */; };
 		65E88072A2BDC576BFC85E67EF9FBBC6 /* MASUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = 035126F33269B19F83B4E53C21FF1F91 /* MASUtilities.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		66793A3DF4C92383C5E46BE09333651C /* save@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9CC5DC781B064904DDBAE6B187F7BD4F /* save@2x.png */; };
 		67548AC5A5DB38F08985105CBCB66F68 /* UIColor+CJHex.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D6A7C49B0C40A187C9AC9DD1F6D95B3 /* UIColor+CJHex.m */; };
-		719742BCEA8138D3D578D32AF16EB515 /* NoteListController.h in Headers */ = {isa = PBXBuildFile; fileRef = 4C00EDCE933B12EFB9C2A1ECFD7BA982 /* NoteListController.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		757BDE8ABE9FF882A04F4F4F954980EF /* VNNoteManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 526E179680CB3F2242954CCD1879A922 /* VNNoteManager.m */; };
+		6B1453E97125B0895951604BF192A849 /* TTSConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = 5C1FA8AB4E9DC32C1F1D5C4ACB4FB9DA /* TTSConfig.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		6B44B3323B7DEBACAFEEAA02EFCDA70A /* micro@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BE25092AAE5739AEB0A5438A24EE159E /* micro@2x.png */; };
+		75807544F1499F309AC48928A04AB2C4 /* VNNoteManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 2C579A6DEEADB801D96FEEFF4E8963FB /* VNNoteManager.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		76343A6F4C9B68AFD9AAAB7D8D813AE6 /* people_MaskWhite.png in Resources */ = {isa = PBXBuildFile; fileRef = 4FEC6CFDEF6CD0C6475403985A5E90DB /* people_MaskWhite.png */; };
+		78327AD28D2F1547C7725940EC1D98CC /* IATConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = F8522010AF4F409064A64CE9180C983E /* IATConfig.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		7B5AD17C21B3D05748F650F75E165797 /* NoteListCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 81C2B3C71AAF3A5ADF32F4C78FFC6629 /* NoteListCell.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		7B617E7568A867D6A220CD7FAA64DC94 /* CJIFlyRecognizerNoViewManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F315CF6B30C356C19D2DC4E3F342734F /* CJIFlyRecognizerNoViewManager.m */; };
 		7CF2AC7A3B3ED03B30C1E4ED662B0551 /* MASLayoutConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = 28DFE26A81039839BADD4EBDB986F459 /* MASLayoutConstraint.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		7D1E6E6A8E6349A1DD98C64BE3DA610D /* ic_add_tab@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F318A07D5492CABE117CB9781A54AF5F /* ic_add_tab@2x.png */; };
 		806079535E83CCA2A5AC96C839015755 /* Pods-VoiceRecognition-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 06A70AEEA1E915AEB8FE5DCF6B524993 /* Pods-VoiceRecognition-dummy.m */; };
 		81F811A56B6724F7E8E2D25364E595E3 /* NSArray+MASShorthandAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 43143AD7EB93733C2D9129AA90649F59 /* NSArray+MASShorthandAdditions.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		840E57E9ABA94F15DDEC43814FBA91C8 /* AppContext.m in Sources */ = {isa = PBXBuildFile; fileRef = 58DB0A3AA6964B881B60F10AF0845ED3 /* AppContext.m */; };
 		8649FA19DB7585214273380164946561 /* SVIndefiniteAnimatedView.h in Headers */ = {isa = PBXBuildFile; fileRef = 143B13C6218CFBB9D52CA0627F530C05 /* SVIndefiniteAnimatedView.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		88ADA23AE02F54A4F087C91377DFB2E2 /* NoteDetailController.h in Headers */ = {isa = PBXBuildFile; fileRef = 42BF9BDF65E1120466BB0CC594340B71 /* NoteDetailController.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		8F31BF026A1DCFACFA01D4885757EBA4 /* CJIFlySpeechManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 9D63EA3F5ADD194BC5A8F72913249B45 /* CJIFlySpeechManager.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		8F965111F35A46D2FC392F6E4A18A529 /* NoteListCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FE3592998B57B5624961B316791224B /* NoteListCell.m */; };
+		904E5B61BFE14C1D73715C77511144E6 /* guide_login_bg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9F8B0ADE18E4D598641115D8D03D1241 /* guide_login_bg@2x.png */; };
+		90BAD093ED44CE97B710E6AB597AD1C0 /* CJIFlyRecognizerViewManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 96F297D93FED243DFB450B6607EA1738 /* CJIFlyRecognizerViewManager.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		9194B58ACE900ED6BAE6AD92E24A2CFF /* MASConstraintMaker.h in Headers */ = {isa = PBXBuildFile; fileRef = D3326C88EC554C8B2229A436BC129B40 /* MASConstraintMaker.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		92BF70E9D3285561EB404A7C4A4A6DEE /* MASCompositeConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = C1BBD6BD59CB85964A5CC75887A33315 /* MASCompositeConstraint.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		98CBB65CBDDCFD98307A3004D10EB280 /* VNNoteManager.h in Headers */ = {isa = PBXBuildFile; fileRef = A4AD8E54C8190360EBE27C52237287C7 /* VNNoteManager.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		96C29AFFB098B4B1595ADC4900CA8591 /* VNNote.h in Headers */ = {isa = PBXBuildFile; fileRef = AFE181450BE3A332D3FA63244B077C5F /* VNNote.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		98988F12F1332EB204DB5E390F0365D7 /* CJIFlySpeechManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F619F6CFDC586BBD42EEF9DB90DEE731 /* CJIFlySpeechManager.m */; };
+		99AA9E3A10725796102E6722F298B747 /* NoteListController.m in Sources */ = {isa = PBXBuildFile; fileRef = 89A6B39A82B56F5FB296B6ED3FC035B0 /* NoteListController.m */; };
 		9E6A86D1D3983E3AD2802CA2B480D515 /* SVProgressHUD-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D6916283F782FE4748EEFB0C8A8DB66 /* SVProgressHUD-dummy.m */; };
+		A15DF63788AF240F539E014E9FA59A2C /* CJIFlyRecognizerViewManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 79D4687178834C2709F5F115D0FC4924 /* CJIFlyRecognizerViewManager.m */; };
 		A3307B8FB6EE0A049DBAE3AA4D2C6DA0 /* View+MASShorthandAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = ACE26DD0F1D94C665909236FCE3CBD48 /* View+MASShorthandAdditions.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		A400DD6A0F22DE439889BB0974BFE357 /* NoteListCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B356BC12822429DC34135C95096F0642 /* NoteListCell.m */; };
 		A893FFB0F9137E298D6752729850D1D6 /* MASViewAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = F5C1BFC7242F24857A91B165EEB62B1F /* MASViewAttribute.m */; };
+		ABB11A9CF2A17BD19F4E1DD078A4F566 /* people_Mask.png in Resources */ = {isa = PBXBuildFile; fileRef = 0A746E0F89593A1FF18AB15005C8A864 /* people_Mask.png */; };
 		AF559EEBDEEDF421756966862ED3E746 /* SVProgressHUD.h in Headers */ = {isa = PBXBuildFile; fileRef = B81C30D7E8984C338293527D21D5C190 /* SVProgressHUD.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		B20A0E5D8F9BCED1A82793C4BE9E7258 /* Masonry.h in Headers */ = {isa = PBXBuildFile; fileRef = 6855EDDD9F69480067A19805217925C9 /* Masonry.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		B37B7A19CA6578C94DE842C6A1A11A23 /* Colours.h in Headers */ = {isa = PBXBuildFile; fileRef = 48B133E3C671A409A1AA5B7BD57A2EE7 /* Colours.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		B6E9F584D71E36D5F13684C7DA925756 /* VNConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = 83B119DE7FB089EFC19828CC52B96A2C /* VNConstants.m */; };
 		B796CDF20442DA77BE4A0E746DAA523F /* Pods-VoiceRecognitionTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 278D7738B7D773BE04DC4D1C73775647 /* Pods-VoiceRecognitionTests-dummy.m */; };
-		B7983BD97A2296CA2A95327ECFB53671 /* VNConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = C7E5BB0DF2C492FD81374F0565D92BD8 /* VNConstants.m */; };
-		B7C7DECC1707ECE2961E2679B72F764F /* AppContext.h in Headers */ = {isa = PBXBuildFile; fileRef = CE92F2E7D03186CDDC568A7804BF249C /* AppContext.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		B946AFB1A725D85E07F645A7EF086383 /* NSArray+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A68D6C7F2F3A9D8A26947FD3A37D514 /* NSArray+MASAdditions.m */; };
-		BA1C9C3C4BB925B6E5A1783541A34653 /* NoteDetailController.m in Sources */ = {isa = PBXBuildFile; fileRef = 54B395AB644005731F6EB348B2C8EE38 /* NoteDetailController.m */; };
 		BC1E3204EC43D67B6BB44B1F4A39E5B7 /* Colours.m in Sources */ = {isa = PBXBuildFile; fileRef = 098ADDA8EFA594EA74F542EFDBB81643 /* Colours.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
 		C05FC6699632FE712174ED875A605410 /* ViewController+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D32A554452755D5F9833DD0A2C2792B /* ViewController+MASAdditions.m */; };
-		C685C5D5A89F0816015A8E11A69F3113 /* AppContext.m in Sources */ = {isa = PBXBuildFile; fileRef = C70210BD241826D749D941AAE8CE8790 /* AppContext.m */; };
 		C74D2E856ADC8139CD00DBD184061B23 /* NSLayoutConstraint+MASDebugAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = A4D54B9C9E712BBB6AF81CCC2DE1D872 /* NSLayoutConstraint+MASDebugAdditions.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		C7920681F0164686C56327ED3C6AAC58 /* View+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = CFABF34AB269B59E821D1E5B9ED99FB7 /* View+MASAdditions.m */; };
+		CD84B1D4BB35440F49C1ED75CE15A674 /* edit_image-50@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 68B470031F9D663DF9257090BDCE86F5 /* edit_image-50@2x.png */; };
+		D476FDFB87C40F6476D12C9061C523B5 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = FD66BFB159DC267D31BE2D55CD744908 /* icon.png */; };
 		D72EE0E749232B2C899702FC1C9402BB /* Masonry-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FE0EAE06703ACC726F93B4AF1859EE24 /* Masonry-dummy.m */; };
+		D7C7B1E7AA6E38338B7362279C11E3E9 /* CJIFlyRecognizerNoViewManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 69B85A29ABB1241A002EB26EB40A4D1E /* CJIFlyRecognizerNoViewManager.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		DC85A1CC87F3496C48D0CC2B09E5322F /* SVRadialGradientLayer.h in Headers */ = {isa = PBXBuildFile; fileRef = A5932E0DAE2C8E70F963B0C312094DD9 /* SVRadialGradientLayer.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		DE57FD36E1311C9E94FCA7D6BFF743EB /* VNConstants.h in Headers */ = {isa = PBXBuildFile; fileRef = B65B7B36F41557576BF73CBA0FD7D1D5 /* VNConstants.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		E2C7929F5C4C4A15BAD0146BB5B4AE28 /* NoteDetailController.h in Headers */ = {isa = PBXBuildFile; fileRef = 4E6765E222E0A3098E4BD4702A34EEC2 /* NoteDetailController.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		DDFB6E8ED1A2DF0D3960FE1E0F807D10 /* TSDemo_VoiceRecognition-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 451E4CF15F5C84CEFCDD8AAE920BAB75 /* TSDemo_VoiceRecognition-dummy.m */; };
+		E1DFA1624EA4F4483FFDE7F2BC67E6C2 /* NoteDetailController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D480DE665752E2B46C040391F91BB2 /* NoteDetailController.m */; };
 		E45D4C85C15D64B503F9B2A9ABF30A02 /* UIColor+CJHex.h in Headers */ = {isa = PBXBuildFile; fileRef = 05E53DA9A122C805299F6FA8168E4891 /* UIColor+CJHex.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		E56ED51862897266BF586BA26965E137 /* SVProgressAnimatedView.h in Headers */ = {isa = PBXBuildFile; fileRef = EE1E6D7CC000AED2B7CA34960B1FD3A7 /* SVProgressAnimatedView.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		E5E2D5CA8541F42E2118ADE495CDEE9C /* micro_small@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B1DF2D6A27DE08C730E2D64E9BA3C3C /* micro_small@2x.png */; };
 		E76935CFF4AF327F8D9A7C1935F7D900 /* ViewController+MASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 573A8664FBEF0BB865325EA9BAC6E3D6 /* ViewController+MASAdditions.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		E9629DE1850D4B704A7B2958FF9F1463 /* VNNote.h in Headers */ = {isa = PBXBuildFile; fileRef = 9171942EF4EE332AEDA41B60330E6F6B /* VNNote.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		EB663E3E1EB4BB670DC29B77DB330135 /* MASConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = 2A45A71AE6AC8A28F2F80F071F3EAD75 /* MASConstraint.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		EE936A6838005A5ED1BC5F74BE37B7BD /* MASConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = C440170405DFCC9166817D1EEB6997E6 /* MASConstraint.m */; };
+		EF0597EA40DA97DD1E38EA7873D8A2F0 /* XunFeiModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 76C361BCBECA10241FF3559587A69EFB /* XunFeiModel.m */; };
 		F1B75048874B8773E5568E6D3ACA12E4 /* NSArray+MASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = E22CED437831EEC278F2DFDF7F394A6B /* NSArray+MASAdditions.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		F469136DE2F0C917744B2169A95A73E5 /* SVRadialGradientLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 93D5EFBCE35C64BB86CFED5C51728A49 /* SVRadialGradientLayer.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		1D01DB1947B66023BC9594279240F7DB /* PBXContainerItemProxy */ = {
+		00CF54D3B6A1A7C27F256BB897EF964A /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 2194BB176C539E559DB8A48642253D85;
-			remoteInfo = Colours;
+			remoteGlobalIDString = 55AF53E6C77A10ED4985E04D74A8878E;
+			remoteInfo = Masonry;
+		};
+		1E97B9AF944A1DCC2A5C021A1EE52864 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 89F0906959A92FA74A90EF28F8CF32DC;
+			remoteInfo = "TSDemo_VoiceRecognition-TSDemo_VoiceRecognition";
 		};
 		2D962A0BAC1587EE6D11A910646DA739 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -94,6 +128,13 @@
 			remoteGlobalIDString = 539116388AD5B46E1E2C8008D5B51F27;
 			remoteInfo = TSDemo_VoiceRecognition;
 		};
+		36C0D9BF6420E81D576CE88B2777CBAA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2194BB176C539E559DB8A48642253D85;
+			remoteInfo = Colours;
+		};
 		3774B4258C0E418B58B3D88777E291F6 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
@@ -101,26 +142,19 @@
 			remoteGlobalIDString = 1C8D67D8B72D6BA42CCEDB648537A340;
 			remoteInfo = SVProgressHUD;
 		};
-		3F2B14E4323A340A8C31C44E7CFD7B62 /* PBXContainerItemProxy */ = {
+		5CF0F771832853F0D41329E7BA9A9873 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 1C8D67D8B72D6BA42CCEDB648537A340;
 			remoteInfo = SVProgressHUD;
 		};
-		50ECFBC7D5FCDB6F91E0D3497C83A55F /* PBXContainerItemProxy */ = {
+		7E2126B6358CFA0898E2051DDD647580 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 31936AD642017976266B9ED39110F157;
 			remoteInfo = CJBaseUIKit;
-		};
-		821D5F6ECD36CDD68FE62C8EF81EB981 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 89F0906959A92FA74A90EF28F8CF32DC;
-			remoteInfo = "TSDemo_VoiceRecognition-TSDemo_VoiceRecognition";
 		};
 		A6414ACFB8FD719AA764E6E4A967CD94 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -143,13 +177,6 @@
 			remoteGlobalIDString = 31936AD642017976266B9ED39110F157;
 			remoteInfo = CJBaseUIKit;
 		};
-		C99146F274B1C1C02A084B66EBF44952 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 55AF53E6C77A10ED4985E04D74A8878E;
-			remoteInfo = Masonry;
-		};
 		F1A3D738F2239B140A1969D69BE6ADFF /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
@@ -160,19 +187,24 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		009199BB69CAF5DEB6055D6948619106 /* ic_more_white@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "ic_more_white@2x.png"; path = "TSDemo_VoiceRecognition/Resources/ic_more_white@2x.png"; sourceTree = "<group>"; };
 		035126F33269B19F83B4E53C21FF1F91 /* MASUtilities.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASUtilities.h; path = Masonry/MASUtilities.h; sourceTree = "<group>"; };
 		035758DA19ECFD08269417260EFF2A74 /* Pods-VoiceRecognitionTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-VoiceRecognitionTests-acknowledgements.plist"; sourceTree = "<group>"; };
 		055D1C43514CE099C92E7EB8D6A65E13 /* SVProgressHUD.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SVProgressHUD.release.xcconfig; sourceTree = "<group>"; };
-		0585CAAF83A1F8B72DD3D7284738146F /* TSDemo_VoiceRecognition-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TSDemo_VoiceRecognition-dummy.m"; sourceTree = "<group>"; };
+		05B2517999EE3A5CAD170731FCA733BA /* NoteListController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = NoteListController.h; sourceTree = "<group>"; };
+		05C6543B16C07963597FC6197B416843 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		05E53DA9A122C805299F6FA8168E4891 /* UIColor+CJHex.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIColor+CJHex.h"; path = "CJBaseUIKit/UIColor/UIColor+CJHex.h"; sourceTree = "<group>"; };
 		06A70AEEA1E915AEB8FE5DCF6B524993 /* Pods-VoiceRecognition-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-VoiceRecognition-dummy.m"; sourceTree = "<group>"; };
 		07C2C09269ABAD4C242A4654D61E3481 /* Masonry.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Masonry.debug.xcconfig; sourceTree = "<group>"; };
 		098ADDA8EFA594EA74F542EFDBB81643 /* Colours.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = Colours.m; sourceTree = "<group>"; };
+		0A746E0F89593A1FF18AB15005C8A864 /* people_Mask.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = people_Mask.png; path = TSDemo_VoiceRecognition/Resources/people_Mask.png; sourceTree = "<group>"; };
 		0CFF8E640F6D66C4DEEE261C37B86D19 /* Pods-VoiceRecognitionTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-VoiceRecognitionTests.release.xcconfig"; sourceTree = "<group>"; };
 		0D2D0520888DBC392C52C744472EAE56 /* Pods-VoiceRecognition-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-VoiceRecognition-acknowledgements.plist"; sourceTree = "<group>"; };
 		0EBC11F8053E147B292616D4DB6B6FDF /* Pods-VoiceRecognition-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-VoiceRecognition-acknowledgements.markdown"; sourceTree = "<group>"; };
 		143B13C6218CFBB9D52CA0627F530C05 /* SVIndefiniteAnimatedView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SVIndefiniteAnimatedView.h; path = SVProgressHUD/SVIndefiniteAnimatedView.h; sourceTree = "<group>"; };
-		153E3896A49476E14A2B05FBFE21BF4B /* VNNote.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = VNNote.m; sourceTree = "<group>"; };
+		1817B029BB53E071E830DB5D6586415B /* VNNote.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = VNNote.m; sourceTree = "<group>"; };
+		18D480DE665752E2B46C040391F91BB2 /* NoteDetailController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = NoteDetailController.m; sourceTree = "<group>"; };
+		1FE3592998B57B5624961B316791224B /* NoteListCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = NoteListCell.m; sourceTree = "<group>"; };
 		1FFED36A657123030ABB700256D73F15 /* libMasonry.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libMasonry.a; path = libMasonry.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		224D7BAC27DC018D06742CB8B5FE8221 /* MASConstraintMaker.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASConstraintMaker.m; path = Masonry/MASConstraintMaker.m; sourceTree = "<group>"; };
 		278D7738B7D773BE04DC4D1C73775647 /* Pods-VoiceRecognitionTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-VoiceRecognitionTests-dummy.m"; sourceTree = "<group>"; };
@@ -180,84 +212,107 @@
 		2A45A71AE6AC8A28F2F80F071F3EAD75 /* MASConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASConstraint.h; path = Masonry/MASConstraint.h; sourceTree = "<group>"; };
 		2A8E452D72788137234ADC0F80F9EB67 /* libPods-VoiceRecognition.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-VoiceRecognition.a"; path = "libPods-VoiceRecognition.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2AB92462EBFC0FED390B9DA51E37E57D /* SVProgressHUD.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = SVProgressHUD.bundle; path = SVProgressHUD/SVProgressHUD.bundle; sourceTree = "<group>"; };
+		2B1DF2D6A27DE08C730E2D64E9BA3C3C /* micro_small@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "micro_small@2x.png"; path = "TSDemo_VoiceRecognition/Resources/micro_small@2x.png"; sourceTree = "<group>"; };
 		2BEB8D1858A8134892DC8F89F39E0690 /* libTSDemo_VoiceRecognition.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libTSDemo_VoiceRecognition.a; path = libTSDemo_VoiceRecognition.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C579A6DEEADB801D96FEEFF4E8963FB /* VNNoteManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = VNNoteManager.h; sourceTree = "<group>"; };
 		2D81A54D9D3C80CCD7D3F4242188EACB /* libCJBaseUIKit.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libCJBaseUIKit.a; path = libCJBaseUIKit.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		2EF8CCBEFAF32BA04F19013B46E1DCF5 /* MASViewConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASViewConstraint.m; path = Masonry/MASViewConstraint.m; sourceTree = "<group>"; };
 		328CC860D7048487E1D289E9047C7B3C /* Masonry-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Masonry-prefix.pch"; sourceTree = "<group>"; };
-		34470AC0A3FB16BF230864A77BB991B1 /* TSDemo_VoiceRecognition.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = TSDemo_VoiceRecognition.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		35214236B326CBC59C43DFC38B3385DC /* Pods-VoiceRecognition.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-VoiceRecognition.debug.xcconfig"; sourceTree = "<group>"; };
 		3702556E2D0F5416F247C45F39D40A3B /* CJBaseUIKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CJBaseUIKit-prefix.pch"; sourceTree = "<group>"; };
 		384934A24B072A857579A8981CA78B34 /* libColours.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libColours.a; path = libColours.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		3A81E2BA1DA65F9C72979E72E6226AF2 /* TSDemo_VoiceRecognition.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TSDemo_VoiceRecognition.debug.xcconfig; sourceTree = "<group>"; };
 		3AA1AB2A90FB708D9681DE5234294035 /* SVProgressAnimatedView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SVProgressAnimatedView.m; path = SVProgressHUD/SVProgressAnimatedView.m; sourceTree = "<group>"; };
-		3D39112509BC3B4C4BC68CEFD5CCDD0F /* TSDemo_VoiceRecognition-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TSDemo_VoiceRecognition-prefix.pch"; sourceTree = "<group>"; };
+		3BC60D0945ADDC7AFB99328FCDA6BB09 /* edit_file@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "edit_file@2x.png"; path = "TSDemo_VoiceRecognition/Resources/edit_file@2x.png"; sourceTree = "<group>"; };
+		4134FDD5295E421E0399CE494D19ACC9 /* ResourceBundle-TSDemo_VoiceRecognition-TSDemo_VoiceRecognition-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-TSDemo_VoiceRecognition-TSDemo_VoiceRecognition-Info.plist"; sourceTree = "<group>"; };
+		42BF9BDF65E1120466BB0CC594340B71 /* NoteDetailController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = NoteDetailController.h; sourceTree = "<group>"; };
 		43143AD7EB93733C2D9129AA90649F59 /* NSArray+MASShorthandAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+MASShorthandAdditions.h"; path = "Masonry/NSArray+MASShorthandAdditions.h"; sourceTree = "<group>"; };
+		451E4CF15F5C84CEFCDD8AAE920BAB75 /* TSDemo_VoiceRecognition-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TSDemo_VoiceRecognition-dummy.m"; sourceTree = "<group>"; };
 		47FC7E9F025FDDB54DC87E5FC86F5603 /* Colours.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Colours.debug.xcconfig; sourceTree = "<group>"; };
 		48B133E3C671A409A1AA5B7BD57A2EE7 /* Colours.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = Colours.h; sourceTree = "<group>"; };
-		4C00EDCE933B12EFB9C2A1ECFD7BA982 /* NoteListController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = NoteListController.h; sourceTree = "<group>"; };
 		4D6963C626CA2076C6AA1FCE6B19ED7C /* MASViewAttribute.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASViewAttribute.h; path = Masonry/MASViewAttribute.h; sourceTree = "<group>"; };
 		4D6A7C49B0C40A187C9AC9DD1F6D95B3 /* UIColor+CJHex.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIColor+CJHex.m"; path = "CJBaseUIKit/UIColor/UIColor+CJHex.m"; sourceTree = "<group>"; };
-		4E6765E222E0A3098E4BD4702A34EEC2 /* NoteDetailController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = NoteDetailController.h; sourceTree = "<group>"; };
-		522BE519BAF71E98283FA1962C86E80F /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		526E179680CB3F2242954CCD1879A922 /* VNNoteManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = VNNoteManager.m; sourceTree = "<group>"; };
+		4FEC6CFDEF6CD0C6475403985A5E90DB /* people_MaskWhite.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = people_MaskWhite.png; path = TSDemo_VoiceRecognition/Resources/people_MaskWhite.png; sourceTree = "<group>"; };
 		54096ADB48A8CB3F3A97B319C99A4902 /* MASLayoutConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASLayoutConstraint.m; path = Masonry/MASLayoutConstraint.m; sourceTree = "<group>"; };
-		54B395AB644005731F6EB348B2C8EE38 /* NoteDetailController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = NoteDetailController.m; sourceTree = "<group>"; };
 		573A8664FBEF0BB865325EA9BAC6E3D6 /* ViewController+MASAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "ViewController+MASAdditions.h"; path = "Masonry/ViewController+MASAdditions.h"; sourceTree = "<group>"; };
+		58DB0A3AA6964B881B60F10AF0845ED3 /* AppContext.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = AppContext.m; sourceTree = "<group>"; };
 		5BF151BBC0C9D6201D68296C6D5914FF /* libPods-VoiceRecognitionTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-VoiceRecognitionTests.a"; path = "libPods-VoiceRecognitionTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5C1FA8AB4E9DC32C1F1D5C4ACB4FB9DA /* TTSConfig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TTSConfig.h; sourceTree = "<group>"; };
 		64BCA3CD6F74484E790C982C614BD415 /* Pods-VoiceRecognitionTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-VoiceRecognitionTests.debug.xcconfig"; sourceTree = "<group>"; };
 		6855EDDD9F69480067A19805217925C9 /* Masonry.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Masonry.h; path = Masonry/Masonry.h; sourceTree = "<group>"; };
+		68B470031F9D663DF9257090BDCE86F5 /* edit_image-50@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "edit_image-50@2x.png"; path = "TSDemo_VoiceRecognition/Resources/edit_image-50@2x.png"; sourceTree = "<group>"; };
 		692B03619DEE381B55FC2C4D8748972B /* MASCompositeConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASCompositeConstraint.m; path = Masonry/MASCompositeConstraint.m; sourceTree = "<group>"; };
+		69B85A29ABB1241A002EB26EB40A4D1E /* CJIFlyRecognizerNoViewManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CJIFlyRecognizerNoViewManager.h; sourceTree = "<group>"; };
 		69D70AF729E1682F3DA0AA000A607BC7 /* TSDemo_VoiceRecognition.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = TSDemo_VoiceRecognition.bundle; path = "TSDemo_VoiceRecognition-TSDemo_VoiceRecognition.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
-		771C70C22AD8AC95221DE395CD012DB2 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		6CEE609C7CAC7FC93A0B10CC070F08E4 /* TTSConfig.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = TTSConfig.m; sourceTree = "<group>"; };
+		6EE290EEBA8AE8691BFC6E724A6638A7 /* iflyMSC.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = iflyMSC.framework; path = TSDemo_VoiceRecognition/Framework/iflyMSC_55d0c2fb/iflyMSC.framework; sourceTree = "<group>"; };
+		711672229965F3DCA53E77460F2210A2 /* TSDemo_VoiceRecognition.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TSDemo_VoiceRecognition.release.xcconfig; sourceTree = "<group>"; };
+		72C1EE6347526C0308AD963B019B6B68 /* VNNoteManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = VNNoteManager.m; sourceTree = "<group>"; };
+		768C12D798C3C8C16235EDF649742865 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		76C361BCBECA10241FF3559587A69EFB /* XunFeiModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = XunFeiModel.m; sourceTree = "<group>"; };
+		79D4687178834C2709F5F115D0FC4924 /* CJIFlyRecognizerViewManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = CJIFlyRecognizerViewManager.m; sourceTree = "<group>"; };
+		81C2B3C71AAF3A5ADF32F4C78FFC6629 /* NoteListCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = NoteListCell.h; sourceTree = "<group>"; };
 		8280E85E0C5E7457F20939C09443678C /* MASViewConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASViewConstraint.h; path = Masonry/MASViewConstraint.h; sourceTree = "<group>"; };
-		83675CBC0C72AD9EF43BED1731EB1528 /* NoteListController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = NoteListController.m; sourceTree = "<group>"; };
+		83B119DE7FB089EFC19828CC52B96A2C /* VNConstants.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = VNConstants.m; sourceTree = "<group>"; };
 		897AC60F461E0C0EEFA355CA59D225A3 /* CJBaseUIKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CJBaseUIKit.debug.xcconfig; sourceTree = "<group>"; };
+		89A6B39A82B56F5FB296B6ED3FC035B0 /* NoteListController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = NoteListController.m; sourceTree = "<group>"; };
 		89D772270BFB772E76C29C8F6FE195D9 /* UMMobClick.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UMMobClick.framework; path = "umsdk_IOS_analyics_no-idfa_v4.2.5/UMMobClick.framework"; sourceTree = "<group>"; };
 		8D6916283F782FE4748EEFB0C8A8DB66 /* SVProgressHUD-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SVProgressHUD-dummy.m"; sourceTree = "<group>"; };
-		9171942EF4EE332AEDA41B60330E6F6B /* VNNote.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = VNNote.h; sourceTree = "<group>"; };
 		93D5EFBCE35C64BB86CFED5C51728A49 /* SVRadialGradientLayer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SVRadialGradientLayer.m; path = SVProgressHUD/SVRadialGradientLayer.m; sourceTree = "<group>"; };
+		96F297D93FED243DFB450B6607EA1738 /* CJIFlyRecognizerViewManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CJIFlyRecognizerViewManager.h; sourceTree = "<group>"; };
 		97C6FCAB9535351438547F499ABB01DD /* Masonry.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Masonry.release.xcconfig; sourceTree = "<group>"; };
 		97E4FA400166BE6264A6F33B3A247664 /* CJBaseUIKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CJBaseUIKit.release.xcconfig; sourceTree = "<group>"; };
+		9890E2A7F2C5A149D5A943E1B0EC8B1E /* guide_login_bg.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = guide_login_bg.png; path = TSDemo_VoiceRecognition/Resources/guide_login_bg.png; sourceTree = "<group>"; };
 		9A68D6C7F2F3A9D8A26947FD3A37D514 /* NSArray+MASAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSArray+MASAdditions.m"; path = "Masonry/NSArray+MASAdditions.m"; sourceTree = "<group>"; };
+		9CC5DC781B064904DDBAE6B187F7BD4F /* save@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "save@2x.png"; path = "TSDemo_VoiceRecognition/Resources/save@2x.png"; sourceTree = "<group>"; };
 		9D32A554452755D5F9833DD0A2C2792B /* ViewController+MASAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "ViewController+MASAdditions.m"; path = "Masonry/ViewController+MASAdditions.m"; sourceTree = "<group>"; };
+		9D63EA3F5ADD194BC5A8F72913249B45 /* CJIFlySpeechManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CJIFlySpeechManager.h; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A4AD8E54C8190360EBE27C52237287C7 /* VNNoteManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = VNNoteManager.h; sourceTree = "<group>"; };
+		9F8B0ADE18E4D598641115D8D03D1241 /* guide_login_bg@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "guide_login_bg@2x.png"; path = "TSDemo_VoiceRecognition/Resources/guide_login_bg@2x.png"; sourceTree = "<group>"; };
+		A2A975FD3020B107B2A46004776AFF84 /* ISRDataHelper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ISRDataHelper.h; sourceTree = "<group>"; };
 		A4D54B9C9E712BBB6AF81CCC2DE1D872 /* NSLayoutConstraint+MASDebugAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSLayoutConstraint+MASDebugAdditions.h"; path = "Masonry/NSLayoutConstraint+MASDebugAdditions.h"; sourceTree = "<group>"; };
 		A5932E0DAE2C8E70F963B0C312094DD9 /* SVRadialGradientLayer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SVRadialGradientLayer.h; path = SVProgressHUD/SVRadialGradientLayer.h; sourceTree = "<group>"; };
 		A9B6B8FDD831FCD7466D2CB17F8F494F /* Pods-VoiceRecognition.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-VoiceRecognition.release.xcconfig"; sourceTree = "<group>"; };
 		ACE26DD0F1D94C665909236FCE3CBD48 /* View+MASShorthandAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "View+MASShorthandAdditions.h"; path = "Masonry/View+MASShorthandAdditions.h"; sourceTree = "<group>"; };
 		AD81354000F5F0A1189774DCBB3D687A /* Colours-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Colours-prefix.pch"; sourceTree = "<group>"; };
 		AF9D8B02D86EE5312E7B2820240E5500 /* Pods-VoiceRecognition-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-VoiceRecognition-resources.sh"; sourceTree = "<group>"; };
+		AFE181450BE3A332D3FA63244B077C5F /* VNNote.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = VNNote.h; sourceTree = "<group>"; };
 		B1A0799AEAD3C4E44276B8B5E541A2C9 /* CJBaseUIKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CJBaseUIKit-dummy.m"; sourceTree = "<group>"; };
-		B356BC12822429DC34135C95096F0642 /* NoteListCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = NoteListCell.m; sourceTree = "<group>"; };
-		B65B7B36F41557576BF73CBA0FD7D1D5 /* VNConstants.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = VNConstants.h; sourceTree = "<group>"; };
 		B81C30D7E8984C338293527D21D5C190 /* SVProgressHUD.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SVProgressHUD.h; path = SVProgressHUD/SVProgressHUD.h; sourceTree = "<group>"; };
 		B96B79EE4333A410AF3999059D9E8C1B /* Pods-VoiceRecognitionTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-VoiceRecognitionTests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		BB9110C2049021F59B609612D51B887C /* NoteListCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = NoteListCell.h; sourceTree = "<group>"; };
+		BA0A8364F5389F287BB84D2F02C9DBD7 /* TSDemo_VoiceRecognition-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TSDemo_VoiceRecognition-prefix.pch"; sourceTree = "<group>"; };
+		BE25092AAE5739AEB0A5438A24EE159E /* micro@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "micro@2x.png"; path = "TSDemo_VoiceRecognition/Resources/micro@2x.png"; sourceTree = "<group>"; };
 		C1BBD6BD59CB85964A5CC75887A33315 /* MASCompositeConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASCompositeConstraint.h; path = Masonry/MASCompositeConstraint.h; sourceTree = "<group>"; };
 		C28C83EF7EE4001D0CDF71F74EB8F2C9 /* UMengAnalytics-NO-IDFA.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "UMengAnalytics-NO-IDFA.debug.xcconfig"; sourceTree = "<group>"; };
 		C41DB24FD9AA9F032C259A0726D9AF19 /* MASConstraint+Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "MASConstraint+Private.h"; path = "Masonry/MASConstraint+Private.h"; sourceTree = "<group>"; };
 		C440170405DFCC9166817D1EEB6997E6 /* MASConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASConstraint.m; path = Masonry/MASConstraint.m; sourceTree = "<group>"; };
-		C70210BD241826D749D941AAE8CE8790 /* AppContext.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = AppContext.m; sourceTree = "<group>"; };
-		C7E5BB0DF2C492FD81374F0565D92BD8 /* VNConstants.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = VNConstants.m; sourceTree = "<group>"; };
+		C67FADF8DC52FEF667F27290DA457789 /* IATConfig.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = IATConfig.m; sourceTree = "<group>"; };
 		CA3C8E3DFF85F312B88AD35C3C7900F8 /* SVIndefiniteAnimatedView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SVIndefiniteAnimatedView.m; path = SVProgressHUD/SVIndefiniteAnimatedView.m; sourceTree = "<group>"; };
-		CE92F2E7D03186CDDC568A7804BF249C /* AppContext.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AppContext.h; sourceTree = "<group>"; };
+		CEEB48D4DF097FD4D9109AA2FEB87747 /* AppContext.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = AppContext.h; sourceTree = "<group>"; };
 		CFABF34AB269B59E821D1E5B9ED99FB7 /* View+MASAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "View+MASAdditions.m"; path = "Masonry/View+MASAdditions.m"; sourceTree = "<group>"; };
 		D3326C88EC554C8B2229A436BC129B40 /* MASConstraintMaker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASConstraintMaker.h; path = Masonry/MASConstraintMaker.h; sourceTree = "<group>"; };
 		D38263B94D59787F7FCF6299B20F3C83 /* Colours.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Colours.release.xcconfig; sourceTree = "<group>"; };
 		D5F75327D125694EF04BFB3F42DE72D1 /* SVProgressHUD-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SVProgressHUD-prefix.pch"; sourceTree = "<group>"; };
 		DA1AADCC57501F3E32AC9C8D4C7DC384 /* UMengAnalytics-NO-IDFA.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "UMengAnalytics-NO-IDFA.release.xcconfig"; sourceTree = "<group>"; };
-		DC8D031A11BF8EF3F26B777FF27E4691 /* TSDemo_VoiceRecognition.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TSDemo_VoiceRecognition.release.xcconfig; sourceTree = "<group>"; };
+		E07390C512A6A9E7EE802E0E8FD5AAC1 /* XunFeiModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = XunFeiModel.h; sourceTree = "<group>"; };
 		E22CED437831EEC278F2DFDF7F394A6B /* NSArray+MASAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+MASAdditions.h"; path = "Masonry/NSArray+MASAdditions.h"; sourceTree = "<group>"; };
 		E25B18A941ADBBA085E008636D76126A /* SVProgressHUD.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SVProgressHUD.debug.xcconfig; sourceTree = "<group>"; };
+		E916FEFE7A62A7C266D49EC1692ADD4E /* guide_login_logo@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "guide_login_logo@2x.png"; path = "TSDemo_VoiceRecognition/Resources/guide_login_logo@2x.png"; sourceTree = "<group>"; };
 		E97D43C46A45EE515A4DA3AF94398441 /* libSVProgressHUD.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libSVProgressHUD.a; path = libSVProgressHUD.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		E99DCBDDAD53A3B156DCCC54611476D8 /* TSDemo_VoiceRecognition.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = TSDemo_VoiceRecognition.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		EC4E58740AC954E215939EEF9A97074C /* VNConstants.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = VNConstants.h; sourceTree = "<group>"; };
 		EE1E6D7CC000AED2B7CA34960B1FD3A7 /* SVProgressAnimatedView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SVProgressAnimatedView.h; path = SVProgressHUD/SVProgressAnimatedView.h; sourceTree = "<group>"; };
 		EF699300FD5F22449A090C3EF754C779 /* NSLayoutConstraint+MASDebugAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSLayoutConstraint+MASDebugAdditions.m"; path = "Masonry/NSLayoutConstraint+MASDebugAdditions.m"; sourceTree = "<group>"; };
+		F29131B273861BEBFDB173B86C450791 /* ISRDataHelper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ISRDataHelper.m; sourceTree = "<group>"; };
+		F315CF6B30C356C19D2DC4E3F342734F /* CJIFlyRecognizerNoViewManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = CJIFlyRecognizerNoViewManager.m; sourceTree = "<group>"; };
+		F318A07D5492CABE117CB9781A54AF5F /* ic_add_tab@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "ic_add_tab@2x.png"; path = "TSDemo_VoiceRecognition/Resources/ic_add_tab@2x.png"; sourceTree = "<group>"; };
 		F48E79F6A566182FFE974CDF193B709A /* View+MASAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "View+MASAdditions.h"; path = "Masonry/View+MASAdditions.h"; sourceTree = "<group>"; };
-		F539C02BAFBE4CFAD0E450B1F636C432 /* TSDemo_VoiceRecognition.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TSDemo_VoiceRecognition.debug.xcconfig; sourceTree = "<group>"; };
 		F5C1BFC7242F24857A91B165EEB62B1F /* MASViewAttribute.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASViewAttribute.m; path = Masonry/MASViewAttribute.m; sourceTree = "<group>"; };
+		F619F6CFDC586BBD42EEF9DB90DEE731 /* CJIFlySpeechManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = CJIFlySpeechManager.m; sourceTree = "<group>"; };
 		F6DBF6F18210DEE60345669BD3F2797A /* SVProgressHUD.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SVProgressHUD.m; path = SVProgressHUD/SVProgressHUD.m; sourceTree = "<group>"; };
 		F75BAC8FD54E57D4C3E92ECC2C4C31C0 /* Colours-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Colours-dummy.m"; sourceTree = "<group>"; };
-		F7F3CAD003BE8AEB214B11068B33A542 /* ResourceBundle-TSDemo_VoiceRecognition-TSDemo_VoiceRecognition-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-TSDemo_VoiceRecognition-TSDemo_VoiceRecognition-Info.plist"; sourceTree = "<group>"; };
+		F8522010AF4F409064A64CE9180C983E /* IATConfig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = IATConfig.h; sourceTree = "<group>"; };
+		FD66BFB159DC267D31BE2D55CD744908 /* icon.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = icon.png; path = TSDemo_VoiceRecognition/Resources/icon.png; sourceTree = "<group>"; };
 		FE0EAE06703ACC726F93B4AF1859EE24 /* Masonry-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Masonry-dummy.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -290,14 +345,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		7C1227F3185692E5E9D24A2DB2ED257C /* Frameworks */ = {
+		85986F19340D672D2C0D88B14AF5C57D /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		85986F19340D672D2C0D88B14AF5C57D /* Frameworks */ = {
+		8DB40376E9B1E89BB3A0B78FF7B4B2F4 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -311,7 +366,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A20E323D7887C1511F45D3A07DF7BE99 /* Frameworks */ = {
+		B6FB8C58F03F17A6EBC662B39F26E5E5 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -321,16 +376,38 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0ABA4113D11DB656FABAFD38D75F7B2C /* TSDemo_VoiceRecognition */ = {
+		05DE50D429DC7C88A937FE89A52044CD /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				8B4E3B87F84992564252E05C78CAF37F /* Controller */,
-				1F3AB60A5B40CA043A29887A8D4C06EC /* Model */,
-				EC38ED6F9D554D332E69D45D656FA937 /* Pod */,
-				519409EB0D3918F41CDE657256F9ADBB /* Support Files */,
+				3BC60D0945ADDC7AFB99328FCDA6BB09 /* edit_file@2x.png */,
+				68B470031F9D663DF9257090BDCE86F5 /* edit_image-50@2x.png */,
+				9890E2A7F2C5A149D5A943E1B0EC8B1E /* guide_login_bg.png */,
+				9F8B0ADE18E4D598641115D8D03D1241 /* guide_login_bg@2x.png */,
+				E916FEFE7A62A7C266D49EC1692ADD4E /* guide_login_logo@2x.png */,
+				F318A07D5492CABE117CB9781A54AF5F /* ic_add_tab@2x.png */,
+				009199BB69CAF5DEB6055D6948619106 /* ic_more_white@2x.png */,
+				FD66BFB159DC267D31BE2D55CD744908 /* icon.png */,
+				BE25092AAE5739AEB0A5438A24EE159E /* micro@2x.png */,
+				2B1DF2D6A27DE08C730E2D64E9BA3C3C /* micro_small@2x.png */,
+				0A746E0F89593A1FF18AB15005C8A864 /* people_Mask.png */,
+				4FEC6CFDEF6CD0C6475403985A5E90DB /* people_MaskWhite.png */,
+				9CC5DC781B064904DDBAE6B187F7BD4F /* save@2x.png */,
 			);
-			name = TSDemo_VoiceRecognition;
-			path = ../..;
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		0890F7A608ADB659CD2C75A6A5393555 /* Speak */ = {
+			isa = PBXGroup;
+			children = (
+				9D63EA3F5ADD194BC5A8F72913249B45 /* CJIFlySpeechManager.h */,
+				F619F6CFDC586BBD42EEF9DB90DEE731 /* CJIFlySpeechManager.m */,
+				5C1FA8AB4E9DC32C1F1D5C4ACB4FB9DA /* TTSConfig.h */,
+				6CEE609C7CAC7FC93A0B10CC070F08E4 /* TTSConfig.m */,
+				E07390C512A6A9E7EE802E0E8FD5AAC1 /* XunFeiModel.h */,
+				76C361BCBECA10241FF3559587A69EFB /* XunFeiModel.m */,
+			);
+			name = Speak;
+			path = Speak;
 			sourceTree = "<group>";
 		};
 		0B4544F60F6C74442A44B6FF7056234E /* Support Files */ = {
@@ -368,33 +445,24 @@
 			path = "Target Support Files/Pods-VoiceRecognition";
 			sourceTree = "<group>";
 		};
-		1F3AB60A5B40CA043A29887A8D4C06EC /* Model */ = {
+		26F19F6E0CA9B303CF3D0F0E813E184C /* CJIFly */ = {
 			isa = PBXGroup;
 			children = (
-				9171942EF4EE332AEDA41B60330E6F6B /* VNNote.h */,
-				153E3896A49476E14A2B05FBFE21BF4B /* VNNote.m */,
-				A4AD8E54C8190360EBE27C52237287C7 /* VNNoteManager.h */,
-				526E179680CB3F2242954CCD1879A922 /* VNNoteManager.m */,
+				683B705CA206667F980F4BD8D46FC55A /* Recognizer */,
+				0890F7A608ADB659CD2C75A6A5393555 /* Speak */,
 			);
-			name = Model;
-			path = TSDemo_VoiceRecognition/Model;
+			name = CJIFly;
+			path = TSDemo_VoiceRecognition/Src/CJIFly;
 			sourceTree = "<group>";
 		};
-		28F3BE6BC08F36D77B2495F4E440498B /* Note */ = {
+		2AF6CFDA15402A6AC23A83C5D83C4CDF /* Common */ = {
 			isa = PBXGroup;
 			children = (
-				CE92F2E7D03186CDDC568A7804BF249C /* AppContext.h */,
-				C70210BD241826D749D941AAE8CE8790 /* AppContext.m */,
-				4E6765E222E0A3098E4BD4702A34EEC2 /* NoteDetailController.h */,
-				54B395AB644005731F6EB348B2C8EE38 /* NoteDetailController.m */,
-				BB9110C2049021F59B609612D51B887C /* NoteListCell.h */,
-				B356BC12822429DC34135C95096F0642 /* NoteListCell.m */,
-				4C00EDCE933B12EFB9C2A1ECFD7BA982 /* NoteListController.h */,
-				83675CBC0C72AD9EF43BED1731EB1528 /* NoteListController.m */,
-				CBACA51ED397BEA26C6CAB74B1DFAB5C /* Common */,
+				EC4E58740AC954E215939EEF9A97074C /* VNConstants.h */,
+				83B119DE7FB089EFC19828CC52B96A2C /* VNConstants.m */,
 			);
-			name = Note;
-			path = Note;
+			name = Common;
+			path = Common;
 			sourceTree = "<group>";
 		};
 		33466C9810D8978CFA650B3A2AE54BF7 /* Frameworks */ = {
@@ -405,14 +473,22 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		519409EB0D3918F41CDE657256F9ADBB /* Support Files */ = {
+		34C0B9EBC8465E03EDEC79FB8382BBBC /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				F7F3CAD003BE8AEB214B11068B33A542 /* ResourceBundle-TSDemo_VoiceRecognition-TSDemo_VoiceRecognition-Info.plist */,
-				0585CAAF83A1F8B72DD3D7284738146F /* TSDemo_VoiceRecognition-dummy.m */,
-				3D39112509BC3B4C4BC68CEFD5CCDD0F /* TSDemo_VoiceRecognition-prefix.pch */,
-				F539C02BAFBE4CFAD0E450B1F636C432 /* TSDemo_VoiceRecognition.debug.xcconfig */,
-				DC8D031A11BF8EF3F26B777FF27E4691 /* TSDemo_VoiceRecognition.release.xcconfig */,
+				6EE290EEBA8AE8691BFC6E724A6638A7 /* iflyMSC.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		51942D3F304CBFDD088B644CBE312034 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				4134FDD5295E421E0399CE494D19ACC9 /* ResourceBundle-TSDemo_VoiceRecognition-TSDemo_VoiceRecognition-Info.plist */,
+				451E4CF15F5C84CEFCDD8AAE920BAB75 /* TSDemo_VoiceRecognition-dummy.m */,
+				BA0A8364F5389F287BB84D2F02C9DBD7 /* TSDemo_VoiceRecognition-prefix.pch */,
+				3A81E2BA1DA65F9C72979E72E6226AF2 /* TSDemo_VoiceRecognition.debug.xcconfig */,
+				711672229965F3DCA53E77460F2210A2 /* TSDemo_VoiceRecognition.release.xcconfig */,
 			);
 			name = "Support Files";
 			path = "VoiceRecognition/Pods/Target Support Files/TSDemo_VoiceRecognition";
@@ -425,6 +501,39 @@
 				4D6A7C49B0C40A187C9AC9DD1F6D95B3 /* UIColor+CJHex.m */,
 			);
 			name = UIColor;
+			sourceTree = "<group>";
+		};
+		5C5E044893037D8E88321DC7EA1C382D /* Note */ = {
+			isa = PBXGroup;
+			children = (
+				CEEB48D4DF097FD4D9109AA2FEB87747 /* AppContext.h */,
+				58DB0A3AA6964B881B60F10AF0845ED3 /* AppContext.m */,
+				42BF9BDF65E1120466BB0CC594340B71 /* NoteDetailController.h */,
+				18D480DE665752E2B46C040391F91BB2 /* NoteDetailController.m */,
+				81C2B3C71AAF3A5ADF32F4C78FFC6629 /* NoteListCell.h */,
+				1FE3592998B57B5624961B316791224B /* NoteListCell.m */,
+				05B2517999EE3A5CAD170731FCA733BA /* NoteListController.h */,
+				89A6B39A82B56F5FB296B6ED3FC035B0 /* NoteListController.m */,
+				2AF6CFDA15402A6AC23A83C5D83C4CDF /* Common */,
+			);
+			name = Note;
+			path = Note;
+			sourceTree = "<group>";
+		};
+		683B705CA206667F980F4BD8D46FC55A /* Recognizer */ = {
+			isa = PBXGroup;
+			children = (
+				69B85A29ABB1241A002EB26EB40A4D1E /* CJIFlyRecognizerNoViewManager.h */,
+				F315CF6B30C356C19D2DC4E3F342734F /* CJIFlyRecognizerNoViewManager.m */,
+				96F297D93FED243DFB450B6607EA1738 /* CJIFlyRecognizerViewManager.h */,
+				79D4687178834C2709F5F115D0FC4924 /* CJIFlyRecognizerViewManager.m */,
+				F8522010AF4F409064A64CE9180C983E /* IATConfig.h */,
+				C67FADF8DC52FEF667F27290DA457789 /* IATConfig.m */,
+				A2A975FD3020B107B2A46004776AFF84 /* ISRDataHelper.h */,
+				F29131B273861BEBFDB173B86C450791 /* ISRDataHelper.m */,
+			);
+			name = Recognizer;
+			path = Recognizer;
 			sourceTree = "<group>";
 		};
 		6C31CDEBC3874CB16F06F79A56E886FB /* SVProgressHUD */ = {
@@ -533,13 +642,13 @@
 			path = "../Target Support Files/CJBaseUIKit";
 			sourceTree = "<group>";
 		};
-		8B4E3B87F84992564252E05C78CAF37F /* Controller */ = {
+		8BC47475F0D475DEBB646B7C3CBA586A /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				28F3BE6BC08F36D77B2495F4E440498B /* Note */,
+				5C5E044893037D8E88321DC7EA1C382D /* Note */,
 			);
 			name = Controller;
-			path = TSDemo_VoiceRecognition/Controller;
+			path = TSDemo_VoiceRecognition/Src/Controller;
 			sourceTree = "<group>";
 		};
 		8E8C06DEFE78F6AF822F5958FC2196E0 /* Resources */ = {
@@ -572,6 +681,21 @@
 			path = "Target Support Files/Pods-VoiceRecognitionTests";
 			sourceTree = "<group>";
 		};
+		C48E4EA8166D010BBFD840240E65B3BF /* TSDemo_VoiceRecognition */ = {
+			isa = PBXGroup;
+			children = (
+				26F19F6E0CA9B303CF3D0F0E813E184C /* CJIFly */,
+				8BC47475F0D475DEBB646B7C3CBA586A /* Controller */,
+				34C0B9EBC8465E03EDEC79FB8382BBBC /* Frameworks */,
+				DD2871AB5BE8FA27ACCF8433D6CFD874 /* Model */,
+				E7B625E724823DB780EB93636A4CBC8F /* Pod */,
+				05DE50D429DC7C88A937FE89A52044CD /* Resources */,
+				51942D3F304CBFDD088B644CBE312034 /* Support Files */,
+			);
+			name = TSDemo_VoiceRecognition;
+			path = ../..;
+			sourceTree = "<group>";
+		};
 		CAEFC39BBD2B11F7193A4C8101CEC72E /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -587,29 +711,11 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		CB7B7F80035142EF2053FD12174A9F43 /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				0ABA4113D11DB656FABAFD38D75F7B2C /* TSDemo_VoiceRecognition */,
-			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		CBACA51ED397BEA26C6CAB74B1DFAB5C /* Common */ = {
-			isa = PBXGroup;
-			children = (
-				B65B7B36F41557576BF73CBA0FD7D1D5 /* VNConstants.h */,
-				C7E5BB0DF2C492FD81374F0565D92BD8 /* VNConstants.m */,
-			);
-			name = Common;
-			path = Common;
-			sourceTree = "<group>";
-		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				CB7B7F80035142EF2053FD12174A9F43 /* Development Pods */,
+				E5B3EAB87020FC976EB2C9DF4E8BCC7A /* Development Pods */,
 				D89477F20FB1DE18A04690586D7808C4 /* Frameworks */,
 				DB193E2CF350CBCDE207C854FC5BB891 /* Pods */,
 				CAEFC39BBD2B11F7193A4C8101CEC72E /* Products */,
@@ -636,6 +742,18 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		DD2871AB5BE8FA27ACCF8433D6CFD874 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				AFE181450BE3A332D3FA63244B077C5F /* VNNote.h */,
+				1817B029BB53E071E830DB5D6586415B /* VNNote.m */,
+				2C579A6DEEADB801D96FEEFF4E8963FB /* VNNoteManager.h */,
+				72C1EE6347526C0308AD963B019B6B68 /* VNNoteManager.m */,
+			);
+			name = Model;
+			path = TSDemo_VoiceRecognition/Src/Model;
+			sourceTree = "<group>";
+		};
 		E4690F75E351BC933E7336A21CC8F22F /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -648,6 +766,24 @@
 			path = "../Target Support Files/Colours";
 			sourceTree = "<group>";
 		};
+		E5B3EAB87020FC976EB2C9DF4E8BCC7A /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C48E4EA8166D010BBFD840240E65B3BF /* TSDemo_VoiceRecognition */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		E7B625E724823DB780EB93636A4CBC8F /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				05C6543B16C07963597FC6197B416843 /* LICENSE */,
+				768C12D798C3C8C16235EDF649742865 /* README.md */,
+				E99DCBDDAD53A3B156DCCC54611476D8 /* TSDemo_VoiceRecognition.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
 		EBA4CF98BB93EDD45C70C3F4FB936E71 /* UMengAnalytics-NO-IDFA */ = {
 			isa = PBXGroup;
 			children = (
@@ -656,16 +792,6 @@
 			);
 			name = "UMengAnalytics-NO-IDFA";
 			path = "UMengAnalytics-NO-IDFA";
-			sourceTree = "<group>";
-		};
-		EC38ED6F9D554D332E69D45D656FA937 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				771C70C22AD8AC95221DE395CD012DB2 /* LICENSE */,
-				522BE519BAF71E98283FA1962C86E80F /* README.md */,
-				34470AC0A3FB16BF230864A77BB991B1 /* TSDemo_VoiceRecognition.podspec */,
-			);
-			name = Pod;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -701,17 +827,24 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		55B8925A01C02080760E0E62D6FF8F6E /* Headers */ = {
+		6F5B7909392F6790AD15AD0CB590AA37 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B7C7DECC1707ECE2961E2679B72F764F /* AppContext.h in Headers */,
-				E2C7929F5C4C4A15BAD0146BB5B4AE28 /* NoteDetailController.h in Headers */,
-				25C4AEBECDC4027745BA4153EF0DECC1 /* NoteListCell.h in Headers */,
-				719742BCEA8138D3D578D32AF16EB515 /* NoteListController.h in Headers */,
-				DE57FD36E1311C9E94FCA7D6BFF743EB /* VNConstants.h in Headers */,
-				E9629DE1850D4B704A7B2958FF9F1463 /* VNNote.h in Headers */,
-				98CBB65CBDDCFD98307A3004D10EB280 /* VNNoteManager.h in Headers */,
+				26E8D3FAE1B655872EB53407571D99EB /* AppContext.h in Headers */,
+				D7C7B1E7AA6E38338B7362279C11E3E9 /* CJIFlyRecognizerNoViewManager.h in Headers */,
+				90BAD093ED44CE97B710E6AB597AD1C0 /* CJIFlyRecognizerViewManager.h in Headers */,
+				8F31BF026A1DCFACFA01D4885757EBA4 /* CJIFlySpeechManager.h in Headers */,
+				78327AD28D2F1547C7725940EC1D98CC /* IATConfig.h in Headers */,
+				00E42E0D9C12390B46BA3CC8533A7397 /* ISRDataHelper.h in Headers */,
+				88ADA23AE02F54A4F087C91377DFB2E2 /* NoteDetailController.h in Headers */,
+				7B5AD17C21B3D05748F650F75E165797 /* NoteListCell.h in Headers */,
+				0A74F89C5C27FE1993322D2B994C4E4E /* NoteListController.h in Headers */,
+				6B1453E97125B0895951604BF192A849 /* TTSConfig.h in Headers */,
+				1CFB98AFCE9C8E70770C474A951188CD /* VNConstants.h in Headers */,
+				96C29AFFB098B4B1595ADC4900CA8591 /* VNNote.h in Headers */,
+				75807544F1499F309AC48928A04AB2C4 /* VNNoteManager.h in Headers */,
+				0358586D75F9797FC4D107ECE2F2749C /* XunFeiModel.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -827,20 +960,20 @@
 		};
 		539116388AD5B46E1E2C8008D5B51F27 /* TSDemo_VoiceRecognition */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9E5A1F783419E936FA8DABA90F00A1A1 /* Build configuration list for PBXNativeTarget "TSDemo_VoiceRecognition" */;
+			buildConfigurationList = 2C4DE3A97006C34E0111DF1B1FC74457 /* Build configuration list for PBXNativeTarget "TSDemo_VoiceRecognition" */;
 			buildPhases = (
-				55B8925A01C02080760E0E62D6FF8F6E /* Headers */,
-				55C05947FD84B2597AFD9A4F4163C665 /* Sources */,
-				7C1227F3185692E5E9D24A2DB2ED257C /* Frameworks */,
+				6F5B7909392F6790AD15AD0CB590AA37 /* Headers */,
+				4AF363A3B94849F3D133699A1CDD865D /* Sources */,
+				B6FB8C58F03F17A6EBC662B39F26E5E5 /* Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				C2AA23A33DDB53242063F4F8484964FB /* PBXTargetDependency */,
-				C54067453EB8196939787BF8B8F59E37 /* PBXTargetDependency */,
-				3C011B9D50F1712C6A6009EF7DCDEAFE /* PBXTargetDependency */,
-				B2840DA5EBC531CF32D848CCE8518E1A /* PBXTargetDependency */,
-				3EE422D6324E0B1188D928E2B6F3800D /* PBXTargetDependency */,
+				00A8DF967EF3459C9BCB54EFC2AADC19 /* PBXTargetDependency */,
+				6EF2611CD15CCF0353F0D075597ABDA2 /* PBXTargetDependency */,
+				7EB9B769DD1C96508606610FEA6485D1 /* PBXTargetDependency */,
+				9A3E4B679AE6E69D78E608FDCE7EE7D3 /* PBXTargetDependency */,
+				87ACD1AEDDB7682A745B1CA18EDF0BA2 /* PBXTargetDependency */,
 			);
 			name = TSDemo_VoiceRecognition;
 			productName = TSDemo_VoiceRecognition;
@@ -866,11 +999,11 @@
 		};
 		89F0906959A92FA74A90EF28F8CF32DC /* TSDemo_VoiceRecognition-TSDemo_VoiceRecognition */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 0899BBA9016C254C0598678B7295DC3C /* Build configuration list for PBXNativeTarget "TSDemo_VoiceRecognition-TSDemo_VoiceRecognition" */;
+			buildConfigurationList = 873FB8C3737E0D39B5A35FE6E23F993C /* Build configuration list for PBXNativeTarget "TSDemo_VoiceRecognition-TSDemo_VoiceRecognition" */;
 			buildPhases = (
-				DE4333CFDF8A9C0FFB179A389A40D4AA /* Sources */,
-				A20E323D7887C1511F45D3A07DF7BE99 /* Frameworks */,
-				67C4FB9F770966E0EFDD4210B7382FED /* Resources */,
+				E8577B1C5EBB69FE3A2DFFC93E69379B /* Sources */,
+				8DB40376E9B1E89BB3A0B78FF7B4B2F4 /* Frameworks */,
+				462104335105B8FF684AF6F4A85B65FE /* Resources */,
 			);
 			buildRules = (
 			);
@@ -934,10 +1067,23 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		67C4FB9F770966E0EFDD4210B7382FED /* Resources */ = {
+		462104335105B8FF684AF6F4A85B65FE /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				634344526B4F2EDBCEA4EF7468608E11 /* edit_file@2x.png in Resources */,
+				CD84B1D4BB35440F49C1ED75CE15A674 /* edit_image-50@2x.png in Resources */,
+				34C8239F324EA4029F6CC2377C284188 /* guide_login_bg.png in Resources */,
+				904E5B61BFE14C1D73715C77511144E6 /* guide_login_bg@2x.png in Resources */,
+				1F984CCF6C924C79AD536CFC9AFFB113 /* guide_login_logo@2x.png in Resources */,
+				7D1E6E6A8E6349A1DD98C64BE3DA610D /* ic_add_tab@2x.png in Resources */,
+				10ABFFA43026EC384A2B846AF8273648 /* ic_more_white@2x.png in Resources */,
+				D476FDFB87C40F6476D12C9061C523B5 /* icon.png in Resources */,
+				6B44B3323B7DEBACAFEEAA02EFCDA70A /* micro@2x.png in Resources */,
+				E5E2D5CA8541F42E2118ADE495CDEE9C /* micro_small@2x.png in Resources */,
+				ABB11A9CF2A17BD19F4E1DD078A4F566 /* people_Mask.png in Resources */,
+				76343A6F4C9B68AFD9AAAB7D8D813AE6 /* people_MaskWhite.png in Resources */,
+				66793A3DF4C92383C5E46BE09333651C /* save@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -961,18 +1107,25 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		55C05947FD84B2597AFD9A4F4163C665 /* Sources */ = {
+		4AF363A3B94849F3D133699A1CDD865D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C685C5D5A89F0816015A8E11A69F3113 /* AppContext.m in Sources */,
-				BA1C9C3C4BB925B6E5A1783541A34653 /* NoteDetailController.m in Sources */,
-				A400DD6A0F22DE439889BB0974BFE357 /* NoteListCell.m in Sources */,
-				4BDCCD26DB2D4B86C0B9EA5FC725131E /* NoteListController.m in Sources */,
-				553D8FFD371F5527E044D3A8BB6F9044 /* TSDemo_VoiceRecognition-dummy.m in Sources */,
-				B7983BD97A2296CA2A95327ECFB53671 /* VNConstants.m in Sources */,
-				0C1EEC3968E46ECDB339B4750E1973C7 /* VNNote.m in Sources */,
-				757BDE8ABE9FF882A04F4F4F954980EF /* VNNoteManager.m in Sources */,
+				840E57E9ABA94F15DDEC43814FBA91C8 /* AppContext.m in Sources */,
+				7B617E7568A867D6A220CD7FAA64DC94 /* CJIFlyRecognizerNoViewManager.m in Sources */,
+				A15DF63788AF240F539E014E9FA59A2C /* CJIFlyRecognizerViewManager.m in Sources */,
+				98988F12F1332EB204DB5E390F0365D7 /* CJIFlySpeechManager.m in Sources */,
+				16329931AD8CDCB1BB59D74A63C82B5A /* IATConfig.m in Sources */,
+				5DA72E812D8C594F603CE376E3D85D01 /* ISRDataHelper.m in Sources */,
+				E1DFA1624EA4F4483FFDE7F2BC67E6C2 /* NoteDetailController.m in Sources */,
+				8F965111F35A46D2FC392F6E4A18A529 /* NoteListCell.m in Sources */,
+				99AA9E3A10725796102E6722F298B747 /* NoteListController.m in Sources */,
+				DDFB6E8ED1A2DF0D3960FE1E0F807D10 /* TSDemo_VoiceRecognition-dummy.m in Sources */,
+				4BF7791787589792FC69CAB5D413E4B7 /* TTSConfig.m in Sources */,
+				B6E9F584D71E36D5F13684C7DA925756 /* VNConstants.m in Sources */,
+				3AE1D246D05D73A0B06E7AEFE7B73AAA /* VNNote.m in Sources */,
+				4A2006F587825DFB3C4530EBB942EED1 /* VNNoteManager.m in Sources */,
+				EF0597EA40DA97DD1E38EA7873D8A2F0 /* XunFeiModel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1023,7 +1176,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DE4333CFDF8A9C0FFB179A389A40D4AA /* Sources */ = {
+		E8577B1C5EBB69FE3A2DFFC93E69379B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -1033,23 +1186,17 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		00A8DF967EF3459C9BCB54EFC2AADC19 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CJBaseUIKit;
+			target = 31936AD642017976266B9ED39110F157 /* CJBaseUIKit */;
+			targetProxy = 7E2126B6358CFA0898E2051DDD647580 /* PBXContainerItemProxy */;
+		};
 		2644061E1445CD464DE35E6823F22A79 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = SVProgressHUD;
 			target = 1C8D67D8B72D6BA42CCEDB648537A340 /* SVProgressHUD */;
 			targetProxy = 3774B4258C0E418B58B3D88777E291F6 /* PBXContainerItemProxy */;
-		};
-		3C011B9D50F1712C6A6009EF7DCDEAFE /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = Masonry;
-			target = 55AF53E6C77A10ED4985E04D74A8878E /* Masonry */;
-			targetProxy = C99146F274B1C1C02A084B66EBF44952 /* PBXContainerItemProxy */;
-		};
-		3EE422D6324E0B1188D928E2B6F3800D /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "TSDemo_VoiceRecognition-TSDemo_VoiceRecognition";
-			target = 89F0906959A92FA74A90EF28F8CF32DC /* TSDemo_VoiceRecognition-TSDemo_VoiceRecognition */;
-			targetProxy = 821D5F6ECD36CDD68FE62C8EF81EB981 /* PBXContainerItemProxy */;
 		};
 		48AACCD34184200795FA1CEDE2E9237C /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -1063,29 +1210,35 @@
 			target = 539116388AD5B46E1E2C8008D5B51F27 /* TSDemo_VoiceRecognition */;
 			targetProxy = 2D962A0BAC1587EE6D11A910646DA739 /* PBXContainerItemProxy */;
 		};
+		6EF2611CD15CCF0353F0D075597ABDA2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Colours;
+			target = 2194BB176C539E559DB8A48642253D85 /* Colours */;
+			targetProxy = 36C0D9BF6420E81D576CE88B2777CBAA /* PBXContainerItemProxy */;
+		};
 		789F6AF105DD436095560C26217E2366 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = CJBaseUIKit;
 			target = 31936AD642017976266B9ED39110F157 /* CJBaseUIKit */;
 			targetProxy = B7D49E5EFD15468C161DC8747049D54C /* PBXContainerItemProxy */;
 		};
-		B2840DA5EBC531CF32D848CCE8518E1A /* PBXTargetDependency */ = {
+		7EB9B769DD1C96508606610FEA6485D1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Masonry;
+			target = 55AF53E6C77A10ED4985E04D74A8878E /* Masonry */;
+			targetProxy = 00CF54D3B6A1A7C27F256BB897EF964A /* PBXContainerItemProxy */;
+		};
+		87ACD1AEDDB7682A745B1CA18EDF0BA2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "TSDemo_VoiceRecognition-TSDemo_VoiceRecognition";
+			target = 89F0906959A92FA74A90EF28F8CF32DC /* TSDemo_VoiceRecognition-TSDemo_VoiceRecognition */;
+			targetProxy = 1E97B9AF944A1DCC2A5C021A1EE52864 /* PBXContainerItemProxy */;
+		};
+		9A3E4B679AE6E69D78E608FDCE7EE7D3 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = SVProgressHUD;
 			target = 1C8D67D8B72D6BA42CCEDB648537A340 /* SVProgressHUD */;
-			targetProxy = 3F2B14E4323A340A8C31C44E7CFD7B62 /* PBXContainerItemProxy */;
-		};
-		C2AA23A33DDB53242063F4F8484964FB /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = CJBaseUIKit;
-			target = 31936AD642017976266B9ED39110F157 /* CJBaseUIKit */;
-			targetProxy = 50ECFBC7D5FCDB6F91E0D3497C83A55F /* PBXContainerItemProxy */;
-		};
-		C54067453EB8196939787BF8B8F59E37 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = Colours;
-			target = 2194BB176C539E559DB8A48642253D85 /* Colours */;
-			targetProxy = 1D01DB1947B66023BC9594279240F7DB /* PBXContainerItemProxy */;
+			targetProxy = 5CF0F771832853F0D41329E7BA9A9873 /* PBXContainerItemProxy */;
 		};
 		EC9865B372493905AEEA62F920819F84 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -1185,6 +1338,29 @@
 			};
 			name = Release;
 		};
+		2DCDBC4947FC27835C6614E9606BB0CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3A81E2BA1DA65F9C72979E72E6226AF2 /* TSDemo_VoiceRecognition.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/TSDemo_VoiceRecognition/TSDemo_VoiceRecognition-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = TSDemo_VoiceRecognition;
+				PRODUCT_NAME = TSDemo_VoiceRecognition;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
 		3B19AA32AD796781F44944CFD7BC100B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = E25B18A941ADBBA085E008636D76126A /* SVProgressHUD.debug.xcconfig */;
@@ -1243,23 +1419,6 @@
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
-		};
-		4316CB78C8C604C3575F8BAE3D12D3A9 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = DC8D031A11BF8EF3F26B777FF27E4691 /* TSDemo_VoiceRecognition.release.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/TSDemo_VoiceRecognition";
-				IBSC_MODULE = TSDemo_VoiceRecognition;
-				INFOPLIST_FILE = "Target Support Files/TSDemo_VoiceRecognition/ResourceBundle-TSDemo_VoiceRecognition-TSDemo_VoiceRecognition-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				PRODUCT_NAME = TSDemo_VoiceRecognition;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Release;
 		};
 		4BE66A09A74FD25164AAB3C2645B9B93 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -1385,6 +1544,30 @@
 			};
 			name = Debug;
 		};
+		84F32272795062AAEA9D4B1B7749263F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 711672229965F3DCA53E77460F2210A2 /* TSDemo_VoiceRecognition.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/TSDemo_VoiceRecognition/TSDemo_VoiceRecognition-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = TSDemo_VoiceRecognition;
+				PRODUCT_NAME = TSDemo_VoiceRecognition;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
 		8AEEA5CC30001CB70A788717A32DBAB7 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 97C6FCAB9535351438547F499ABB01DD /* Masonry.release.xcconfig */;
@@ -1408,23 +1591,6 @@
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
-		};
-		9BB9E67261371E03CCB36292C272ACE5 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = F539C02BAFBE4CFAD0E450B1F636C432 /* TSDemo_VoiceRecognition.debug.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/TSDemo_VoiceRecognition";
-				IBSC_MODULE = TSDemo_VoiceRecognition;
-				INFOPLIST_FILE = "Target Support Files/TSDemo_VoiceRecognition/ResourceBundle-TSDemo_VoiceRecognition-TSDemo_VoiceRecognition-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				PRODUCT_NAME = TSDemo_VoiceRecognition;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Debug;
 		};
 		A0774E272497EC9A4E4F6B92681A0259 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -1540,52 +1706,22 @@
 			};
 			name = Release;
 		};
-		E6CE2C330513DBBDFF72AB9534310C95 /* Release */ = {
+		F7DCFC1E86512C91543717CEFD2F4DFC /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = DC8D031A11BF8EF3F26B777FF27E4691 /* TSDemo_VoiceRecognition.release.xcconfig */;
+			baseConfigurationReference = 711672229965F3DCA53E77460F2210A2 /* TSDemo_VoiceRecognition.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				GCC_PREFIX_HEADER = "Target Support Files/TSDemo_VoiceRecognition/TSDemo_VoiceRecognition-prefix.pch";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/TSDemo_VoiceRecognition";
+				IBSC_MODULE = TSDemo_VoiceRecognition;
+				INFOPLIST_FILE = "Target Support Files/TSDemo_VoiceRecognition/ResourceBundle-TSDemo_VoiceRecognition-TSDemo_VoiceRecognition-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRIVATE_HEADERS_FOLDER_PATH = "";
-				PRODUCT_MODULE_NAME = TSDemo_VoiceRecognition;
 				PRODUCT_NAME = TSDemo_VoiceRecognition;
-				PUBLIC_HEADERS_FOLDER_PATH = "";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = bundle;
 			};
 			name = Release;
-		};
-		F88B1D0ABBE6FDDB63C0377882125F7C /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = F539C02BAFBE4CFAD0E450B1F636C432 /* TSDemo_VoiceRecognition.debug.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				GCC_PREFIX_HEADER = "Target Support Files/TSDemo_VoiceRecognition/TSDemo_VoiceRecognition-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRIVATE_HEADERS_FOLDER_PATH = "";
-				PRODUCT_MODULE_NAME = TSDemo_VoiceRecognition;
-				PRODUCT_NAME = TSDemo_VoiceRecognition;
-				PUBLIC_HEADERS_FOLDER_PATH = "";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
 		};
 		F99870D874C7FA838E84D9C55C010CF1 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -1610,6 +1746,23 @@
 			};
 			name = Debug;
 		};
+		FFB7FB95FA9EC4EE4729C141C10646EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3A81E2BA1DA65F9C72979E72E6226AF2 /* TSDemo_VoiceRecognition.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/TSDemo_VoiceRecognition";
+				IBSC_MODULE = TSDemo_VoiceRecognition;
+				INFOPLIST_FILE = "Target Support Files/TSDemo_VoiceRecognition/ResourceBundle-TSDemo_VoiceRecognition-TSDemo_VoiceRecognition-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = TSDemo_VoiceRecognition;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -1622,20 +1775,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		0899BBA9016C254C0598678B7295DC3C /* Build configuration list for PBXNativeTarget "TSDemo_VoiceRecognition-TSDemo_VoiceRecognition" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				9BB9E67261371E03CCB36292C272ACE5 /* Debug */,
-				4316CB78C8C604C3575F8BAE3D12D3A9 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		0B9F7EAACDDA564EC328F53A4AB8CF85 /* Build configuration list for PBXNativeTarget "Masonry" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F99870D874C7FA838E84D9C55C010CF1 /* Debug */,
 				8AEEA5CC30001CB70A788717A32DBAB7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2C4DE3A97006C34E0111DF1B1FC74457 /* Build configuration list for PBXNativeTarget "TSDemo_VoiceRecognition" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2DCDBC4947FC27835C6614E9606BB0CB /* Debug */,
+				84F32272795062AAEA9D4B1B7749263F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1676,11 +1829,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9E5A1F783419E936FA8DABA90F00A1A1 /* Build configuration list for PBXNativeTarget "TSDemo_VoiceRecognition" */ = {
+		873FB8C3737E0D39B5A35FE6E23F993C /* Build configuration list for PBXNativeTarget "TSDemo_VoiceRecognition-TSDemo_VoiceRecognition" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				F88B1D0ABBE6FDDB63C0377882125F7C /* Debug */,
-				E6CE2C330513DBBDFF72AB9534310C95 /* Release */,
+				FFB7FB95FA9EC4EE4729C141C10646EE /* Debug */,
+				F7DCFC1E86512C91543717CEFD2F4DFC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

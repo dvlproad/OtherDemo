@@ -1,1 +1,1 @@
-../../../../../TSDemo_VoiceRecognition/Controller/Note/NoteListCell.h
+../../../../../TSDemo_VoiceRecognition/Src/Controller/Note/NoteListCell.h
